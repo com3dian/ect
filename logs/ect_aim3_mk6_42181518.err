@@ -1,0 +1,62 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:   0%|          | 0/8 [04:31<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/experiment.py", line 364, in <module>
+    main()
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/experiment.py", line 346, in main
+    run_experiment(
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/experiment.py", line 246, in run_experiment
+    tokenizer, model, device_t = load_model_and_tokenizer(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/model_io.py", line 50, in load_model_and_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/modeling_utils.py", line 4355, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/modeling_utils.py", line 814, in _get_resolved_checkpoint_files
+    checkpoint_files, sharded_metadata = get_checkpoint_shard_files(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/utils/hub.py", line 894, in get_checkpoint_shard_files
+    cached_filenames = cached_files(
+                       ^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/utils/hub.py", line 527, in cached_files
+    raise e
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/transformers/utils/hub.py", line 452, in cached_files
+    snapshot_download(
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 522, in snapshot_download
+    hf_thread_map(
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/utils/tqdm.py", line 441, in hf_thread_map
+    results[future_to_index[future]] = future.result()
+                                       ^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 502, in _inner_hf_hub_download
+    hf_hub_download(  # type: ignore
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1242, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1960, in _download_to_tmp_and_move
+    xet_get(
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 565, in xet_get
+    with session.new_file_download_group(
+RuntimeError: Task error: File reconstruction error: Internal Writer Error: Background writer channel closed

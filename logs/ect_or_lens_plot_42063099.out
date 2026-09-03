@@ -1,0 +1,62 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Plotting layer 10 ===
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/extracted_distributions_top4096.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=4096 | Redundant / Strict Entailment
+cat=2 n=795 K=4096 | Typical Composition
+cat=3 n=750 K=4096 | Uncommon / Orthogonal
+cat=4 n=795 K=4096 | Surreal / Out-of-Distribution
+cat=5 n=746 K=4096 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat5.png
+Layer 10 summary: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/rank_diff_summary_q05_q95.npz
+Layer 10 figures: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_10/figures_rank_diff/rank_diff_cat*.png
+=== Plotting layer 12 ===
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/extracted_distributions_top4096.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=4096 | Redundant / Strict Entailment
+cat=2 n=795 K=4096 | Typical Composition
+cat=3 n=750 K=4096 | Uncommon / Orthogonal
+cat=4 n=795 K=4096 | Surreal / Out-of-Distribution
+cat=5 n=746 K=4096 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat5.png
+Layer 12 summary: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/rank_diff_summary_q05_q95.npz
+Layer 12 figures: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/figures_rank_diff/rank_diff_cat*.png
+=== Plotting layer 14 ===
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/extracted_distributions_top4096.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=4096 | Redundant / Strict Entailment
+cat=2 n=795 K=4096 | Typical Composition
+cat=3 n=750 K=4096 | Uncommon / Orthogonal
+cat=4 n=795 K=4096 | Surreal / Out-of-Distribution
+cat=5 n=746 K=4096 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat5.png
+Layer 14 summary: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/rank_diff_summary_q05_q95.npz
+Layer 14 figures: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_14/figures_rank_diff/rank_diff_cat*.png
+=== Plotting layer 16 ===
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/extracted_distributions_top4096.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=4096 | Redundant / Strict Entailment
+cat=2 n=795 K=4096 | Typical Composition
+cat=3 n=750 K=4096 | Uncommon / Orthogonal
+cat=4 n=795 K=4096 | Surreal / Out-of-Distribution
+cat=5 n=746 K=4096 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat5.png
+Layer 16 summary: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/rank_diff_summary_q05_q95.npz
+Layer 16 figures: /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_16/figures_rank_diff/rank_diff_cat*.png
+Done plotting layers: 10 12 14 16

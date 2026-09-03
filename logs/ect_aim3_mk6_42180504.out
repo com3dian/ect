@@ -1,0 +1,83 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 Markov cloze factorization v6 ===
+model_id=google/gemma-2-2b
+design=markov_cloze_sequence_logprob_v6 layer=14/26
+variants=['natural', 'shuffled_middles', 'reversed']
+metric=d_M=-sum log π(target|cloze)  claim: π(n4|n1)?≈Π hops
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json todo=4 done=0
+[1/4] A_00000 …
+  gap=-8.685 rel=-0.379 D=14.23 L=22.92
+[2/4] A_00001 …
+  gap=-7.458 rel=-0.298 D=17.55 L=25.00
+[3/4] A_00002 …
+  gap=-12.035 rel=-0.431 D=15.90 L=27.94
+[4/4] A_00003 …
+  gap=-5.159 rel=-0.168 D=25.47 L=30.63
+Wrote distances → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/markov_ln_distances.jsonl
+Wrote summary   → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/markov_ln_summary.json
+{
+  "layer_index": 14,
+  "n_items": 4,
+  "prompt_design": "markov_cloze_sequence_logprob_v6",
+  "metric": "d_M=-sum log \u03c0(target|cloze)",
+  "claim": "\u03c0(n4|n1) ?\u2248 \u03a0 \u03c0(n_{i+1}|n_i)",
+  "by_type": {
+    "A": {
+      "n": 4,
+      "by_variant": {
+        "natural": {
+          "n": 4,
+          "gap_mean": -8.33440843783319,
+          "gap_median": -8.071573734283447,
+          "gap_frac_le_0": 1.0,
+          "gap_near_zero_abs_lt_1": 0.0,
+          "gap_near_zero_abs_lt_2": 0.0,
+          "relative_gap_mean": -0.3191201297431862,
+          "relative_gap_median": -0.33862525517632347,
+          "log_ratio_direct_over_product_mean": 8.33440843783319
+        },
+        "reversed": {
+          "n": 4,
+          "gap_mean": -5.550010109669529,
+          "gap_median": -4.739210273837671,
+          "gap_frac_le_0": 1.0,
+          "gap_near_zero_abs_lt_1": 0.25,
+          "gap_near_zero_abs_lt_2": 0.25,
+          "relative_gap_mean": -0.18041063749361488,
+          "relative_gap_median": -0.16774669766743872,
+          "log_ratio_direct_over_product_mean": 5.550010109669529
+        },
+        "shuffled_middles": {
+          "n": 4,
+          "gap_mean": -15.708783259615302,
+          "gap_median": -15.977823734283447,
+          "gap_frac_le_0": 1.0,
+          "gap_near_zero_abs_lt_1": 0.0,
+          "gap_near_zero_abs_lt_2": 0.0,
+          "relative_gap_mean": -0.46867689581896643,
+          "relative_gap_median": -0.5000058888544889,
+          "log_ratio_direct_over_product_mean": 15.708783259615302
+        }
+      },
+      "headline_natural": {
+        "n": 4,
+        "gap_mean": -8.33440843783319,
+        "gap_median": -8.071573734283447,
+        "gap_frac_le_0": 1.0,
+        "gap_near_zero_abs_lt_1": 0.0,
+        "gap_near_zero_abs_lt_2": 0.0,
+        "relative_gap_mean": -0.3191201297431862,
+        "relative_gap_median": -0.33862525517632347,
+        "log_ratio_direct_over_product_mean": 8.33440843783319
+      }
+    }
+  }
+}
+
+=== Plot Type A ===
+n_type_A=4
+Wrote /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/figures/type_a_markov_factorization.png
+Done.
+Distances: /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/markov_ln_distances.jsonl
+Summary:   /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/markov_ln_summary.json
+Figure:    /home/WUR/lu087/Github/ect/src/aim3_additive_chain_6/output/layer_14/figures/type_a_markov_factorization.png

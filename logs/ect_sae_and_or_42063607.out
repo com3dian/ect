@@ -1,0 +1,5 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=2)
+device=cuda dtype=bfloat16 layer=14

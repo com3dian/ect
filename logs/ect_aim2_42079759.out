@@ -1,0 +1,3 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Extract + patch (SNLI) ===
+pairs=/home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl

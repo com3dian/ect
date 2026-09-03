@@ -1,0 +1,427 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Extract sparse SAE features ===
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=3885)
+device=cuda dtype=bfloat16 layer=14 top_k=256
+todo=3885 done=0
+distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_feature_distributions.jsonl
+[1/3885] L=14 cat=1 'Transitive Verb' / 'Verb' | |A|=69 |AND|=89 |OR|=76
+[10/3885] L=14 cat=1 'Superlative Adjective' / 'Adjective' | |A|=75 |AND|=97 |OR|=86
+[20/3885] L=14 cat=1 'Definite Article' / 'Determiner' | |A|=72 |AND|=61 |OR|=67
+[30/3885] L=14 cat=1 'Relative Clause' / 'Clause' | |A|=60 |AND|=74 |OR|=77
+[40/3885] L=14 cat=1 'Exclamatory Sentence' / 'Sentence' | |A|=66 |AND|=77 |OR|=69
+[50/3885] L=14 cat=1 'Active Voice' / 'Voice' | |A|=76 |AND|=82 |OR|=70
+[60/3885] L=14 cat=1 'Sleet' / 'Precipitation' | |A|=84 |AND|=76 |OR|=77
+[70/3885] L=14 cat=1 'Cold Front' / 'Front' | |A|=83 |AND|=83 |OR|=71
+[80/3885] L=14 cat=1 'Haze' / 'Visibility Condition' | |A|=86 |AND|=89 |OR|=81
+[90/3885] L=14 cat=1 'Macroburst' / 'Downburst' | |A|=80 |AND|=84 |OR|=73
+[100/3885] L=14 cat=1 'Sun Dog' / 'Halo' | |A|=86 |AND|=87 |OR|=73
+[110/3885] L=14 cat=1 'Hydrothermal Vent' / 'Seafloor Feature' | |A|=99 |AND|=79 |OR|=70
+[120/3885] L=14 cat=1 'Oxygen Minimum Zone' / 'Oceanic Layer' | |A|=74 |AND|=78 |OR|=69
+[130/3885] L=14 cat=1 'Fringing Reef' / 'Coral Reef Structure' | |A|=84 |AND|=87 |OR|=79
+[140/3885] L=14 cat=1 'Bathyal Zone' / 'Deep Marine Region' | |A|=78 |AND|=85 |OR|=73
+[150/3885] L=14 cat=1 'Mediterranean Water' / 'Intermediate Water Mass' | |A|=72 |AND|=87 |OR|=71
+[160/3885] L=14 cat=1 'Lead' / 'Post-transition metal' | |A|=98 |AND|=86 |OR|=69
+[170/3885] L=14 cat=1 'Phosphorus' / 'Pnictogen' | |A|=59 |AND|=85 |OR|=78
+[180/3885] L=14 cat=1 'Potassium' / 'Alkali metal' | |A|=57 |AND|=76 |OR|=70
+[190/3885] L=14 cat=1 'Titanium' / 'Transition metal' | |A|=62 |AND|=90 |OR|=76
+[200/3885] L=14 cat=1 'Tin' / 'Post-transition metal' | |A|=66 |AND|=73 |OR|=70
+[210/3885] L=14 cat=1 'Whimper' / 'Cry' | |A|=83 |AND|=92 |OR|=84
+[220/3885] L=14 cat=1 'Watery Eyes' / 'Crying' | |A|=75 |AND|=62 |OR|=72
+[230/3885] L=14 cat=1 'Eye Roll' / 'Dismissive Expression' | |A|=103 |AND|=88 |OR|=82
+[240/3885] L=14 cat=1 'Closed Mouth Smile' / 'Smile' | |A|=77 |AND|=76 |OR|=68
+[250/3885] L=14 cat=1 'Angry Glare' / 'Glare' | |A|=85 |AND|=82 |OR|=70
+[260/3885] L=14 cat=1 'Corporate Counsel' / 'Attorney' | |A|=76 |AND|=95 |OR|=95
+[270/3885] L=14 cat=1 'Indictment' / 'Charging Document' | |A|=66 |AND|=68 |OR|=69
+[280/3885] L=14 cat=1 'Subpoena Duces Tecum' / 'Subpoena' | |A|=70 |AND|=89 |OR|=71
+[290/3885] L=14 cat=1 'Will' / 'Testamentary Document' | |A|=82 |AND|=82 |OR|=83
+[300/3885] L=14 cat=1 'Arbitrator' / 'ADR Professional' | |A|=63 |AND|=80 |OR|=91
+[310/3885] L=14 cat=1 'Blue-Green' / 'Tertiary Color' | |A|=67 |AND|=87 |OR|=85
+[320/3885] L=14 cat=1 'Cool Colors' / 'Color Temperature' | |A|=70 |AND|=75 |OR|=66
+[330/3885] L=14 cat=1 'RYB Model' / 'Color Model' | |A|=69 |AND|=78 |OR|=69
+[340/3885] L=14 cat=1 'Pastel Colors' / 'Color Classification' | |A|=63 |AND|=81 |OR|=61
+[350/3885] L=14 cat=1 'Blue-Orange' / 'Complementary Pair' | |A|=74 |AND|=66 |OR|=74
+[360/3885] L=14 cat=1 'Escape wheel' / 'Gear' | |A|=67 |AND|=97 |OR|=86
+[370/3885] L=14 cat=1 'Cannon pinion' / 'Gear' | |A|=67 |AND|=94 |OR|=90
+[380/3885] L=14 cat=1 'Release lever' / 'Lever' | |A|=76 |AND|=86 |OR|=73
+[390/3885] L=14 cat=1 'Snail' / 'Cam' | |A|=77 |AND|=98 |OR|=100
+[400/3885] L=14 cat=1 'Train' / 'Mechanism' | |A|=75 |AND|=78 |OR|=94
+[410/3885] L=14 cat=1 'Bassoon' / 'Woodwind Instrument' | |A|=75 |AND|=94 |OR|=86
+[420/3885] L=14 cat=1 'Snare Drum' / 'Percussion Instrument' | |A|=97 |AND|=98 |OR|=80
+[430/3885] L=14 cat=1 'Valve' / 'Trumpet' | |A|=84 |AND|=84 |OR|=82
+[440/3885] L=14 cat=1 'Hammers' / 'Piano' | |A|=64 |AND|=88 |OR|=87
+[450/3885] L=14 cat=1 'Resonance' / 'Acoustic Property' | |A|=70 |AND|=88 |OR|=76
+[460/3885] L=14 cat=1 'Sternum' / 'Thoracic Bone' | |A|=73 |AND|=89 |OR|=77
+[470/3885] L=14 cat=1 'Hyoid' / 'Neck Bone' | |A|=68 |AND|=88 |OR|=73
+[480/3885] L=14 cat=1 'Levator Scapulae' / 'Neck Muscle' | |A|=66 |AND|=97 |OR|=78
+[490/3885] L=14 cat=1 'Intercostals' / 'Thoracic Muscle' | |A|=68 |AND|=70 |OR|=81
+[500/3885] L=14 cat=1 'Biceps Femoris' / 'Thigh Muscle' | |A|=66 |AND|=97 |OR|=79
+[510/3885] L=14 cat=1 'Flood Irrigation' / 'Watering Method' | |A|=74 |AND|=87 |OR|=71
+[520/3885] L=14 cat=1 'Long Day' / 'Photoperiod' | |A|=75 |AND|=76 |OR|=83
+[530/3885] L=14 cat=1 'Sepal' / 'Flower Part' | |A|=97 |AND|=81 |OR|=78
+[540/3885] L=14 cat=1 'Cover Crop' / 'Field Management' | |A|=69 |AND|=77 |OR|=78
+[550/3885] L=14 cat=1 'Nutrient Film' / 'Hydroponic Technique' | |A|=68 |AND|=80 |OR|=78
+[560/3885] L=14 cat=1 'Leaf vein' / 'Leaf' | |A|=63 |AND|=93 |OR|=94
+[570/3885] L=14 cat=1 'Tuber' / 'Stem' | |A|=84 |AND|=81 |OR|=78
+[580/3885] L=14 cat=1 'Tepal' / 'Flower perianth' | |A|=89 |AND|=79 |OR|=72
+[590/3885] L=14 cat=1 'Cotyledon' / 'Seed' | |A|=77 |AND|=91 |OR|=79
+[600/3885] L=14 cat=1 'Companion cell' / 'Phloem' | |A|=75 |AND|=95 |OR|=82
+[610/3885] L=14 cat=1 'Pentagon' / 'Polygon' | |A|=87 |AND|=70 |OR|=84
+[620/3885] L=14 cat=1 'Diameter' / 'Circle' | |A|=57 |AND|=80 |OR|=87
+[630/3885] L=14 cat=1 'Obtuse Angle' / 'Angle' | |A|=68 |AND|=88 |OR|=72
+[640/3885] L=14 cat=1 'Cube' / 'Polyhedron' | |A|=75 |AND|=78 |OR|=75
+[650/3885] L=14 cat=1 'Vertex' / 'Polyhedron' | |A|=76 |AND|=73 |OR|=78
+[660/3885] L=14 cat=1 'Natural Number' / 'Integer' | |A|=96 |AND|=82 |OR|=91
+[670/3885] L=14 cat=1 'Odd Multiple' / 'Multiple' | |A|=63 |AND|=90 |OR|=72
+[680/3885] L=14 cat=1 'Highly Composite Number' / 'Composite Number' | |A|=81 |AND|=65 |OR|=69
+[690/3885] L=14 cat=1 'Fermat Prime' / 'Prime Number' | |A|=76 |AND|=85 |OR|=68
+[700/3885] L=14 cat=1 'Electron' / 'Lepton' | |A|=69 |AND|=70 |OR|=61
+[710/3885] L=14 cat=1 'Bottom quark' / 'Quark' | |A|=84 |AND|=98 |OR|=80
+[720/3885] L=14 cat=1 'Higgs boson' / 'Scalar boson' | |A|=91 |AND|=78 |OR|=65
+[730/3885] L=14 cat=1 'Superconductor' / 'Phase of matter' | |A|=73 |AND|=80 |OR|=75
+[740/3885] L=14 cat=1 'Dirac fermion' / 'Fermion' | |A|=79 |AND|=91 |OR|=76
+[750/3885] L=14 cat=1 'Peregrine Falcon' / 'Falcon' | |A|=78 |AND|=97 |OR|=87
+[760/3885] L=14 cat=1 'Tawny Frogmouth' / 'Frogmouth' | |A|=64 |AND|=113 |OR|=96
+[770/3885] L=14 cat=1 'Sapsucker' / 'Woodpecker' | |A|=90 |AND|=92 |OR|=83
+[780/3885] L=14 cat=1 'Treecreeper' / 'Passerine' | |A|=72 |AND|=88 |OR|=82
+[790/3885] L=14 cat=1 'Alula' / 'Wing Feather' | |A|=84 |AND|=88 |OR|=77
+[800/3885] L=14 cat=2 'watering can' / 'potted plants' | |A|=88 |AND|=84 |OR|=87
+[810/3885] L=14 cat=2 'outdoor rug' / 'patio furniture' | |A|=83 |AND|=110 |OR|=102
+[820/3885] L=14 cat=2 'bonsai tree' / 'pruning wire' | |A|=65 |AND|=103 |OR|=80
+[830/3885] L=14 cat=2 'hand fork' / 'weed removal' | |A|=100 |AND|=98 |OR|=103
+[840/3885] L=14 cat=2 'outdoor cooler' / 'drink holders' | |A|=67 |AND|=83 |OR|=81
+[850/3885] L=14 cat=2 'espresso' / 'latte' | |A|=61 |AND|=85 |OR|=83
+[860/3885] L=14 cat=2 'croissant' / 'butter' | |A|=71 |AND|=101 |OR|=96
+[870/3885] L=14 cat=2 'icing bag' / 'frosting' | |A|=69 |AND|=102 |OR|=91
+[880/3885] L=14 cat=2 'buttery croissant' / 'flake' | |A|=78 |AND|=109 |OR|=110
+[890/3885] L=14 cat=2 'powdered sugar' / 'scone' | |A|=88 |AND|=101 |OR|=87
+[900/3885] L=14 cat=2 'bus stop' / 'ticket machine' | |A|=70 |AND|=101 |OR|=95
+[910/3885] L=14 cat=2 'bicycle rack' / 'lock' | |A|=69 |AND|=96 |OR|=91
+[920/3885] L=14 cat=2 'bus shelter' / 'timetable' | |A|=85 |AND|=97 |OR|=92
+[930/3885] L=14 cat=2 'traffic circle' / 'yield line' | |A|=82 |AND|=68 |OR|=61
+[940/3885] L=14 cat=2 'traffic light' / 'countdown timer' | |A|=89 |AND|=100 |OR|=96
+[950/3885] L=14 cat=2 'pencil' / 'eraser' | |A|=90 |AND|=76 |OR|=85
+[960/3885] L=14 cat=2 'desk' / 'chair' | |A|=86 |AND|=103 |OR|=104
+[970/3885] L=14 cat=2 'pencil sharpener' / 'wood shavings' | |A|=79 |AND|=86 |OR|=91
+[980/3885] L=14 cat=2 'desk organizer' / 'sticky notes' | |A|=72 |AND|=105 |OR|=99
+[990/3885] L=14 cat=2 'binder rings' / 'loose leaf paper' | |A|=58 |AND|=105 |OR|=87
+[1000/3885] L=14 cat=2 'fork' / 'knife' | |A|=99 |AND|=94 |OR|=80
+[1010/3885] L=14 cat=2 'colander' / 'bowl' | |A|=66 |AND|=99 |OR|=83
+[1020/3885] L=14 cat=2 'coffee cup' / 'saucer' | |A|=86 |AND|=93 |OR|=99
+[1030/3885] L=14 cat=2 'chopsticks' / 'rice bowl' | |A|=82 |AND|=92 |OR|=82
+[1040/3885] L=14 cat=2 'egg cup' / 'spoon' | |A|=68 |AND|=84 |OR|=92
+[1050/3885] L=14 cat=2 'slide' / 'swing' | |A|=88 |AND|=90 |OR|=92
+[1060/3885] L=14 cat=2 'marbles' / 'glass' | |A|=66 |AND|=85 |OR|=85
+[1070/3885] L=14 cat=2 'water gun' / 'trigger' | |A|=80 |AND|=125 |OR|=104
+[1080/3885] L=14 cat=2 'swing set' / 'chains' | |A|=86 |AND|=91 |OR|=82
+[1090/3885] L=14 cat=2 'puzzle board' / 'pieces' | |A|=70 |AND|=90 |OR|=81
+[1100/3885] L=14 cat=2 'sofa' / 'cushion' | |A|=73 |AND|=91 |OR|=98
+[1110/3885] L=14 cat=2 'throw blanket' / 'sofa' | |A|=75 |AND|=102 |OR|=92
+[1120/3885] L=14 cat=2 'desk chair' / 'mousepad' | |A|=75 |AND|=106 |OR|=99
+[1130/3885] L=14 cat=2 'rocking chair' / 'glider' | |A|=79 |AND|=90 |OR|=92
+[1140/3885] L=14 cat=2 'storage ottoman' / 'lid' | |A|=78 |AND|=95 |OR|=94
+[1150/3885] L=14 cat=2 'tennis racket' / 'tennis ball' | |A|=79 |AND|=82 |OR|=90
+[1160/3885] L=14 cat=2 'dumbbell' / 'kettlebell' | |A|=96 |AND|=81 |OR|=63
+[1170/3885] L=14 cat=2 'cricket bat' / 'cricket ball' | |A|=81 |AND|=92 |OR|=98
+[1180/3885] L=14 cat=2 'baseball cap' / 'batting glove' | |A|=86 |AND|=103 |OR|=106
+[1190/3885] L=14 cat=2 'racquetball racket' / 'racquetball' | |A|=93 |AND|=94 |OR|=83
+[1200/3885] L=14 cat=2 'Refrigerator' / 'Freezer' | |A|=71 |AND|=77 |OR|=81
+[1210/3885] L=14 cat=2 'Air Conditioner' / 'Remote' | |A|=56 |AND|=104 |OR|=103
+[1220/3885] L=14 cat=2 'Robot Vacuum' / 'Dock' | |A|=86 |AND|=107 |OR|=100
+[1230/3885] L=14 cat=2 'Sewing Machine' / 'Needle' | |A|=77 |AND|=91 |OR|=103
+[1240/3885] L=14 cat=2 'Sandwich Press' / 'Bread' | |A|=64 |AND|=88 |OR|=94
+[1250/3885] L=14 cat=2 'laundry basket' / 'hamper' | |A|=73 |AND|=92 |OR|=88
+[1260/3885] L=14 cat=2 'shoe boxes' / 'pairs' | |A|=81 |AND|=81 |OR|=73
+[1270/3885] L=14 cat=2 'liquid detergent' / 'cap' | |A|=81 |AND|=127 |OR|=122
+[1280/3885] L=14 cat=2 'hang dry' / 'line' | |A|=96 |AND|=92 |OR|=94
+[1290/3885] L=14 cat=2 'jewelry organizer' / 'hooks' | |A|=71 |AND|=89 |OR|=80
+[1300/3885] L=14 cat=2 'dress shirt' / 'collar' | |A|=83 |AND|=98 |OR|=105
+[1310/3885] L=14 cat=2 'silk tie' / 'knot' | |A|=102 |AND|=101 |OR|=97
+[1320/3885] L=14 cat=2 'linen shirt' / 'breathable fabric' | |A|=77 |AND|=105 |OR|=104
+[1330/3885] L=14 cat=2 'polyester dress' / 'wrinkle free' | |A|=87 |AND|=105 |OR|=97
+[1340/3885] L=14 cat=2 'linen dress' / 'breathable weave' | |A|=81 |AND|=101 |OR|=98
+[1350/3885] L=14 cat=2 'lettuce' / 'tomato' | |A|=81 |AND|=82 |OR|=97
+[1360/3885] L=14 cat=2 'cherry' / 'grape' | |A|=82 |AND|=84 |OR|=91
+[1370/3885] L=14 cat=2 'radish' / 'turnip' | |A|=81 |AND|=78 |OR|=85
+[1380/3885] L=14 cat=2 'produce sticker' / 'price' | |A|=71 |AND|=93 |OR|=80
+[1390/3885] L=14 cat=2 'expiration date' / 'label' | |A|=52 |AND|=88 |OR|=91
+[1400/3885] L=14 cat=2 'binder clip' / 'folder' | |A|=68 |AND|=95 |OR|=102
+[1410/3885] L=14 cat=2 'paperclip' / 'binder' | |A|=90 |AND|=91 |OR|=79
+[1420/3885] L=14 cat=2 'tape' / 'paper' | |A|=108 |AND|=95 |OR|=92
+[1430/3885] L=14 cat=2 'notebook' / 'paper' | |A|=76 |AND|=93 |OR|=91
+[1440/3885] L=14 cat=2 'whiteboard' / 'marker' | |A|=73 |AND|=102 |OR|=77
+[1450/3885] L=14 cat=2 'laptop' / 'power adapter' | |A|=77 |AND|=101 |OR|=89
+[1460/3885] L=14 cat=2 'ebook reader' / 'charging cable' | |A|=59 |AND|=104 |OR|=97
+[1470/3885] L=14 cat=2 'usb hub' / 'multiport adapter' | |A|=61 |AND|=84 |OR|=82
+[1480/3885] L=14 cat=2 'fitness tracker' / 'step counter' | |A|=69 |AND|=94 |OR|=85
+[1490/3885] L=14 cat=2 'action camera' / 'mount bracket' | |A|=77 |AND|=108 |OR|=83
+[1500/3885] L=14 cat=2 'takeout bag' / 'receipt' | |A|=77 |AND|=106 |OR|=102
+[1510/3885] L=14 cat=2 'coffee cup' / 'cardboard sleeve' | |A|=86 |AND|=107 |OR|=101
+[1520/3885] L=14 cat=2 'straw' / 'sip lid' | |A|=99 |AND|=92 |OR|=75
+[1530/3885] L=14 cat=2 'juice box' / 'straw' | |A|=77 |AND|=90 |OR|=89
+[1540/3885] L=14 cat=2 'driver pouch' / 'order bag' | |A|=72 |AND|=88 |OR|=77
+[1550/3885] L=14 cat=2 'street sign' / 'pole' | |A|=72 |AND|=92 |OR|=86
+[1560/3885] L=14 cat=2 'airport terminal' / 'gate' | |A|=66 |AND|=106 |OR|=99
+[1570/3885] L=14 cat=2 'tennis court' / 'net' | |A|=71 |AND|=104 |OR|=99
+[1580/3885] L=14 cat=2 'statue' / 'base' | |A|=79 |AND|=90 |OR|=87
+[1590/3885] L=14 cat=2 'tunnel' / 'ventilation' | |A|=89 |AND|=93 |OR|=85
+[1600/3885] L=14 cat=3 'Drill Shaft' / 'Harrow Chain' | |A|=79 |AND|=103 |OR|=71
+[1610/3885] L=14 cat=3 'Curette Hook' / 'Rake Tines' | |A|=83 |AND|=74 |OR|=73
+[1620/3885] L=14 cat=3 'Hemostat Ratchet' / 'Threshing Floor' | |A|=78 |AND|=109 |OR|=83
+[1630/3885] L=14 cat=3 'Suction Tip' / 'Grain Sack Knot' | |A|=78 |AND|=97 |OR|=69
+[1640/3885] L=14 cat=3 'Needle Driver Jaw' / 'Pitchfork Shaft' | |A|=79 |AND|=99 |OR|=87
+[1650/3885] L=14 cat=3 'vacuum distillation' / 'clutch cable tension' | |A|=87 |AND|=96 |OR|=101
+[1660/3885] L=14 cat=3 'aroma condensation' / 'cam chain tension' | |A|=69 |AND|=100 |OR|=83
+[1670/3885] L=14 cat=3 'lavender hydrodistillation' / 'airbox gasket' | |A|=85 |AND|=116 |OR|=107
+[1680/3885] L=14 cat=3 'cardamom steam' / 'connecting rod bushing' | |A|=99 |AND|=110 |OR|=93
+[1690/3885] L=14 cat=3 'cedar wood steam' / 'clutch plate warping' | |A|=99 |AND|=87 |OR|=83
+[1700/3885] L=14 cat=3 'Flap' / 'Grain' | |A|=96 |AND|=95 |OR|=82
+[1710/3885] L=14 cat=3 'Satellite' / 'Brad nail' | |A|=92 |AND|=83 |OR|=74
+[1720/3885] L=14 cat=3 'Throttle' / 'Chisel' | |A|=78 |AND|=95 |OR|=86
+[1730/3885] L=14 cat=3 'Combustor' / 'Corner clamp' | |A|=69 |AND|=88 |OR|=76
+[1740/3885] L=14 cat=3 'Bulkhead' / 'Kerf' | |A|=85 |AND|=100 |OR|=95
+[1750/3885] L=14 cat=3 'Scribe' / 'Kickflip' | |A|=90 |AND|=92 |OR|=88
+[1760/3885] L=14 cat=3 'Flourish' / 'Park' | |A|=72 |AND|=95 |OR|=83
+[1770/3885] L=14 cat=3 'Serif' / 'Grab' | |A|=90 |AND|=111 |OR|=99
+[1780/3885] L=14 cat=3 'Dip' / 'Ramp' | |A|=99 |AND|=89 |OR|=83
+[1790/3885] L=14 cat=3 'Acid' / 'Manual' | |A|=73 |AND|=82 |OR|=80
+[1800/3885] L=14 cat=3 'marine snow' / 'desert crust' | |A|=87 |AND|=90 |OR|=87
+[1810/3885] L=14 cat=3 'marine detritus' / 'sandstorm' | |A|=92 |AND|=87 |OR|=79
+[1820/3885] L=14 cat=3 'benthic invertebrate' / 'sunbaked clay' | |A|=130 |AND|=106 |OR|=102
+[1830/3885] L=14 cat=3 'marine sediment' / 'dry oasis' | |A|=109 |AND|=82 |OR|=79
+[1840/3885] L=14 cat=3 'abyssal barnacle' / 'desert floodplain' | |A|=104 |AND|=90 |OR|=84
+[1850/3885] L=14 cat=3 'Laparoscope lens' / 'Cedar planks' | |A|=77 |AND|=98 |OR|=105
+[1860/3885] L=14 cat=3 'Surgical scissors' / 'Willow branch' | |A|=65 |AND|=94 |OR|=91
+[1870/3885] L=14 cat=3 'Surgical clamp' / 'Wrought steel' | |A|=69 |AND|=111 |OR|=96
+[1880/3885] L=14 cat=3 'Saw tooth' / 'Leather patch' | |A|=71 |AND|=90 |OR|=72
+[1890/3885] L=14 cat=3 'Cutter jaw' / 'Cedar dust' | |A|=76 |AND|=96 |OR|=94
+[1900/3885] L=14 cat=3 'Oshi Press' / 'Draw Length' | |A|=78 |AND|=75 |OR|=86
+[1910/3885] L=14 cat=3 'Nori Wrap' / 'Solder Seam' | |A|=80 |AND|=103 |OR|=78
+[1920/3885] L=14 cat=3 'Cut Diagonal' / 'Punch Slot' | |A|=82 |AND|=91 |OR|=82
+[1930/3885] L=14 cat=3 'Plate Neatly' / 'Forge Weld' | |A|=103 |AND|=74 |OR|=83
+[1940/3885] L=14 cat=3 'Freeze Short' / 'Bevel Tip' | |A|=114 |AND|=74 |OR|=77
+[1950/3885] L=14 cat=3 'honeycomb' / 'sandboxing' | |A|=64 |AND|=85 |OR|=83
+[1960/3885] L=14 cat=3 'drone brood' / 'vulnerability scanning' | |A|=94 |AND|=97 |OR|=99
+[1970/3885] L=14 cat=3 'outer cover' / 'virtual private network' | |A|=68 |AND|=78 |OR|=76
+[1980/3885] L=14 cat=3 'syrup' / 'botnet' | |A|=89 |AND|=84 |OR|=80
+[1990/3885] L=14 cat=3 'reducer' / 'proxy server' | |A|=95 |AND|=74 |OR|=74
+[2000/3885] L=14 cat=3 'En Passant' / 'Detonator' | |A|=64 |AND|=81 |OR|=79
+[2010/3885] L=14 cat=3 'Prophylaxis' / 'Wedge' | |A|=61 |AND|=104 |OR|=86
+[2020/3885] L=14 cat=3 'Static Weakness' / 'Initiation System' | |A|=91 |AND|=94 |OR|=87
+[2030/3885] L=14 cat=3 'Bishop Pair' / 'Loading Truck' | |A|=70 |AND|=93 |OR|=75
+[2040/3885] L=14 cat=3 'Isolated Pawn' / 'Slot Drill' | |A|=80 |AND|=81 |OR|=83
+[2050/3885] L=14 cat=3 'flute' / 'muffler' | |A|=108 |AND|=90 |OR|=99
+[2060/3885] L=14 cat=3 'clarinet' / 'transmission gear' | |A|=106 |AND|=117 |OR|=123
+[2070/3885] L=14 cat=3 'vibraphone' / 'stabilizer bar' | |A|=73 |AND|=97 |OR|=98
+[2080/3885] L=14 cat=3 'straight trumpet' / 'catalytic converter' | |A|=85 |AND|=104 |OR|=92
+[2090/3885] L=14 cat=3 'maple wood violin' / 'window regulator' | |A|=85 |AND|=116 |OR|=107
+[2100/3885] L=14 cat=3 'Cross references' / 'slipstream effect' | |A|=85 |AND|=77 |OR|=81
+[2110/3885] L=14 cat=3 'Metadata' / 'downforce settings' | |A|=65 |AND|=63 |OR|=79
+[2120/3885] L=14 cat=3 'Authority file' / 'pit stop timer' | |A|=59 |AND|=92 |OR|=83
+[2130/3885] L=14 cat=3 'Classification code' / 'suspension stiffness' | |A|=70 |AND|=94 |OR|=77
+[2140/3885] L=14 cat=3 'Index entry' / 'pit wall radio' | |A|=68 |AND|=86 |OR|=90
+[2150/3885] L=14 cat=3 'Brocade jacket' / 'Air tank' | |A|=73 |AND|=96 |OR|=76
+[2160/3885] L=14 cat=3 'Velvet choker' / 'Octopus valve' | |A|=75 |AND|=89 |OR|=88
+[2170/3885] L=14 cat=3 'Feathered headpiece' / 'Compass' | |A|=70 |AND|=99 |OR|=80
+[2180/3885] L=14 cat=3 'Satin cape' / 'Fin strap' | |A|=76 |AND|=88 |OR|=88
+[2190/3885] L=14 cat=3 'Satin ribbon' / 'Quick release' | |A|=71 |AND|=98 |OR|=86
+[2200/3885] L=14 cat=3 'bone china' / 'pressure suit' | |A|=76 |AND|=114 |OR|=95
+[2210/3885] L=14 cat=3 'steeping vessel' / 'gas metal arc' | |A|=65 |AND|=90 |OR|=87
+[2220/3885] L=14 cat=3 'tea ritual' / 'welding rod' | |A|=71 |AND|=129 |OR|=119
+[2230/3885] L=14 cat=3 'bone china cup' / 'pressure vessel' | |A|=85 |AND|=85 |OR|=119
+[2240/3885] L=14 cat=3 'tea estate' / 'welding position' | |A|=74 |AND|=131 |OR|=113
+[2250/3885] L=14 cat=3 'hydraulic press' / 'ivory damask' | |A|=104 |AND|=106 |OR|=114
+[2260/3885] L=14 cat=3 'electric generator' / 'baby alpaca' | |A|=63 |AND|=107 |OR|=121
+[2270/3885] L=14 cat=3 'tracked treads' / 'stiff organza' | |A|=81 |AND|=106 |OR|=90
+[2280/3885] L=14 cat=3 'bucket wheel' / 'crushed velvet' | |A|=78 |AND|=108 |OR|=95
+[2290/3885] L=14 cat=3 'crane jib' / 'silk jacquard' | |A|=69 |AND|=124 |OR|=106
+[2300/3885] L=14 cat=3 'pointe shoes' / 'blasting charge' | |A|=66 |AND|=90 |OR|=101
+[2310/3885] L=14 cat=3 'en pointe' / 'crusher chamber' | |A|=59 |AND|=81 |OR|=76
+[2320/3885] L=14 cat=3 'pirouette' / 'quarry truck' | |A|=73 |AND|=93 |OR|=75
+[2330/3885] L=14 cat=3 'glissade' / 'quarry cart' | |A|=100 |AND|=92 |OR|=85
+[2340/3885] L=14 cat=3 'relevé' / 'rock splitter' | |A|=72 |AND|=78 |OR|=73
+[2350/3885] L=14 cat=4 'Stoicism' / 'Macarons' | |A|=64 |AND|=70 |OR|=69
+[2360/3885] L=14 cat=4 'Absurdism' / 'Churros' | |A|=65 |AND|=75 |OR|=77
+[2370/3885] L=14 cat=4 'Structuralism' / 'Truffles' | |A|=71 |AND|=67 |OR|=67
+[2380/3885] L=14 cat=4 'Fatalism' / 'Brownies' | |A|=66 |AND|=83 |OR|=68
+[2390/3885] L=14 cat=4 'Compatibilism' / 'Syrups' | |A|=65 |AND|=64 |OR|=63
+[2400/3885] L=14 cat=4 'liquid earth crust' / 'crystalline cloud formation' | |A|=91 |AND|=97 |OR|=89
+[2410/3885] L=14 cat=4 'liquid ground surface' / 'crystalline air particles' | |A|=72 |AND|=92 |OR|=89
+[2420/3885] L=14 cat=4 'floating landmass fragments' / 'melting structural beams' | |A|=69 |AND|=83 |OR|=68
+[2430/3885] L=14 cat=4 'melting landscape contours' / 'dream spatial distortions' | |A|=98 |AND|=90 |OR|=85
+[2440/3885] L=14 cat=4 'liquid wind currents' / 'crystalline storm fronts' | |A|=93 |AND|=84 |OR|=79
+[2450/3885] L=14 cat=4 'Majoritarian Mandarin' / 'Minority Mango' | |A|=92 |AND|=96 |OR|=95
+[2460/3885] L=14 cat=4 'Existentialist Eggplant' / 'Absurdist Asparagus' | |A|=81 |AND|=99 |OR|=95
+[2470/3885] L=14 cat=4 'Majoritarian Melon' / 'Minority Macadamia' | |A|=81 |AND|=96 |OR|=79
+[2480/3885] L=14 cat=4 'Existentialist Enokitake' / 'Absurdist Artichoke' | |A|=55 |AND|=92 |OR|=88
+[2490/3885] L=14 cat=4 'Majoritarian Mango' / 'Minority Mandarin' | |A|=92 |AND|=98 |OR|=79
+[2500/3885] L=14 cat=4 'crayon wax gear shift' / 'nap time dashboard clock' | |A|=82 |AND|=106 |OR|=96
+[2510/3885] L=14 cat=4 'sticker panel fender' / 'marble gear box' | |A|=81 |AND|=109 |OR|=81
+[2520/3885] L=14 cat=4 'sandbox torque converter' / 'juice box water pump' | |A|=76 |AND|=97 |OR|=80
+[2530/3885] L=14 cat=4 'blanket fort roll cage' / 'playground slide shock mount' | |A|=81 |AND|=71 |OR|=73
+[2540/3885] L=14 cat=4 'crayon wax fuel injector' / 'nap time starter motor' | |A|=74 |AND|=106 |OR|=114
+[2550/3885] L=14 cat=4 'Hannibal' / 'vacuum decay' | |A|=55 |AND|=84 |OR|=83
+[2560/3885] L=14 cat=4 'Marcus Aurelius' / 'magnetic field' | |A|=78 |AND|=94 |OR|=99
+[2570/3885] L=14 cat=4 'Laozi' / 'quantum computer' | |A|=71 |AND|=88 |OR|=80
+[2580/3885] L=14 cat=4 'Eratosthenes' / 'proton' | |A|=83 |AND|=90 |OR|=83
+[2590/3885] L=14 cat=4 'Pliny' / 'gravity' | |A|=88 |AND|=79 |OR|=82
+[2600/3885] L=14 cat=4 'Cartesian Crumb' / 'Spinozan Sugar' | |A|=84 |AND|=102 |OR|=89
+[2610/3885] L=14 cat=4 'Solipsist Sorbet' / 'Nihilist Nectar' | |A|=53 |AND|=99 |OR|=86
+[2620/3885] L=14 cat=4 'Feminist Fudge' / 'Queer Quince' | |A|=87 |AND|=109 |OR|=80
+[2630/3885] L=14 cat=4 'Nihilist Nectar' / 'Existentialist Espresso' | |A|=60 |AND|=84 |OR|=84
+[2640/3885] L=14 cat=4 'Kierkegaard Kugel' / 'Wittgenstein Wafer' | |A|=86 |AND|=83 |OR|=70
+[2650/3885] L=14 cat=4 'Black Hole' / 'taking out trash' | |A|=78 |AND|=92 |OR|=80
+[2660/3885] L=14 cat=4 'Pulsar' / 'sorting mail' | |A|=89 |AND|=91 |OR|=85
+[2670/3885] L=14 cat=4 'Open Cluster' / 'folding towels' | |A|=60 |AND|=68 |OR|=67
+[2680/3885] L=14 cat=4 'Oort Cloud' / 'dusting ceilings' | |A|=80 |AND|=84 |OR|=74
+[2690/3885] L=14 cat=4 'Lagoon Nebula' / 'dusting chandeliers' | |A|=89 |AND|=91 |OR|=85
+[2700/3885] L=14 cat=4 'paper airplane' / 'hovercraft' | |A|=75 |AND|=106 |OR|=96
+[2710/3885] L=14 cat=4 'cookie jar' / 'comet chaser' | |A|=92 |AND|=81 |OR|=83
+[2720/3885] L=14 cat=4 'bike chain' / 'nostalgia boat' | |A|=72 |AND|=112 |OR|=100
+[2730/3885] L=14 cat=4 'mud pie' / 'fortune ferry' | |A|=79 |AND|=92 |OR|=80
+[2740/3885] L=14 cat=4 'harmonica' / 'heart hovercraft' | |A|=86 |AND|=104 |OR|=103
+[2750/3885] L=14 cat=4 'Hippocrates' / 'Terraforming Atmosphere Process' | |A|=84 |AND|=53 |OR|=62
+[2760/3885] L=14 cat=4 'Herodotus' / 'Dark Matter Detection Grid' | |A|=71 |AND|=94 |OR|=86
+[2770/3885] L=14 cat=4 'Lucretius' / 'Dark Energy Survey' | |A|=81 |AND|=80 |OR|=74
+[2780/3885] L=14 cat=4 'Archytas' / 'Plasma Containment Field' | |A|=59 |AND|=81 |OR|=78
+[2790/3885] L=14 cat=4 'Protagoras' / 'Relativistic Truth Metric' | |A|=81 |AND|=83 |OR|=83
+[2800/3885] L=14 cat=4 'Dualism' / 'Panna cotta' | |A|=58 |AND|=87 |OR|=86
+[2810/3885] L=14 cat=4 'Idealism' / 'Ganache' | |A|=78 |AND|=84 |OR|=85
+[2820/3885] L=14 cat=4 'Epicureanism' / 'Jelly' | |A|=74 |AND|=95 |OR|=91
+[2830/3885] L=14 cat=4 'Altruism' / 'Madeleine' | |A|=76 |AND|=91 |OR|=80
+[2840/3885] L=14 cat=4 'Functionalism' / 'Genoise' | |A|=71 |AND|=95 |OR|=91
+[2850/3885] L=14 cat=4 'Moon' / 'sweeping patios' | |A|=115 |AND|=90 |OR|=92
+[2860/3885] L=14 cat=4 'Triangulum' / 'wiping mirrors' | |A|=86 |AND|=85 |OR|=75
+[2870/3885] L=14 cat=4 'Asteroid' / 'polishing doorknobs' | |A|=55 |AND|=92 |OR|=86
+[2880/3885] L=14 cat=4 'Blue Supergiant' / 'cleaning filters' | |A|=82 |AND|=78 |OR|=66
+[2890/3885] L=14 cat=4 'Virgo' / 'trimming grass' | |A|=73 |AND|=83 |OR|=79
+[2900/3885] L=14 cat=4 'Bedtime Story Dashboard' / 'Whispering Steering Wheel' | |A|=87 |AND|=95 |OR|=85
+[2910/3885] L=14 cat=4 'Doodle Bug Body' / 'Marker Ink Paint' | |A|=83 |AND|=69 |OR|=71
+[2920/3885] L=14 cat=4 'Nightstand Drawer Engine' / 'Moonlight Headlamps' | |A|=64 |AND|=74 |OR|=71
+[2930/3885] L=14 cat=4 'Rocking Horse Gallop' / 'Stable Barn Garage' | |A|=81 |AND|=81 |OR|=69
+[2940/3885] L=14 cat=4 'Nightlight Glow Core' / 'Star Map Dashboard' | |A|=77 |AND|=88 |OR|=85
+[2950/3885] L=14 cat=4 'Hypatia' / 'Dark Matter Harvest' | |A|=81 |AND|=67 |OR|=72
+[2960/3885] L=14 cat=4 'Socrates' / 'Memory Archive' | |A|=87 |AND|=99 |OR|=81
+[2970/3885] L=14 cat=4 'Pericles' / 'Plasma Drive' | |A|=66 |AND|=87 |OR|=76
+[2980/3885] L=14 cat=4 'Plato' / 'Ideal Form' | |A|=72 |AND|=91 |OR|=80
+[2990/3885] L=14 cat=4 'Pythagoras' / 'Musical Harmony' | |A|=64 |AND|=79 |OR|=78
+[3000/3885] L=14 cat=4 'Galen' / 'Asteroid Mining Colony' | |A|=74 |AND|=88 |OR|=83
+[3010/3885] L=14 cat=4 'Marcus Aurelius' / 'Laser Cooling Protocol' | |A|=78 |AND|=66 |OR|=70
+[3020/3885] L=14 cat=4 'Leonidas' / 'Relativistic Velocity Thrust' | |A|=78 |AND|=67 |OR|=74
+[3030/3885] L=14 cat=4 'Antalcidas' / 'Magnetar Flare Prediction' | |A|=70 |AND|=73 |OR|=82
+[3040/3885] L=14 cat=4 'Hyperides' / 'Fault Tolerance Matrix' | |A|=55 |AND|=75 |OR|=78
+[3050/3885] L=14 cat=4 'Idealism' / 'Pudding' | |A|=78 |AND|=98 |OR|=90
+[3060/3885] L=14 cat=4 'Determinism' / 'Cannoli' | |A|=65 |AND|=81 |OR|=80
+[3070/3885] L=14 cat=4 'Confucian Order' / 'Sachertorte' | |A|=82 |AND|=88 |OR|=91
+[3080/3885] L=14 cat=4 'Solipsistic Dream' / 'Strudel' | |A|=88 |AND|=89 |OR|=81
+[3090/3885] L=14 cat=4 'Saturn' / 'dusting rings' | |A|=83 |AND|=96 |OR|=79
+[3100/3885] L=14 cat=4 'Galaxy' / 'mending spirals' | |A|=70 |AND|=71 |OR|=62
+[3110/3885] L=14 cat=4 'Milky Way' / 'dusting spiral' | |A|=94 |AND|=82 |OR|=75
+[3120/3885] L=14 cat=4 'Red giant' / 'polishing glow' | |A|=72 |AND|=107 |OR|=90
+[3130/3885] L=14 cat=4 'Mercury surface' / 'scrubbing rock' | |A|=118 |AND|=71 |OR|=68
+[3140/3885] L=14 cat=5 'absolute certainty' / 'radical uncertainty' | |A|=68 |AND|=85 |OR|=84
+[3150/3885] L=14 cat=5 'certain outcome' / 'doubtful result' | |A|=75 |AND|=96 |OR|=76
+[3160/3885] L=14 cat=5 'certain knowledge' / 'radical doubt' | |A|=79 |AND|=101 |OR|=90
+[3170/3885] L=14 cat=5 'concrete data' / 'abstract concept' | |A|=85 |AND|=94 |OR|=87
+[3180/3885] L=14 cat=5 'definite coordinate' / 'unknown location' | |A|=80 |AND|=96 |OR|=89
+[3190/3885] L=14 cat=5 'vibrant cell' / 'dead tissue' | |A|=83 |AND|=94 |OR|=89
+[3200/3885] L=14 cat=5 'thriving colony' / 'extinct species' | |A|=72 |AND|=83 |OR|=81
+[3210/3885] L=14 cat=5 'fertile ovum' / 'sterile fragment' | |A|=107 |AND|=83 |OR|=85
+[3220/3885] L=14 cat=5 'active microbe' / 'sterile agar' | |A|=63 |AND|=73 |OR|=84
+[3230/3885] L=14 cat=5 'growing fungus' / 'barren substrate' | |A|=130 |AND|=101 |OR|=93
+[3240/3885] L=14 cat=5 'past' / 'future' | |A|=67 |AND|=90 |OR|=93
+[3250/3885] L=14 cat=5 'fixed' / 'mutable' | |A|=55 |AND|=81 |OR|=90
+[3260/3885] L=14 cat=5 'fixed' / 'shifting' | |A|=55 |AND|=71 |OR|=90
+[3270/3885] L=14 cat=5 'static' / 'evolving' | |A|=81 |AND|=82 |OR|=87
+[3280/3885] L=14 cat=5 'determined' / 'indeterminate' | |A|=77 |AND|=84 |OR|=79
+[3290/3885] L=14 cat=5 'Infinite Weight' / 'Absolute Weightlessness' | |A|=53 |AND|=98 |OR|=95
+[3300/3885] L=14 cat=5 'Gravitational Well' / 'Anti-Gravity Field' | |A|=75 |AND|=88 |OR|=86
+[3310/3885] L=14 cat=5 'Crushing Depth' / 'Weightless Summit' | |A|=64 |AND|=104 |OR|=92
+[3320/3885] L=14 cat=5 'Massive Comet' / 'Weightless Meteor' | |A|=80 |AND|=94 |OR|=84
+[3330/3885] L=14 cat=5 'Gravitational Bond' / 'Anti-Gravity Release' | |A|=81 |AND|=81 |OR|=87
+[3340/3885] L=14 cat=5 'soaking saturation' / 'absolute aridity' | |A|=78 |AND|=81 |OR|=67
+[3350/3885] L=14 cat=5 'liquid pool' / 'dry well' | |A|=114 |AND|=87 |OR|=76
+[3360/3885] L=14 cat=5 'rain-soaked moss' / 'sun-bleached rock' | |A|=106 |AND|=119 |OR|=110
+[3370/3885] L=14 cat=5 'lacustrine depth' / 'cracked bed' | |A|=90 |AND|=91 |OR|=83
+[3380/3885] L=14 cat=5 'saturated atmosphere' / 'arid sky' | |A|=105 |AND|=95 |OR|=86
+[3390/3885] L=14 cat=5 'solid' / 'gas' | |A|=122 |AND|=89 |OR|=85
+[3400/3885] L=14 cat=5 'liquid' / 'void' | |A|=123 |AND|=87 |OR|=75
+[3410/3885] L=14 cat=5 'solid' / 'vapor' | |A|=122 |AND|=85 |OR|=84
+[3420/3885] L=14 cat=5 'vaporization' / 'condensation' | |A|=125 |AND|=97 |OR|=103
+[3430/3885] L=14 cat=5 'quantum' / 'solidifying' | |A|=81 |AND|=89 |OR|=88
+[3440/3885] L=14 cat=5 'Crystalline lattice' / 'Liquid vapor' | |A|=68 |AND|=79 |OR|=77
+[3450/3885] L=14 cat=5 'Frozen instant' / 'Fluid motion' | |A|=87 |AND|=94 |OR|=88
+[3460/3885] L=14 cat=5 'Steel beam' / 'Liquid metal' | |A|=66 |AND|=84 |OR|=100
+[3470/3885] L=14 cat=5 'Crystalline solid' / 'Gaseous vapor' | |A|=65 |AND|=79 |OR|=81
+[3480/3885] L=14 cat=5 'Solid crystal' / 'Dissolving salt' | |A|=65 |AND|=82 |OR|=77
+[3490/3885] L=14 cat=5 'square' / 'spheres' | |A|=85 |AND|=70 |OR|=76
+[3500/3885] L=14 cat=5 'parallel' / 'intersecting' | |A|=77 |AND|=64 |OR|=76
+[3510/3885] L=14 cat=5 'smooth' / 'jagged' | |A|=74 |AND|=87 |OR|=97
+[3520/3885] L=14 cat=5 'metric' / 'topological' | |A|=75 |AND|=97 |OR|=86
+[3530/3885] L=14 cat=5 'compact' / 'infinite' | |A|=87 |AND|=73 |OR|=79
+[3540/3885] L=14 cat=5 'Cryogenic' / 'Incandescent' | |A|=76 |AND|=91 |OR|=82
+[3550/3885] L=14 cat=5 'Negative Temperature' / 'Positive Temperature' | |A|=77 |AND|=78 |OR|=77
+[3560/3885] L=14 cat=5 'Heat Flux' / 'Heat Block' | |A|=71 |AND|=84 |OR|=78
+[3570/3885] L=14 cat=5 'Thermal Quench' / 'Thermal Runaway' | |A|=78 |AND|=95 |OR|=84
+[3580/3885] L=14 cat=5 'Thermal Conductance' / 'Thermal Resistivity' | |A|=67 |AND|=86 |OR|=69
+[3590/3885] L=14 cat=5 'Tautology' / 'Contradiction' | |A|=59 |AND|=74 |OR|=77
+[3600/3885] L=14 cat=5 'Affirmative' / 'Negative' | |A|=87 |AND|=63 |OR|=68
+[3610/3885] L=14 cat=5 'Explicit' / 'Implicit' | |A|=65 |AND|=79 |OR|=86
+[3620/3885] L=14 cat=5 'Truth' / 'Falsity' | |A|=72 |AND|=81 |OR|=71
+[3630/3885] L=14 cat=5 'Satisfiability' / 'Unsatisfiability' | |A|=79 |AND|=77 |OR|=78
+[3640/3885] L=14 cat=5 'visible' / 'invisible' | |A|=66 |AND|=82 |OR|=78
+[3650/3885] L=14 cat=5 'see-through' / 'solid' | |A|=71 |AND|=78 |OR|=96
+[3660/3885] L=14 cat=5 'exposed' / 'buried' | |A|=53 |AND|=77 |OR|=89
+[3670/3885] L=14 cat=5 'clear' / 'smudged' | |A|=86 |AND|=76 |OR|=76
+[3680/3885] L=14 cat=5 'exposed' / 'wrapped' | |A|=53 |AND|=78 |OR|=76
+[3690/3885] L=14 cat=5 'Chaotic Drift' / 'Fixed Point' | |A|=91 |AND|=92 |OR|=86
+[3700/3885] L=14 cat=5 'Scattered Trajectory' / 'Single Path' | |A|=71 |AND|=86 |OR|=88
+[3710/3885] L=14 cat=5 'Relentless Pursuit' / 'Stationary Target' | |A|=80 |AND|=98 |OR|=92
+[3720/3885] L=14 cat=5 'Unbound Journey' / 'Fixed Destination' | |A|=83 |AND|=91 |OR|=86
+[3730/3885] L=14 cat=5 'Unrestrained Expansion' / 'Confined Compression' | |A|=73 |AND|=87 |OR|=81
+[3740/3885] L=14 cat=5 'Hydrostatic force' / 'Vacuum pull' | |A|=79 |AND|=81 |OR|=74
+[3750/3885] L=14 cat=5 'Material compression' / 'Structural expansion' | |A|=56 |AND|=67 |OR|=64
+[3760/3885] L=14 cat=5 'Molecular impact' / 'Void reflection' | |A|=67 |AND|=88 |OR|=83
+[3770/3885] L=14 cat=5 'Bulk fluid' / 'Void space' | |A|=78 |AND|=82 |OR|=88
+[3780/3885] L=14 cat=5 'Atomic packing' / 'Void dispersion' | |A|=77 |AND|=70 |OR|=79
+[3790/3885] L=14 cat=5 'Null Signal' / 'Full Spectrum' | |A|=81 |AND|=95 |OR|=91
+[3800/3885] L=14 cat=5 'Null Frequency' / 'Harmonic Overtone' | |A|=75 |AND|=82 |OR|=85
+[3810/3885] L=14 cat=5 'Silent Motion' / 'Violent Vibration' | |A|=78 |AND|=96 |OR|=84
+[3820/3885] L=14 cat=5 'Muffled Footsteps' / 'Stomping March' | |A|=89 |AND|=100 |OR|=92
+[3830/3885] L=14 cat=5 'Null Frequency' / 'Bass Drop' | |A|=75 |AND|=103 |OR|=101
+[3840/3885] L=14 cat=5 'thick matter' / 'thin absence' | |A|=72 |AND|=95 |OR|=90
+[3850/3885] L=14 cat=5 'heavy weight' / 'zero mass' | |A|=79 |AND|=89 |OR|=81
+[3860/3885] L=14 cat=5 'packed grains' / 'vacant nest' | |A|=88 |AND|=96 |OR|=92
+[3870/3885] L=14 cat=5 'solid wall' / 'open door' | |A|=82 |AND|=105 |OR|=92
+[3880/3885] L=14 cat=5 'heavy brick' / 'thin mist' | |A|=96 |AND|=102 |OR|=108
+[3885/3885] L=14 cat=5 'heavy core' / 'empty shell' | |A|=96 |AND|=77 |OR|=79
+Wrote distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_feature_distributions.jsonl
+=== Plot AND/OR rank diffs ===
+[and] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_feature_distributions.jsonl
+[and] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/rank_diff_and_summary_q05_q95.npz
+[and] cat=1 n=799 K=256 | Redundant / Strict Entailment
+[and] cat=2 n=795 K=256 | Typical Composition
+[and] cat=3 n=750 K=256 | Uncommon / Orthogonal
+[and] cat=4 n=795 K=256 | Surreal / Out-of-Distribution
+[and] cat=5 n=746 K=256 | Mutually Exclusive / Paradoxical
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat1.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat2.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat3.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat4.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat5.png
+[or] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_feature_distributions.jsonl
+[or] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/rank_diff_or_summary_q05_q95.npz
+[or] cat=1 n=799 K=256 | Redundant / Strict Entailment
+[or] cat=2 n=795 K=256 | Typical Composition
+[or] cat=3 n=750 K=256 | Uncommon / Orthogonal
+[or] cat=4 n=795 K=256 | Surreal / Out-of-Distribution
+[or] cat=5 n=746 K=256 | Mutually Exclusive / Paradoxical
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat1.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat2.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat3.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat4.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat5.png
+Distributions: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_feature_distributions.jsonl
+AND figures: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/and/rank_diff_cat*.png
+OR figures:  /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/figures_rank_diff/or/rank_diff_cat*.png

@@ -1,0 +1,38 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Differential SAE experiment ===
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=2)
+device=cuda dtype=bfloat16 layer=14
+baseline_mode=relu(v - v_base) save_features=True top_k=256
+loaded on cuda, vocab_size=256000
+n_layers=26 → using layer_index=14
+todo=2 done=0
+metrics → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.jsonl
+distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+baselines ready | mass_single=595.1444 mass_composed=621.1502
+[1/2] L=14 cat=1 'Transitive Verb' / 'Verb' | tvd_and_min=0.8177 tvd_or_max=0.7083 jaccard=0.2475 mass_a=241.689
+[2/2] L=14 cat=1 'Intransitive Verb' / 'Verb' | tvd_and_min=0.7931 tvd_or_max=0.6780 jaccard=0.2095 mass_a=236.421
+Wrote metrics JSONL → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.jsonl
+Wrote metrics CSV   → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.csv
+Wrote category summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/category_summary.csv
+Wrote distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+=== TVD box / bar plots ===
+Loaded 52 pairs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.csv
+cat=1 n=52 | Redundant / Strict Entailment
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat1.png
+Saved summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_summary.png
+=== Rank-diff distribution plots ===
+[and] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+[and] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/rank_diff_and_summary_q05_q95.npz
+[and] cat=1 n=2 K=256 | Redundant / Strict Entailment
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat1.png
+[or] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+[or] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/rank_diff_or_summary_q05_q95.npz
+[or] cat=1 n=2 K=256 | Redundant / Strict Entailment
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat1.png
+Done.
+Metrics: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.csv
+TVD figures: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/
+Rank-diff AND: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/
+Rank-diff OR:  /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/

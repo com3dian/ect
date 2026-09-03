@@ -1,0 +1,8 @@
+# Local secrets (prefer reusing ../vocabulary_gen_aim1_AND/.env)
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/

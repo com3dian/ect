@@ -1,0 +1,9 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+model_id=Qwen/Qwen3.5-2B
+top_k=4096 device=cuda dtype=bfloat16
+layer_index request=12 (None → middle)
+loaded on cuda, vocab_size=248077
+n_layers=24 → using layer_index=12
+apply_final_norm=True
+cached=/home/WUR/lu087/Github/ect/src/logit_lens_aim1_AND/output/layer_12/extracted_distributions_top4096.jsonl (n=3885, todo=3885, done=0)
+distributions → /home/WUR/lu087/Github/ect/src/logit_lens_aim1_OR/output/layer_12/extracted_distributions_top4096.jsonl

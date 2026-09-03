@@ -1,0 +1,8 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+max_pairs=1000
+=== Prepare SNLI entailment pairs ===
+SNLI entailment total=190113 per_split={'validation': 3329, 'test': 3368, 'train': 183416}; wrote 1000 pairs → /home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl (capped at first 1000)
+Counts → /home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment_counts.json
+Done.
+Pairs:  /home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl
+Counts: /home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment_counts.json

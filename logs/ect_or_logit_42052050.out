@@ -1,0 +1,414 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+model_id=Qwen/Qwen3.5-2B
+cached=/home/WUR/lu087/Github/ect/src/output_logit_aim1_AND/output/extracted_distributions_top4096.jsonl (n=3885, todo=3885, done=0)
+top_k=8192 device=cuda dtype=bfloat16
+loaded on cuda, vocab_size=248077
+[1/3885] cat=1 'Transitive Verb' ∨ 'Verb' | js=0.2375 cos=0.5703
+[10/3885] cat=1 'Superlative Adjective' ∨ 'Adjective' | js=0.2702 cos=0.5160
+[20/3885] cat=1 'Definite Article' ∨ 'Determiner' | js=0.1756 cos=0.7783
+[30/3885] cat=1 'Relative Clause' ∨ 'Clause' | js=0.1328 cos=0.9468
+[40/3885] cat=1 'Exclamatory Sentence' ∨ 'Sentence' | js=0.3143 cos=0.4968
+[50/3885] cat=1 'Active Voice' ∨ 'Voice' | js=0.2494 cos=0.6562
+[60/3885] cat=1 'Sleet' ∨ 'Precipitation' | js=0.1158 cos=0.9875
+[70/3885] cat=1 'Cold Front' ∨ 'Front' | js=0.2297 cos=0.8804
+[80/3885] cat=1 'Haze' ∨ 'Visibility Condition' | js=0.1526 cos=0.9376
+[90/3885] cat=1 'Macroburst' ∨ 'Downburst' | js=0.0505 cos=0.9611
+[100/3885] cat=1 'Sun Dog' ∨ 'Halo' | js=0.2453 cos=0.6755
+[110/3885] cat=1 'Hydrothermal Vent' ∨ 'Seafloor Feature' | js=0.0907 cos=0.9731
+[120/3885] cat=1 'Oxygen Minimum Zone' ∨ 'Oceanic Layer' | js=0.0748 cos=0.9830
+[130/3885] cat=1 'Fringing Reef' ∨ 'Coral Reef Structure' | js=0.0931 cos=0.9648
+[140/3885] cat=1 'Bathyal Zone' ∨ 'Deep Marine Region' | js=0.0674 cos=0.9922
+[150/3885] cat=1 'Mediterranean Water' ∨ 'Intermediate Water Mass' | js=0.1181 cos=0.9735
+[160/3885] cat=1 'Lead' ∨ 'Post-transition metal' | js=0.1857 cos=0.9528
+[170/3885] cat=1 'Phosphorus' ∨ 'Pnictogen' | js=0.2351 cos=0.9108
+[180/3885] cat=1 'Potassium' ∨ 'Alkali metal' | js=0.2585 cos=0.9481
+[190/3885] cat=1 'Titanium' ∨ 'Transition metal' | js=0.2501 cos=0.8956
+[200/3885] cat=1 'Tin' ∨ 'Post-transition metal' | js=0.2153 cos=0.9730
+[210/3885] cat=1 'Whimper' ∨ 'Cry' | js=0.2391 cos=0.9149
+[220/3885] cat=1 'Watery Eyes' ∨ 'Crying' | js=0.1082 cos=0.8870
+[230/3885] cat=1 'Eye Roll' ∨ 'Dismissive Expression' | js=0.1147 cos=0.9200
+[240/3885] cat=1 'Closed Mouth Smile' ∨ 'Smile' | js=0.2708 cos=0.7429
+[250/3885] cat=1 'Angry Glare' ∨ 'Glare' | js=0.1618 cos=0.9437
+[260/3885] cat=1 'Corporate Counsel' ∨ 'Attorney' | js=0.2017 cos=0.7847
+[270/3885] cat=1 'Indictment' ∨ 'Charging Document' | js=0.0769 cos=0.9469
+[280/3885] cat=1 'Subpoena Duces Tecum' ∨ 'Subpoena' | js=0.4311 cos=0.4980
+[290/3885] cat=1 'Will' ∨ 'Testamentary Document' | js=0.0584 cos=0.9596
+[300/3885] cat=1 'Arbitrator' ∨ 'ADR Professional' | js=0.0539 cos=0.9849
+[310/3885] cat=1 'Blue-Green' ∨ 'Tertiary Color' | js=0.2555 cos=0.5927
+[320/3885] cat=1 'Cool Colors' ∨ 'Color Temperature' | js=0.2839 cos=0.7197
+[330/3885] cat=1 'RYB Model' ∨ 'Color Model' | js=0.1216 cos=0.9651
+[340/3885] cat=1 'Pastel Colors' ∨ 'Color Classification' | js=0.3631 cos=0.5333
+[350/3885] cat=1 'Blue-Orange' ∨ 'Complementary Pair' | js=0.2320 cos=0.8072
+[360/3885] cat=1 'Escape wheel' ∨ 'Gear' | js=0.1337 cos=0.9304
+[370/3885] cat=1 'Cannon pinion' ∨ 'Gear' | js=0.2532 cos=0.5742
+[380/3885] cat=1 'Release lever' ∨ 'Lever' | js=0.0860 cos=0.9645
+[390/3885] cat=1 'Snail' ∨ 'Cam' | js=0.2303 cos=0.9430
+[400/3885] cat=1 'Train' ∨ 'Mechanism' | js=0.2793 cos=0.9533
+[410/3885] cat=1 'Bassoon' ∨ 'Woodwind Instrument' | js=0.0990 cos=0.9622
+[420/3885] cat=1 'Snare Drum' ∨ 'Percussion Instrument' | js=0.0860 cos=0.9580
+[430/3885] cat=1 'Valve' ∨ 'Trumpet' | js=0.1835 cos=0.9598
+[440/3885] cat=1 'Hammers' ∨ 'Piano' | js=0.2003 cos=0.9640
+[450/3885] cat=1 'Resonance' ∨ 'Acoustic Property' | js=0.3775 cos=0.8303
+[460/3885] cat=1 'Sternum' ∨ 'Thoracic Bone' | js=0.1195 cos=0.9729
+[470/3885] cat=1 'Hyoid' ∨ 'Neck Bone' | js=0.1122 cos=0.9748
+[480/3885] cat=1 'Levator Scapulae' ∨ 'Neck Muscle' | js=0.2896 cos=0.8588
+[490/3885] cat=1 'Intercostals' ∨ 'Thoracic Muscle' | js=0.1395 cos=0.9651
+[500/3885] cat=1 'Biceps Femoris' ∨ 'Thigh Muscle' | js=0.3925 cos=0.5141
+[510/3885] cat=1 'Flood Irrigation' ∨ 'Watering Method' | js=0.1539 cos=0.9614
+[520/3885] cat=1 'Long Day' ∨ 'Photoperiod' | js=0.1802 cos=0.9739
+[530/3885] cat=1 'Sepal' ∨ 'Flower Part' | js=0.1852 cos=0.8875
+[540/3885] cat=1 'Cover Crop' ∨ 'Field Management' | js=0.2586 cos=0.7053
+[550/3885] cat=1 'Nutrient Film' ∨ 'Hydroponic Technique' | js=0.1722 cos=0.9495
+[560/3885] cat=1 'Leaf vein' ∨ 'Leaf' | js=0.2617 cos=0.6652
+[570/3885] cat=1 'Tuber' ∨ 'Stem' | js=0.2372 cos=0.7014
+[580/3885] cat=1 'Tepal' ∨ 'Flower perianth' | js=0.0833 cos=0.9385
+[590/3885] cat=1 'Cotyledon' ∨ 'Seed' | js=0.1749 cos=0.9724
+[600/3885] cat=1 'Companion cell' ∨ 'Phloem' | js=0.2078 cos=0.9508
+[610/3885] cat=1 'Pentagon' ∨ 'Polygon' | js=0.0758 cos=0.9431
+[620/3885] cat=1 'Diameter' ∨ 'Circle' | js=0.2900 cos=0.9640
+[630/3885] cat=1 'Obtuse Angle' ∨ 'Angle' | js=0.2353 cos=0.7758
+[640/3885] cat=1 'Cube' ∨ 'Polyhedron' | js=0.1402 cos=0.9752
+[650/3885] cat=1 'Vertex' ∨ 'Polyhedron' | js=0.1800 cos=0.9734
+[660/3885] cat=1 'Natural Number' ∨ 'Integer' | js=0.1269 cos=0.9811
+[670/3885] cat=1 'Odd Multiple' ∨ 'Multiple' | js=0.1681 cos=0.8016
+[680/3885] cat=1 'Highly Composite Number' ∨ 'Composite Number' | js=0.1138 cos=0.8441
+[690/3885] cat=1 'Fermat Prime' ∨ 'Prime Number' | js=0.0884 cos=0.8642
+[700/3885] cat=1 'Electron' ∨ 'Lepton' | js=0.1353 cos=0.9752
+[710/3885] cat=1 'Bottom quark' ∨ 'Quark' | js=0.0896 cos=0.9692
+[720/3885] cat=1 'Higgs boson' ∨ 'Scalar boson' | js=0.0825 cos=0.8810
+[730/3885] cat=1 'Superconductor' ∨ 'Phase of matter' | js=0.1051 cos=0.9644
+[740/3885] cat=1 'Dirac fermion' ∨ 'Fermion' | js=0.0793 cos=0.8927
+[750/3885] cat=1 'Peregrine Falcon' ∨ 'Falcon' | js=0.0992 cos=0.9741
+[760/3885] cat=1 'Tawny Frogmouth' ∨ 'Frogmouth' | js=0.0888 cos=0.9751
+[770/3885] cat=1 'Sapsucker' ∨ 'Woodpecker' | js=0.0960 cos=0.9796
+[780/3885] cat=1 'Treecreeper' ∨ 'Passerine' | js=0.0856 cos=0.9862
+[790/3885] cat=1 'Alula' ∨ 'Wing Feather' | js=0.0806 cos=0.9851
+[800/3885] cat=2 'watering can' ∨ 'potted plants' | js=0.1044 cos=0.9474
+[810/3885] cat=2 'outdoor rug' ∨ 'patio furniture' | js=0.1283 cos=0.8032
+[820/3885] cat=2 'bonsai tree' ∨ 'pruning wire' | js=0.1381 cos=0.7643
+[830/3885] cat=2 'hand fork' ∨ 'weed removal' | js=0.1711 cos=0.7893
+[840/3885] cat=2 'outdoor cooler' ∨ 'drink holders' | js=0.0968 cos=0.8771
+[850/3885] cat=2 'espresso' ∨ 'latte' | js=0.1267 cos=0.8000
+[860/3885] cat=2 'croissant' ∨ 'butter' | js=0.1902 cos=0.8032
+[870/3885] cat=2 'icing bag' ∨ 'frosting' | js=0.1565 cos=0.6831
+[880/3885] cat=2 'buttery croissant' ∨ 'flake' | js=0.1224 cos=0.7742
+[890/3885] cat=2 'powdered sugar' ∨ 'scone' | js=0.1621 cos=0.7440
+[900/3885] cat=2 'bus stop' ∨ 'ticket machine' | js=0.1186 cos=0.9138
+[910/3885] cat=2 'bicycle rack' ∨ 'lock' | js=0.1564 cos=0.7658
+[920/3885] cat=2 'bus shelter' ∨ 'timetable' | js=0.1142 cos=0.8832
+[930/3885] cat=2 'traffic circle' ∨ 'yield line' | js=0.1134 cos=0.7604
+[940/3885] cat=2 'traffic light' ∨ 'countdown timer' | js=0.1160 cos=0.8168
+[950/3885] cat=2 'pencil' ∨ 'eraser' | js=0.0983 cos=0.9302
+[960/3885] cat=2 'desk' ∨ 'chair' | js=0.0934 cos=0.9610
+[970/3885] cat=2 'pencil sharpener' ∨ 'wood shavings' | js=0.1698 cos=0.7599
+[980/3885] cat=2 'desk organizer' ∨ 'sticky notes' | js=0.1105 cos=0.8426
+[990/3885] cat=2 'binder rings' ∨ 'loose leaf paper' | js=0.0686 cos=0.9784
+[1000/3885] cat=2 'fork' ∨ 'knife' | js=0.0766 cos=0.9607
+[1010/3885] cat=2 'colander' ∨ 'bowl' | js=0.1055 cos=0.8769
+[1020/3885] cat=2 'coffee cup' ∨ 'saucer' | js=0.1183 cos=0.8452
+[1030/3885] cat=2 'chopsticks' ∨ 'rice bowl' | js=0.1335 cos=0.8273
+[1040/3885] cat=2 'egg cup' ∨ 'spoon' | js=0.1470 cos=0.8108
+[1050/3885] cat=2 'slide' ∨ 'swing' | js=0.0582 cos=0.9871
+[1060/3885] cat=2 'marbles' ∨ 'glass' | js=0.1193 cos=0.9373
+[1070/3885] cat=2 'water gun' ∨ 'trigger' | js=0.1250 cos=0.9081
+[1080/3885] cat=2 'swing set' ∨ 'chains' | js=0.2017 cos=0.6275
+[1090/3885] cat=2 'puzzle board' ∨ 'pieces' | js=0.2097 cos=0.7134
+[1100/3885] cat=2 'sofa' ∨ 'cushion' | js=0.1103 cos=0.8728
+[1110/3885] cat=2 'throw blanket' ∨ 'sofa' | js=0.1666 cos=0.7064
+[1120/3885] cat=2 'desk chair' ∨ 'mousepad' | js=0.1624 cos=0.7462
+[1130/3885] cat=2 'rocking chair' ∨ 'glider' | js=0.1170 cos=0.8444
+[1140/3885] cat=2 'storage ottoman' ∨ 'lid' | js=0.1399 cos=0.6922
+[1150/3885] cat=2 'tennis racket' ∨ 'tennis ball' | js=0.1652 cos=0.7573
+[1160/3885] cat=2 'dumbbell' ∨ 'kettlebell' | js=0.1128 cos=0.7426
+[1170/3885] cat=2 'cricket bat' ∨ 'cricket ball' | js=0.1599 cos=0.8262
+[1180/3885] cat=2 'baseball cap' ∨ 'batting glove' | js=0.1803 cos=0.6255
+[1190/3885] cat=2 'racquetball racket' ∨ 'racquetball' | js=0.1417 cos=0.7955
+[1200/3885] cat=2 'Refrigerator' ∨ 'Freezer' | js=0.1181 cos=0.9689
+[1210/3885] cat=2 'Air Conditioner' ∨ 'Remote' | js=0.2461 cos=0.9493
+[1220/3885] cat=2 'Robot Vacuum' ∨ 'Dock' | js=0.1663 cos=0.9276
+[1230/3885] cat=2 'Sewing Machine' ∨ 'Needle' | js=0.2208 cos=0.9434
+[1240/3885] cat=2 'Sandwich Press' ∨ 'Bread' | js=0.2379 cos=0.8337
+[1250/3885] cat=2 'laundry basket' ∨ 'hamper' | js=0.0608 cos=0.8949
+[1260/3885] cat=2 'shoe boxes' ∨ 'pairs' | js=0.1655 cos=0.9366
+[1270/3885] cat=2 'liquid detergent' ∨ 'cap' | js=0.0902 cos=0.9505
+[1280/3885] cat=2 'hang dry' ∨ 'line' | js=0.0767 cos=0.9654
+[1290/3885] cat=2 'jewelry organizer' ∨ 'hooks' | js=0.3167 cos=0.3148
+[1300/3885] cat=2 'dress shirt' ∨ 'collar' | js=0.1381 cos=0.8157
+[1310/3885] cat=2 'silk tie' ∨ 'knot' | js=0.1267 cos=0.6754
+[1320/3885] cat=2 'linen shirt' ∨ 'breathable fabric' | js=0.1121 cos=0.7618
+[1330/3885] cat=2 'polyester dress' ∨ 'wrinkle free' | js=0.2400 cos=0.6472
+[1340/3885] cat=2 'linen dress' ∨ 'breathable weave' | js=0.1419 cos=0.7536
+[1350/3885] cat=2 'lettuce' ∨ 'tomato' | js=0.1488 cos=0.9123
+[1360/3885] cat=2 'cherry' ∨ 'grape' | js=0.1203 cos=0.9820
+[1370/3885] cat=2 'radish' ∨ 'turnip' | js=0.1033 cos=0.9437
+[1380/3885] cat=2 'produce sticker' ∨ 'price' | js=0.2792 cos=0.4261
+[1390/3885] cat=2 'expiration date' ∨ 'label' | js=0.0614 cos=0.9705
+[1400/3885] cat=2 'binder clip' ∨ 'folder' | js=0.1229 cos=0.8845
+[1410/3885] cat=2 'paperclip' ∨ 'binder' | js=0.1212 cos=0.8935
+[1420/3885] cat=2 'tape' ∨ 'paper' | js=0.0656 cos=0.9816
+[1430/3885] cat=2 'notebook' ∨ 'paper' | js=0.0739 cos=0.9749
+[1440/3885] cat=2 'whiteboard' ∨ 'marker' | js=0.0819 cos=0.9482
+[1450/3885] cat=2 'laptop' ∨ 'power adapter' | js=0.1537 cos=0.7901
+[1460/3885] cat=2 'ebook reader' ∨ 'charging cable' | js=0.1743 cos=0.7846
+[1470/3885] cat=2 'usb hub' ∨ 'multiport adapter' | js=0.0713 cos=0.9395
+[1480/3885] cat=2 'fitness tracker' ∨ 'step counter' | js=0.0875 cos=0.8695
+[1490/3885] cat=2 'action camera' ∨ 'mount bracket' | js=0.0915 cos=0.8825
+[1500/3885] cat=2 'takeout bag' ∨ 'receipt' | js=0.1023 cos=0.8103
+[1510/3885] cat=2 'coffee cup' ∨ 'cardboard sleeve' | js=0.1580 cos=0.7799
+[1520/3885] cat=2 'straw' ∨ 'sip lid' | js=0.0883 cos=0.8446
+[1530/3885] cat=2 'juice box' ∨ 'straw' | js=0.1637 cos=0.8511
+[1540/3885] cat=2 'driver pouch' ∨ 'order bag' | js=0.0782 cos=0.8898
+[1550/3885] cat=2 'street sign' ∨ 'pole' | js=0.0735 cos=0.9305
+[1560/3885] cat=2 'airport terminal' ∨ 'gate' | js=0.0722 cos=0.9422
+[1570/3885] cat=2 'tennis court' ∨ 'net' | js=0.1643 cos=0.7785
+[1580/3885] cat=2 'statue' ∨ 'base' | js=0.0710 cos=0.9712
+[1590/3885] cat=2 'tunnel' ∨ 'ventilation' | js=0.1918 cos=0.9078
+[1600/3885] cat=3 'Drill Shaft' ∨ 'Harrow Chain' | js=0.0967 cos=0.8803
+[1610/3885] cat=3 'Curette Hook' ∨ 'Rake Tines' | js=0.0952 cos=0.9501
+[1620/3885] cat=3 'Hemostat Ratchet' ∨ 'Threshing Floor' | js=0.0938 cos=0.9066
+[1630/3885] cat=3 'Suction Tip' ∨ 'Grain Sack Knot' | js=0.0764 cos=0.9725
+[1640/3885] cat=3 'Needle Driver Jaw' ∨ 'Pitchfork Shaft' | js=0.1366 cos=0.9299
+[1650/3885] cat=3 'vacuum distillation' ∨ 'clutch cable tension' | js=0.0870 cos=0.9529
+[1660/3885] cat=3 'aroma condensation' ∨ 'cam chain tension' | js=0.0884 cos=0.9753
+[1670/3885] cat=3 'lavender hydrodistillation' ∨ 'airbox gasket' | js=0.1317 cos=0.6938
+[1680/3885] cat=3 'cardamom steam' ∨ 'connecting rod bushing' | js=0.1261 cos=0.8767
+[1690/3885] cat=3 'cedar wood steam' ∨ 'clutch plate warping' | js=0.0797 cos=0.9569
+[1700/3885] cat=3 'Flap' ∨ 'Grain' | js=0.3487 cos=0.8910
+[1710/3885] cat=3 'Satellite' ∨ 'Brad nail' | js=0.1412 cos=0.8607
+[1720/3885] cat=3 'Throttle' ∨ 'Chisel' | js=0.2341 cos=0.9090
+[1730/3885] cat=3 'Combustor' ∨ 'Corner clamp' | js=0.0711 cos=0.9251
+[1740/3885] cat=3 'Bulkhead' ∨ 'Kerf' | js=0.1088 cos=0.9807
+[1750/3885] cat=3 'Scribe' ∨ 'Kickflip' | js=0.1575 cos=0.9514
+[1760/3885] cat=3 'Flourish' ∨ 'Park' | js=0.1862 cos=0.9338
+[1770/3885] cat=3 'Serif' ∨ 'Grab' | js=0.2382 cos=0.9546
+[1780/3885] cat=3 'Dip' ∨ 'Ramp' | js=0.3639 cos=0.8693
+[1790/3885] cat=3 'Acid' ∨ 'Manual' | js=0.4810 cos=0.1354
+[1800/3885] cat=3 'marine snow' ∨ 'desert crust' | js=0.0803 cos=0.9795
+[1810/3885] cat=3 'marine detritus' ∨ 'sandstorm' | js=0.1004 cos=0.9350
+[1820/3885] cat=3 'benthic invertebrate' ∨ 'sunbaked clay' | js=0.1269 cos=0.8709
+[1830/3885] cat=3 'marine sediment' ∨ 'dry oasis' | js=0.1288 cos=0.9261
+[1840/3885] cat=3 'abyssal barnacle' ∨ 'desert floodplain' | js=0.1217 cos=0.9004
+[1850/3885] cat=3 'Laparoscope lens' ∨ 'Cedar planks' | js=0.1165 cos=0.9398
+[1860/3885] cat=3 'Surgical scissors' ∨ 'Willow branch' | js=0.1154 cos=0.9589
+[1870/3885] cat=3 'Surgical clamp' ∨ 'Wrought steel' | js=0.1240 cos=0.9345
+[1880/3885] cat=3 'Saw tooth' ∨ 'Leather patch' | js=0.0791 cos=0.9744
+[1890/3885] cat=3 'Cutter jaw' ∨ 'Cedar dust' | js=0.0714 cos=0.9840
+[1900/3885] cat=3 'Oshi Press' ∨ 'Draw Length' | js=0.1247 cos=0.9264
+[1910/3885] cat=3 'Nori Wrap' ∨ 'Solder Seam' | js=0.0954 cos=0.8610
+[1920/3885] cat=3 'Cut Diagonal' ∨ 'Punch Slot' | js=0.0872 cos=0.9711
+[1930/3885] cat=3 'Plate Neatly' ∨ 'Forge Weld' | js=0.1741 cos=0.9330
+[1940/3885] cat=3 'Freeze Short' ∨ 'Bevel Tip' | js=0.1401 cos=0.9568
+[1950/3885] cat=3 'honeycomb' ∨ 'sandboxing' | js=0.1343 cos=0.9017
+[1960/3885] cat=3 'drone brood' ∨ 'vulnerability scanning' | js=0.0764 cos=0.9473
+[1970/3885] cat=3 'outer cover' ∨ 'virtual private network' | js=0.0520 cos=0.9812
+[1980/3885] cat=3 'syrup' ∨ 'botnet' | js=0.0900 cos=0.9274
+[1990/3885] cat=3 'reducer' ∨ 'proxy server' | js=0.0684 cos=0.8679
+[2000/3885] cat=3 'En Passant' ∨ 'Detonator' | js=0.2481 cos=0.9428
+[2010/3885] cat=3 'Prophylaxis' ∨ 'Wedge' | js=0.1870 cos=0.9306
+[2020/3885] cat=3 'Static Weakness' ∨ 'Initiation System' | js=0.1058 cos=0.9742
+[2030/3885] cat=3 'Bishop Pair' ∨ 'Loading Truck' | js=0.0778 cos=0.9682
+[2040/3885] cat=3 'Isolated Pawn' ∨ 'Slot Drill' | js=0.1483 cos=0.8802
+[2050/3885] cat=3 'flute' ∨ 'muffler' | js=0.1330 cos=0.8865
+[2060/3885] cat=3 'clarinet' ∨ 'transmission gear' | js=0.1770 cos=0.8310
+[2070/3885] cat=3 'vibraphone' ∨ 'stabilizer bar' | js=0.1696 cos=0.7363
+[2080/3885] cat=3 'straight trumpet' ∨ 'catalytic converter' | js=0.1791 cos=0.7758
+[2090/3885] cat=3 'maple wood violin' ∨ 'window regulator' | js=0.1573 cos=0.7733
+[2100/3885] cat=3 'Cross references' ∨ 'slipstream effect' | js=0.1248 cos=0.9708
+[2110/3885] cat=3 'Metadata' ∨ 'downforce settings' | js=0.2162 cos=0.9797
+[2120/3885] cat=3 'Authority file' ∨ 'pit stop timer' | js=0.0855 cos=0.9320
+[2130/3885] cat=3 'Classification code' ∨ 'suspension stiffness' | js=0.1151 cos=0.9699
+[2140/3885] cat=3 'Index entry' ∨ 'pit wall radio' | js=0.0685 cos=0.9561
+[2150/3885] cat=3 'Brocade jacket' ∨ 'Air tank' | js=0.1167 cos=0.8331
+[2160/3885] cat=3 'Velvet choker' ∨ 'Octopus valve' | js=0.1400 cos=0.7657
+[2170/3885] cat=3 'Feathered headpiece' ∨ 'Compass' | js=0.0692 cos=0.9877
+[2180/3885] cat=3 'Satin cape' ∨ 'Fin strap' | js=0.1542 cos=0.6956
+[2190/3885] cat=3 'Satin ribbon' ∨ 'Quick release' | js=0.2144 cos=0.5533
+[2200/3885] cat=3 'bone china' ∨ 'pressure suit' | js=0.1628 cos=0.8994
+[2210/3885] cat=3 'steeping vessel' ∨ 'gas metal arc' | js=0.1253 cos=0.9127
+[2220/3885] cat=3 'tea ritual' ∨ 'welding rod' | js=0.1897 cos=0.8094
+[2230/3885] cat=3 'bone china cup' ∨ 'pressure vessel' | js=0.1290 cos=0.8170
+[2240/3885] cat=3 'tea estate' ∨ 'welding position' | js=0.1712 cos=0.8421
+[2250/3885] cat=3 'hydraulic press' ∨ 'ivory damask' | js=0.1490 cos=0.8075
+[2260/3885] cat=3 'electric generator' ∨ 'baby alpaca' | js=0.1966 cos=0.8901
+[2270/3885] cat=3 'tracked treads' ∨ 'stiff organza' | js=0.1049 cos=0.8695
+[2280/3885] cat=3 'bucket wheel' ∨ 'crushed velvet' | js=0.0847 cos=0.9215
+[2290/3885] cat=3 'crane jib' ∨ 'silk jacquard' | js=0.1740 cos=0.7178
+[2300/3885] cat=3 'pointe shoes' ∨ 'blasting charge' | js=0.1468 cos=0.8636
+[2310/3885] cat=3 'en pointe' ∨ 'crusher chamber' | js=0.1302 cos=0.8834
+[2320/3885] cat=3 'pirouette' ∨ 'quarry truck' | js=0.1502 cos=0.7165
+[2330/3885] cat=3 'glissade' ∨ 'quarry cart' | js=0.1198 cos=0.7745
+[2340/3885] cat=3 'relevé' ∨ 'rock splitter' | js=0.0733 cos=0.9450
+[2350/3885] cat=4 'Stoicism' ∨ 'Macarons' | js=0.2047 cos=0.8117
+[2360/3885] cat=4 'Absurdism' ∨ 'Churros' | js=0.1637 cos=0.9438
+[2370/3885] cat=4 'Structuralism' ∨ 'Truffles' | js=0.0984 cos=0.9758
+[2380/3885] cat=4 'Fatalism' ∨ 'Brownies' | js=0.1754 cos=0.9198
+[2390/3885] cat=4 'Compatibilism' ∨ 'Syrups' | js=0.1733 cos=0.9370
+[2400/3885] cat=4 'liquid earth crust' ∨ 'crystalline cloud formation' | js=0.0560 cos=0.9886
+[2410/3885] cat=4 'liquid ground surface' ∨ 'crystalline air particles' | js=0.0638 cos=0.9712
+[2420/3885] cat=4 'floating landmass fragments' ∨ 'melting structural beams' | js=0.0675 cos=0.9918
+[2430/3885] cat=4 'melting landscape contours' ∨ 'dream spatial distortions' | js=0.0891 cos=0.9723
+[2440/3885] cat=4 'liquid wind currents' ∨ 'crystalline storm fronts' | js=0.0625 cos=0.9841
+[2450/3885] cat=4 'Majoritarian Mandarin' ∨ 'Minority Mango' | js=0.0773 cos=0.9649
+[2460/3885] cat=4 'Existentialist Eggplant' ∨ 'Absurdist Asparagus' | js=0.1295 cos=0.8369
+[2470/3885] cat=4 'Majoritarian Melon' ∨ 'Minority Macadamia' | js=0.0716 cos=0.9738
+[2480/3885] cat=4 'Existentialist Enokitake' ∨ 'Absurdist Artichoke' | js=0.1029 cos=0.8602
+[2490/3885] cat=4 'Majoritarian Mango' ∨ 'Minority Mandarin' | js=0.1115 cos=0.9700
+[2500/3885] cat=4 'crayon wax gear shift' ∨ 'nap time dashboard clock' | js=0.1302 cos=0.8455
+[2510/3885] cat=4 'sticker panel fender' ∨ 'marble gear box' | js=0.1498 cos=0.6919
+[2520/3885] cat=4 'sandbox torque converter' ∨ 'juice box water pump' | js=0.1360 cos=0.7330
+[2530/3885] cat=4 'blanket fort roll cage' ∨ 'playground slide shock mount' | js=0.1432 cos=0.7675
+[2540/3885] cat=4 'crayon wax fuel injector' ∨ 'nap time starter motor' | js=0.1339 cos=0.8589
+[2550/3885] cat=4 'Hannibal' ∨ 'vacuum decay' | js=0.2377 cos=0.7532
+[2560/3885] cat=4 'Marcus Aurelius' ∨ 'magnetic field' | js=0.1511 cos=0.9245
+[2570/3885] cat=4 'Laozi' ∨ 'quantum computer' | js=0.1629 cos=0.8838
+[2580/3885] cat=4 'Eratosthenes' ∨ 'proton' | js=0.2532 cos=0.7405
+[2590/3885] cat=4 'Pliny' ∨ 'gravity' | js=0.2903 cos=0.9254
+[2600/3885] cat=4 'Cartesian Crumb' ∨ 'Spinozan Sugar' | js=0.1000 cos=0.9609
+[2610/3885] cat=4 'Solipsist Sorbet' ∨ 'Nihilist Nectar' | js=0.1090 cos=0.8596
+[2620/3885] cat=4 'Feminist Fudge' ∨ 'Queer Quince' | js=0.1319 cos=0.8741
+[2630/3885] cat=4 'Nihilist Nectar' ∨ 'Existentialist Espresso' | js=0.1050 cos=0.9412
+[2640/3885] cat=4 'Kierkegaard Kugel' ∨ 'Wittgenstein Wafer' | js=0.1394 cos=0.7268
+[2650/3885] cat=4 'Black Hole' ∨ 'taking out trash' | js=0.1489 cos=0.7758
+[2660/3885] cat=4 'Pulsar' ∨ 'sorting mail' | js=0.0686 cos=0.9581
+[2670/3885] cat=4 'Open Cluster' ∨ 'folding towels' | js=0.1333 cos=0.8924
+[2680/3885] cat=4 'Oort Cloud' ∨ 'dusting ceilings' | js=0.0916 cos=0.9527
+[2690/3885] cat=4 'Lagoon Nebula' ∨ 'dusting chandeliers' | js=0.1168 cos=0.9444
+[2700/3885] cat=4 'paper airplane' ∨ 'hovercraft' | js=0.1868 cos=0.7662
+[2710/3885] cat=4 'cookie jar' ∨ 'comet chaser' | js=0.1257 cos=0.8368
+[2720/3885] cat=4 'bike chain' ∨ 'nostalgia boat' | js=0.1862 cos=0.7465
+[2730/3885] cat=4 'mud pie' ∨ 'fortune ferry' | js=0.1078 cos=0.8279
+[2740/3885] cat=4 'harmonica' ∨ 'heart hovercraft' | js=0.1413 cos=0.8487
+[2750/3885] cat=4 'Hippocrates' ∨ 'Terraforming Atmosphere Process' | js=0.1685 cos=0.9643
+[2760/3885] cat=4 'Herodotus' ∨ 'Dark Matter Detection Grid' | js=0.1147 cos=0.9322
+[2770/3885] cat=4 'Lucretius' ∨ 'Dark Energy Survey' | js=0.1888 cos=0.8874
+[2780/3885] cat=4 'Archytas' ∨ 'Plasma Containment Field' | js=0.1407 cos=0.9654
+[2790/3885] cat=4 'Protagoras' ∨ 'Relativistic Truth Metric' | js=0.0971 cos=0.8889
+[2800/3885] cat=4 'Dualism' ∨ 'Panna cotta' | js=0.2107 cos=0.6442
+[2810/3885] cat=4 'Idealism' ∨ 'Ganache' | js=0.1711 cos=0.7409
+[2820/3885] cat=4 'Epicureanism' ∨ 'Jelly' | js=0.1910 cos=0.9613
+[2830/3885] cat=4 'Altruism' ∨ 'Madeleine' | js=0.2063 cos=0.8499
+[2840/3885] cat=4 'Functionalism' ∨ 'Genoise' | js=0.1266 cos=0.8965
+[2850/3885] cat=4 'Moon' ∨ 'sweeping patios' | js=0.0906 cos=0.9549
+[2860/3885] cat=4 'Triangulum' ∨ 'wiping mirrors' | js=0.0854 cos=0.9619
+[2870/3885] cat=4 'Asteroid' ∨ 'polishing doorknobs' | js=0.1035 cos=0.9525
+[2880/3885] cat=4 'Blue Supergiant' ∨ 'cleaning filters' | js=0.1121 cos=0.9241
+[2890/3885] cat=4 'Virgo' ∨ 'trimming grass' | js=0.1682 cos=0.9436
+[2900/3885] cat=4 'Bedtime Story Dashboard' ∨ 'Whispering Steering Wheel' | js=0.0953 cos=0.9418
+[2910/3885] cat=4 'Doodle Bug Body' ∨ 'Marker Ink Paint' | js=0.0790 cos=0.9664
+[2920/3885] cat=4 'Nightstand Drawer Engine' ∨ 'Moonlight Headlamps' | js=0.2348 cos=0.7939
+[2930/3885] cat=4 'Rocking Horse Gallop' ∨ 'Stable Barn Garage' | js=0.1107 cos=0.9121
+[2940/3885] cat=4 'Nightlight Glow Core' ∨ 'Star Map Dashboard' | js=0.1186 cos=0.9529
+[2950/3885] cat=4 'Hypatia' ∨ 'Dark Matter Harvest' | js=0.1810 cos=0.9676
+[2960/3885] cat=4 'Socrates' ∨ 'Memory Archive' | js=0.1299 cos=0.9730
+[2970/3885] cat=4 'Pericles' ∨ 'Plasma Drive' | js=0.1861 cos=0.9119
+[2980/3885] cat=4 'Plato' ∨ 'Ideal Form' | js=0.2042 cos=0.9536
+[2990/3885] cat=4 'Pythagoras' ∨ 'Musical Harmony' | js=0.1494 cos=0.9312
+[3000/3885] cat=4 'Galen' ∨ 'Asteroid Mining Colony' | js=0.1175 cos=0.9539
+[3010/3885] cat=4 'Marcus Aurelius' ∨ 'Laser Cooling Protocol' | js=0.1401 cos=0.9271
+[3020/3885] cat=4 'Leonidas' ∨ 'Relativistic Velocity Thrust' | js=0.1352 cos=0.9808
+[3030/3885] cat=4 'Antalcidas' ∨ 'Magnetar Flare Prediction' | js=0.0774 cos=0.9422
+[3040/3885] cat=4 'Hyperides' ∨ 'Fault Tolerance Matrix' | js=0.0661 cos=0.9691
+[3050/3885] cat=4 'Idealism' ∨ 'Pudding' | js=0.1482 cos=0.9401
+[3060/3885] cat=4 'Determinism' ∨ 'Cannoli' | js=0.2770 cos=0.5635
+[3070/3885] cat=4 'Confucian Order' ∨ 'Sachertorte' | js=0.1693 cos=0.8897
+[3080/3885] cat=4 'Solipsistic Dream' ∨ 'Strudel' | js=0.0842 cos=0.9582
+[3090/3885] cat=4 'Saturn' ∨ 'dusting rings' | js=0.2098 cos=0.9264
+[3100/3885] cat=4 'Galaxy' ∨ 'mending spirals' | js=0.0750 cos=0.9327
+[3110/3885] cat=4 'Milky Way' ∨ 'dusting spiral' | js=0.1523 cos=0.8003
+[3120/3885] cat=4 'Red giant' ∨ 'polishing glow' | js=0.1300 cos=0.8208
+[3130/3885] cat=4 'Mercury surface' ∨ 'scrubbing rock' | js=0.0688 cos=0.9435
+[3140/3885] cat=5 'absolute certainty' ∨ 'radical uncertainty' | js=0.0733 cos=0.9389
+[3150/3885] cat=5 'certain outcome' ∨ 'doubtful result' | js=0.1071 cos=0.8575
+[3160/3885] cat=5 'certain knowledge' ∨ 'radical doubt' | js=0.1296 cos=0.9091
+[3170/3885] cat=5 'concrete data' ∨ 'abstract concept' | js=0.2098 cos=0.8960
+[3180/3885] cat=5 'definite coordinate' ∨ 'unknown location' | js=0.1251 cos=0.8112
+[3190/3885] cat=5 'vibrant cell' ∨ 'dead tissue' | js=0.0565 cos=0.9779
+[3200/3885] cat=5 'thriving colony' ∨ 'extinct species' | js=0.0860 cos=0.9806
+[3210/3885] cat=5 'fertile ovum' ∨ 'sterile fragment' | js=0.0869 cos=0.9334
+[3220/3885] cat=5 'active microbe' ∨ 'sterile agar' | js=0.0942 cos=0.9794
+[3230/3885] cat=5 'growing fungus' ∨ 'barren substrate' | js=0.0533 cos=0.9766
+[3240/3885] cat=5 'past' ∨ 'future' | js=0.1030 cos=0.8887
+[3250/3885] cat=5 'fixed' ∨ 'mutable' | js=0.2789 cos=0.9693
+[3260/3885] cat=5 'fixed' ∨ 'shifting' | js=0.2436 cos=0.9439
+[3270/3885] cat=5 'static' ∨ 'evolving' | js=0.3258 cos=0.8160
+[3280/3885] cat=5 'determined' ∨ 'indeterminate' | js=0.1542 cos=0.9839
+[3290/3885] cat=5 'Infinite Weight' ∨ 'Absolute Weightlessness' | js=0.2035 cos=0.8206
+[3300/3885] cat=5 'Gravitational Well' ∨ 'Anti-Gravity Field' | js=0.0586 cos=0.9674
+[3310/3885] cat=5 'Crushing Depth' ∨ 'Weightless Summit' | js=0.2437 cos=0.7668
+[3320/3885] cat=5 'Massive Comet' ∨ 'Weightless Meteor' | js=0.0808 cos=0.9393
+[3330/3885] cat=5 'Gravitational Bond' ∨ 'Anti-Gravity Release' | js=0.1150 cos=0.9593
+[3340/3885] cat=5 'soaking saturation' ∨ 'absolute aridity' | js=0.0738 cos=0.9937
+[3350/3885] cat=5 'liquid pool' ∨ 'dry well' | js=0.0477 cos=0.9662
+[3360/3885] cat=5 'rain-soaked moss' ∨ 'sun-bleached rock' | js=0.0899 cos=0.9456
+[3370/3885] cat=5 'lacustrine depth' ∨ 'cracked bed' | js=0.1496 cos=0.7978
+[3380/3885] cat=5 'saturated atmosphere' ∨ 'arid sky' | js=0.0660 cos=0.9766
+[3390/3885] cat=5 'solid' ∨ 'gas' | js=0.0390 cos=0.9831
+[3400/3885] cat=5 'liquid' ∨ 'void' | js=0.0525 cos=0.9723
+[3410/3885] cat=5 'solid' ∨ 'vapor' | js=0.0564 cos=0.9855
+[3420/3885] cat=5 'vaporization' ∨ 'condensation' | js=0.1573 cos=0.9539
+[3430/3885] cat=5 'quantum' ∨ 'solidifying' | js=0.1296 cos=0.9789
+[3440/3885] cat=5 'Crystalline lattice' ∨ 'Liquid vapor' | js=0.1200 cos=0.9782
+[3450/3885] cat=5 'Frozen instant' ∨ 'Fluid motion' | js=0.0875 cos=0.9879
+[3460/3885] cat=5 'Steel beam' ∨ 'Liquid metal' | js=0.0741 cos=0.9643
+[3470/3885] cat=5 'Crystalline solid' ∨ 'Gaseous vapor' | js=0.0478 cos=0.9914
+[3480/3885] cat=5 'Solid crystal' ∨ 'Dissolving salt' | js=0.0417 cos=0.9827
+[3490/3885] cat=5 'square' ∨ 'spheres' | js=0.1975 cos=0.8359
+[3500/3885] cat=5 'parallel' ∨ 'intersecting' | js=0.1448 cos=0.9762
+[3510/3885] cat=5 'smooth' ∨ 'jagged' | js=0.2761 cos=0.9279
+[3520/3885] cat=5 'metric' ∨ 'topological' | js=0.1345 cos=0.9587
+[3530/3885] cat=5 'compact' ∨ 'infinite' | js=0.2153 cos=0.9803
+[3540/3885] cat=5 'Cryogenic' ∨ 'Incandescent' | js=0.1858 cos=0.9490
+[3550/3885] cat=5 'Negative Temperature' ∨ 'Positive Temperature' | js=0.1839 cos=0.8299
+[3560/3885] cat=5 'Heat Flux' ∨ 'Heat Block' | js=0.2035 cos=0.9343
+[3570/3885] cat=5 'Thermal Quench' ∨ 'Thermal Runaway' | js=0.0623 cos=0.9917
+[3580/3885] cat=5 'Thermal Conductance' ∨ 'Thermal Resistivity' | js=0.4028 cos=0.7179
+[3590/3885] cat=5 'Tautology' ∨ 'Contradiction' | js=0.1036 cos=0.9433
+[3600/3885] cat=5 'Affirmative' ∨ 'Negative' | js=0.3973 cos=0.6353
+[3610/3885] cat=5 'Explicit' ∨ 'Implicit' | js=0.3958 cos=0.7217
+[3620/3885] cat=5 'Truth' ∨ 'Falsity' | js=0.3874 cos=0.7332
+[3630/3885] cat=5 'Satisfiability' ∨ 'Unsatisfiability' | js=0.3261 cos=0.7573
+[3640/3885] cat=5 'visible' ∨ 'invisible' | js=0.2692 cos=0.8784
+[3650/3885] cat=5 'see-through' ∨ 'solid' | js=0.1311 cos=0.9346
+[3660/3885] cat=5 'exposed' ∨ 'buried' | js=0.2845 cos=0.9316
+[3670/3885] cat=5 'clear' ∨ 'smudged' | js=0.2994 cos=0.9637
+[3680/3885] cat=5 'exposed' ∨ 'wrapped' | js=0.3088 cos=0.9291
+[3690/3885] cat=5 'Chaotic Drift' ∨ 'Fixed Point' | js=0.1537 cos=0.9384
+[3700/3885] cat=5 'Scattered Trajectory' ∨ 'Single Path' | js=0.1510 cos=0.9627
+[3710/3885] cat=5 'Relentless Pursuit' ∨ 'Stationary Target' | js=0.1242 cos=0.9705
+[3720/3885] cat=5 'Unbound Journey' ∨ 'Fixed Destination' | js=0.2582 cos=0.8549
+[3730/3885] cat=5 'Unrestrained Expansion' ∨ 'Confined Compression' | js=0.2050 cos=0.9699
+[3740/3885] cat=5 'Hydrostatic force' ∨ 'Vacuum pull' | js=0.0709 cos=0.9828
+[3750/3885] cat=5 'Material compression' ∨ 'Structural expansion' | js=0.1071 cos=0.9851
+[3760/3885] cat=5 'Molecular impact' ∨ 'Void reflection' | js=0.0833 cos=0.9756
+[3770/3885] cat=5 'Bulk fluid' ∨ 'Void space' | js=0.0641 cos=0.9393
+[3780/3885] cat=5 'Atomic packing' ∨ 'Void dispersion' | js=0.1393 cos=0.9262
+[3790/3885] cat=5 'Null Signal' ∨ 'Full Spectrum' | js=0.1468 cos=0.9548
+[3800/3885] cat=5 'Null Frequency' ∨ 'Harmonic Overtone' | js=0.0517 cos=0.9859
+[3810/3885] cat=5 'Silent Motion' ∨ 'Violent Vibration' | js=0.2130 cos=0.9740
+[3820/3885] cat=5 'Muffled Footsteps' ∨ 'Stomping March' | js=0.1755 cos=0.9328
+[3830/3885] cat=5 'Null Frequency' ∨ 'Bass Drop' | js=0.0612 cos=0.9857
+[3840/3885] cat=5 'thick matter' ∨ 'thin absence' | js=0.0781 cos=0.9593
+[3850/3885] cat=5 'heavy weight' ∨ 'zero mass' | js=0.0696 cos=0.9721
+[3860/3885] cat=5 'packed grains' ∨ 'vacant nest' | js=0.1171 cos=0.9442
+[3870/3885] cat=5 'solid wall' ∨ 'open door' | js=0.0688 cos=0.9426
+[3880/3885] cat=5 'heavy brick' ∨ 'thin mist' | js=0.1008 cos=0.9582
+[3885/3885] cat=5 'heavy core' ∨ 'empty shell' | js=0.0368 cos=0.9850
+Wrote distributions → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/extracted_distributions_top8192.jsonl
+Wrote metrics JSONL → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/composition_metrics_or_max.jsonl
+Wrote metrics CSV   → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/composition_metrics_or_max.csv
+Done. Distributions: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/extracted_distributions_top8192.jsonl
+Metrics CSV: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/composition_metrics_or_max.csv
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/extracted_distributions_top8192.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=8192 | Redundant / Strict Entailment
+cat=2 n=795 K=8192 | Typical Composition
+cat=3 n=750 K=8192 | Uncommon / Orthogonal
+cat=4 n=795 K=8192 | Surreal / Out-of-Distribution
+cat=5 n=746 K=8192 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat5.png
+Rank-diff summary: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/rank_diff_summary_q05_q95.npz
+Rank-diff figures: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat*.png

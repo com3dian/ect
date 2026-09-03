@@ -1,0 +1,8 @@
+# Python dependencies for Aim-3 tropical geometry corpus generation.
+# Install from this directory with:
+#   pip install -r requirements.txt
+#
+# Credentials: reuse src/vocabulary_gen_aim1_AND/.env (WILLMA_API_KEY).
+
+openai>=1.40.0
+python-dotenv>=1.0.0

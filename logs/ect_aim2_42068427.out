@@ -1,0 +1,8 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Prepare NLI pairs ===
+Wrote 5 pairs → /home/WUR/lu087/Github/ect/src/aim2_entailment/data/nli_pairs.jsonl
+=== Extract + patch ===
+model_id=Qwen/Qwen3.5-2B
+pairs=/home/WUR/lu087/Github/ect/src/aim2_entailment/data/nli_pairs.jsonl (n=2)
+layers=[14] alphas=[0.5] top_k=1000
+extract seed_001 L=14 …

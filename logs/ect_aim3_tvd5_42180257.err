@@ -1,0 +1,62 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<01:53,  2.52it/s]Loading weights:  55%|█████▍    | 158/288 [00:00<00:00, 415.76it/s]Loading weights:  86%|████████▋ | 249/288 [00:00<00:00, 423.98it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 375.37it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_5/plot_type_a.py", line 206, in <module>
+    main()
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_5/plot_type_a.py", line 200, in main
+    path = plot_type_a(sae, j_arr, out_path=out, layer_index=args.layer_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/Github/ect/src/aim3_additive_chain_5/plot_type_a.py", line 174, in plot_type_a
+    fig.tight_layout()
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/figure.py", line 3665, in tight_layout
+    engine.execute(self)
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/layout_engine.py", line 188, in execute
+    kwargs = get_tight_layout_figure(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/_tight_layout.py", line 266, in get_tight_layout_figure
+    kwargs = _auto_adjust_subplotpars(fig, renderer,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/_tight_layout.py", line 82, in _auto_adjust_subplotpars
+    bb += [martist._get_tightbbox_for_layout_only(ax, renderer)]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/artist.py", line 1485, in _get_tightbbox_for_layout_only
+    return obj.get_tightbbox(*args, **{**kwargs, "for_layout_only": True})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/axes/_base.py", line 4758, in get_tightbbox
+    ba = martist._get_tightbbox_for_layout_only(axis, renderer)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/artist.py", line 1485, in _get_tightbbox_for_layout_only
+    return obj.get_tightbbox(*args, **{**kwargs, "for_layout_only": True})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/axis.py", line 1443, in get_tightbbox
+    bb = self.label.get_window_extent(renderer)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/text.py", line 1076, in get_window_extent
+    bbox, _, _ = self._get_layout(self._renderer)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/text.py", line 479, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/text.py", line 59, in _get_text_metrics_with_cache
+    return get_text_metrics(text, fontprop.copy(), ismath, dpi)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/text.py", line 125, in _text_metrics
+    return local_renderer.get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py", line 259, in get_text_width_height_descent
+    parse = self.mathtext_parser.parse(s, self.dpi, prop)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/mathtext.py", line 86, in parse
+    return self._parse_cached(s, dpi, prop, antialiased, load_glyph_flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/miniconda3/envs/ect/lib/python3.11/site-packages/matplotlib/_mathtext.py", line 2306, in parse
+    raise ValueError("\n" + err.explain(0)) from None
+ValueError: 
+=\frac12\|\pi_a-\pi_b\|_1
+      ^
+ParseSyntaxException: Expected \frac{num}{den}, found '12'  (at char 6), (line:1, col:7)

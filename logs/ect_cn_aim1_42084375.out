@@ -1,0 +1,4 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== ConceptNet corpus extraction ===
+assertions=/home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet-assertions-5.7.0.csv.gz
+target_per_category=200

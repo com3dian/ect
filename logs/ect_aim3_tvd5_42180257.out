@@ -1,0 +1,40 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 shared-trajectory TVD path v5 ===
+model_id=google/gemma-2-2b
+sae=gemma-scope-2b-pt-res-canonical / layer_14/width_16k/canonical
+design=shared_trajectory_tvd_path_v5 layer=14/26
+metric=TVD=(1/2)||π_a-π_b||_1  (SAE+J)
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json todo=4 done=0
+[1/4] A_00000 …
+  SAE gap=-1.0562  J gap=-0.2889
+[2/4] A_00001 …
+  SAE gap=-1.0053  J gap=-0.2794
+[3/4] A_00002 …
+  SAE gap=-1.0689  J gap=-0.1415
+[4/4] A_00003 …
+  SAE gap=-1.1544  J gap=-0.1594
+Wrote distances → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_5/output/layer_14/tvd_path_distances.jsonl
+Wrote summary   → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_5/output/layer_14/tvd_path_summary.json
+{
+  "layer_index": 14,
+  "n_items": 4,
+  "prompt_design": "shared_trajectory_tvd_path_v5",
+  "metric": "TVD=(1/2)||\u03c0_a-\u03c0_b||_1 on fingerprints",
+  "by_type": {
+    "A": {
+      "n": 4,
+      "sae_gap_mean": -1.0712151229381561,
+      "sae_gap_median": -1.0625572204589844,
+      "sae_gap_frac_le_0": 1.0,
+      "sae_gap_near_zero_abs_lt_0_05": 0.0,
+      "sae_gap_near_zero_abs_lt_0_1": 0.0,
+      "j_gap_mean": -0.21729646064341068,
+      "j_gap_median": -0.21938259899616241,
+      "j_gap_frac_le_0": 1.0,
+      "j_gap_near_zero_abs_lt_0_05": 0.0,
+      "j_gap_near_zero_abs_lt_0_1": 0.0
+    }
+  }
+}
+
+=== Plot Type A ===

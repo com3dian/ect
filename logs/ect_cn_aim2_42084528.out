@@ -1,0 +1,11 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== ConceptNet entailment extraction (Aim 2) ===
+assertions=/home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet-assertions-5.7.0.csv.gz
+max_pairs=1000
+Downloading ConceptNet assertions → /home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet-assertions-5.7.0.csv.gz
+Download complete (498.0 MB)
+ConceptNet entailment: wrote 1000 pairs → /home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet_entailment.jsonl (IsA=1000, PartOf=0)
+Counts → /home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet_entailment_counts.json
+Done.
+Pairs:  /home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet_entailment.jsonl
+Counts: /home/WUR/lu087/Github/ect/src/aim2_ConceptNet_data_preparation/data/conceptnet_entailment_counts.json

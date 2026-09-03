@@ -1,0 +1,422 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== SAE Jaccard experiment ===
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=3885)
+device=cuda dtype=bfloat16 layer=14
+activation_threshold=1.0
+loaded on cuda, vocab_size=256000
+n_layers=26 → using layer_index=14
+todo=3885 done=0
+metrics → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.jsonl
+[1/3885] L=14 cat=1 'Transitive Verb' / 'Verb' | J_and∩=0.287 J_and∪=0.284 J_or∪=0.275 |A|=69 |∩|=41
+[10/3885] L=14 cat=1 'Superlative Adjective' / 'Adjective' | J_and∩=0.216 J_and∪=0.277 J_or∪=0.304 |A|=75 |∩|=27
+[20/3885] L=14 cat=1 'Definite Article' / 'Determiner' | J_and∩=0.282 J_and∪=0.266 J_or∪=0.317 |A|=72 |∩|=39
+[30/3885] L=14 cat=1 'Relative Clause' / 'Clause' | J_and∩=0.287 J_and∪=0.321 J_or∪=0.305 |A|=60 |∩|=38
+[40/3885] L=14 cat=1 'Exclamatory Sentence' / 'Sentence' | J_and∩=0.231 J_and∪=0.235 J_or∪=0.205 |A|=66 |∩|=35
+[50/3885] L=14 cat=1 'Active Voice' / 'Voice' | J_and∩=0.133 J_and∪=0.167 J_or∪=0.178 |A|=76 |∩|=20
+[60/3885] L=14 cat=1 'Sleet' / 'Precipitation' | J_and∩=0.250 J_and∪=0.224 J_or∪=0.223 |A|=84 |∩|=29
+[70/3885] L=14 cat=1 'Cold Front' / 'Front' | J_and∩=0.205 J_and∪=0.204 J_or∪=0.205 |A|=83 |∩|=23
+[80/3885] L=14 cat=1 'Haze' / 'Visibility Condition' | J_and∩=0.243 J_and∪=0.317 J_or∪=0.299 |A|=86 |∩|=39
+[90/3885] L=14 cat=1 'Macroburst' / 'Downburst' | J_and∩=0.324 J_and∪=0.372 J_or∪=0.324 |A|=80 |∩|=55
+[100/3885] L=14 cat=1 'Sun Dog' / 'Halo' | J_and∩=0.079 J_and∪=0.191 J_or∪=0.174 |A|=86 |∩|=9
+[110/3885] L=14 cat=1 'Hydrothermal Vent' / 'Seafloor Feature' | J_and∩=0.352 J_and∪=0.297 J_or∪=0.272 |A|=99 |∩|=44
+[120/3885] L=14 cat=1 'Oxygen Minimum Zone' / 'Oceanic Layer' | J_and∩=0.326 J_and∪=0.378 J_or∪=0.331 |A|=74 |∩|=40
+[130/3885] L=14 cat=1 'Fringing Reef' / 'Coral Reef Structure' | J_and∩=0.303 J_and∪=0.343 J_or∪=0.314 |A|=84 |∩|=42
+[140/3885] L=14 cat=1 'Bathyal Zone' / 'Deep Marine Region' | J_and∩=0.379 J_and∪=0.389 J_or∪=0.294 |A|=78 |∩|=57
+[150/3885] L=14 cat=1 'Mediterranean Water' / 'Intermediate Water Mass' | J_and∩=0.245 J_and∪=0.300 J_or∪=0.263 |A|=72 |∩|=30
+[160/3885] L=14 cat=1 'Lead' / 'Post-transition metal' | J_and∩=0.169 J_and∪=0.209 J_or∪=0.189 |A|=98 |∩|=18
+[170/3885] L=14 cat=1 'Phosphorus' / 'Pnictogen' | J_and∩=0.130 J_and∪=0.237 J_or∪=0.208 |A|=59 |∩|=19
+[180/3885] L=14 cat=1 'Potassium' / 'Alkali metal' | J_and∩=0.138 J_and∪=0.237 J_or∪=0.206 |A|=57 |∩|=15
+[190/3885] L=14 cat=1 'Titanium' / 'Transition metal' | J_and∩=0.121 J_and∪=0.210 J_or∪=0.244 |A|=62 |∩|=12
+[200/3885] L=14 cat=1 'Tin' / 'Post-transition metal' | J_and∩=0.100 J_and∪=0.175 J_or∪=0.179 |A|=66 |∩|=15
+[210/3885] L=14 cat=1 'Whimper' / 'Cry' | J_and∩=0.180 J_and∪=0.260 J_or∪=0.273 |A|=83 |∩|=26
+[220/3885] L=14 cat=1 'Watery Eyes' / 'Crying' | J_and∩=0.289 J_and∪=0.231 J_or∪=0.250 |A|=75 |∩|=36
+[230/3885] L=14 cat=1 'Eye Roll' / 'Dismissive Expression' | J_and∩=0.234 J_and∪=0.214 J_or∪=0.282 |A|=103 |∩|=49
+[240/3885] L=14 cat=1 'Closed Mouth Smile' / 'Smile' | J_and∩=0.264 J_and∪=0.211 J_or∪=0.229 |A|=77 |∩|=39
+[250/3885] L=14 cat=1 'Angry Glare' / 'Glare' | J_and∩=0.192 J_and∪=0.213 J_or∪=0.287 |A|=85 |∩|=42
+[260/3885] L=14 cat=1 'Corporate Counsel' / 'Attorney' | J_and∩=0.200 J_and∪=0.290 J_or∪=0.274 |A|=76 |∩|=25
+[270/3885] L=14 cat=1 'Indictment' / 'Charging Document' | J_and∩=0.427 J_and∪=0.365 J_or∪=0.395 |A|=66 |∩|=49
+[280/3885] L=14 cat=1 'Subpoena Duces Tecum' / 'Subpoena' | J_and∩=0.214 J_and∪=0.247 J_or∪=0.281 |A|=70 |∩|=47
+[290/3885] L=14 cat=1 'Will' / 'Testamentary Document' | J_and∩=0.364 J_and∪=0.342 J_or∪=0.349 |A|=82 |∩|=38
+[300/3885] L=14 cat=1 'Arbitrator' / 'ADR Professional' | J_and∩=0.186 J_and∪=0.253 J_or∪=0.236 |A|=63 |∩|=35
+[310/3885] L=14 cat=1 'Blue-Green' / 'Tertiary Color' | J_and∩=0.239 J_and∪=0.296 J_or∪=0.234 |A|=67 |∩|=27
+[320/3885] L=14 cat=1 'Cool Colors' / 'Color Temperature' | J_and∩=0.205 J_and∪=0.200 J_or∪=0.196 |A|=70 |∩|=25
+[330/3885] L=14 cat=1 'RYB Model' / 'Color Model' | J_and∩=0.290 J_and∪=0.250 J_or∪=0.221 |A|=69 |∩|=42
+[340/3885] L=14 cat=1 'Pastel Colors' / 'Color Classification' | J_and∩=0.202 J_and∪=0.279 J_or∪=0.213 |A|=63 |∩|=26
+[350/3885] L=14 cat=1 'Blue-Orange' / 'Complementary Pair' | J_and∩=0.308 J_and∪=0.254 J_or∪=0.216 |A|=74 |∩|=36
+[360/3885] L=14 cat=1 'Escape wheel' / 'Gear' | J_and∩=0.214 J_and∪=0.263 J_or∪=0.273 |A|=67 |∩|=28
+[370/3885] L=14 cat=1 'Cannon pinion' / 'Gear' | J_and∩=0.194 J_and∪=0.292 J_or∪=0.246 |A|=67 |∩|=29
+[380/3885] L=14 cat=1 'Release lever' / 'Lever' | J_and∩=0.187 J_and∪=0.198 J_or∪=0.184 |A|=76 |∩|=41
+[390/3885] L=14 cat=1 'Snail' / 'Cam' | J_and∩=0.207 J_and∪=0.217 J_or∪=0.221 |A|=77 |∩|=36
+[400/3885] L=14 cat=1 'Train' / 'Mechanism' | J_and∩=0.214 J_and∪=0.194 J_or∪=0.218 |A|=75 |∩|=47
+[410/3885] L=14 cat=1 'Bassoon' / 'Woodwind Instrument' | J_and∩=0.229 J_and∪=0.207 J_or∪=0.233 |A|=75 |∩|=35
+[420/3885] L=14 cat=1 'Snare Drum' / 'Percussion Instrument' | J_and∩=0.246 J_and∪=0.243 J_or∪=0.247 |A|=97 |∩|=54
+[430/3885] L=14 cat=1 'Valve' / 'Trumpet' | J_and∩=0.220 J_and∪=0.208 J_or∪=0.232 |A|=84 |∩|=38
+[440/3885] L=14 cat=1 'Hammers' / 'Piano' | J_and∩=0.188 J_and∪=0.183 J_or∪=0.184 |A|=64 |∩|=26
+[450/3885] L=14 cat=1 'Resonance' / 'Acoustic Property' | J_and∩=0.172 J_and∪=0.219 J_or∪=0.196 |A|=70 |∩|=28
+[460/3885] L=14 cat=1 'Sternum' / 'Thoracic Bone' | J_and∩=0.224 J_and∪=0.244 J_or∪=0.223 |A|=73 |∩|=31
+[470/3885] L=14 cat=1 'Hyoid' / 'Neck Bone' | J_and∩=0.247 J_and∪=0.245 J_or∪=0.205 |A|=68 |∩|=33
+[480/3885] L=14 cat=1 'Levator Scapulae' / 'Neck Muscle' | J_and∩=0.205 J_and∪=0.278 J_or∪=0.289 |A|=66 |∩|=38
+[490/3885] L=14 cat=1 'Intercostals' / 'Thoracic Muscle' | J_and∩=0.247 J_and∪=0.301 J_or∪=0.233 |A|=68 |∩|=26
+[500/3885] L=14 cat=1 'Biceps Femoris' / 'Thigh Muscle' | J_and∩=0.183 J_and∪=0.294 J_or∪=0.250 |A|=66 |∩|=32
+[510/3885] L=14 cat=1 'Flood Irrigation' / 'Watering Method' | J_and∩=0.183 J_and∪=0.187 J_or∪=0.153 |A|=74 |∩|=36
+[520/3885] L=14 cat=1 'Long Day' / 'Photoperiod' | J_and∩=0.212 J_and∪=0.210 J_or∪=0.145 |A|=75 |∩|=27
+[530/3885] L=14 cat=1 'Sepal' / 'Flower Part' | J_and∩=0.152 J_and∪=0.132 J_or∪=0.194 |A|=97 |∩|=33
+[540/3885] L=14 cat=1 'Cover Crop' / 'Field Management' | J_and∩=0.218 J_and∪=0.277 J_or∪=0.291 |A|=69 |∩|=18
+[550/3885] L=14 cat=1 'Nutrient Film' / 'Hydroponic Technique' | J_and∩=0.228 J_and∪=0.277 J_or∪=0.228 |A|=68 |∩|=33
+[560/3885] L=14 cat=1 'Leaf vein' / 'Leaf' | J_and∩=0.154 J_and∪=0.192 J_or∪=0.176 |A|=63 |∩|=27
+[570/3885] L=14 cat=1 'Tuber' / 'Stem' | J_and∩=0.250 J_and∪=0.241 J_or∪=0.193 |A|=84 |∩|=44
+[580/3885] L=14 cat=1 'Tepal' / 'Flower perianth' | J_and∩=0.253 J_and∪=0.247 J_or∪=0.307 |A|=89 |∩|=30
+[590/3885] L=14 cat=1 'Cotyledon' / 'Seed' | J_and∩=0.214 J_and∪=0.249 J_or∪=0.229 |A|=77 |∩|=28
+[600/3885] L=14 cat=1 'Companion cell' / 'Phloem' | J_and∩=0.311 J_and∪=0.386 J_or∪=0.372 |A|=75 |∩|=44
+[610/3885] L=14 cat=1 'Pentagon' / 'Polygon' | J_and∩=0.286 J_and∪=0.247 J_or∪=0.281 |A|=87 |∩|=38
+[620/3885] L=14 cat=1 'Diameter' / 'Circle' | J_and∩=0.198 J_and∪=0.248 J_or∪=0.229 |A|=57 |∩|=23
+[630/3885] L=14 cat=1 'Obtuse Angle' / 'Angle' | J_and∩=0.190 J_and∪=0.262 J_or∪=0.325 |A|=68 |∩|=31
+[640/3885] L=14 cat=1 'Cube' / 'Polyhedron' | J_and∩=0.268 J_and∪=0.262 J_or∪=0.287 |A|=75 |∩|=45
+[650/3885] L=14 cat=1 'Vertex' / 'Polyhedron' | J_and∩=0.256 J_and∪=0.260 J_or∪=0.286 |A|=76 |∩|=35
+[660/3885] L=14 cat=1 'Natural Number' / 'Integer' | J_and∩=0.250 J_and∪=0.237 J_or∪=0.327 |A|=96 |∩|=33
+[670/3885] L=14 cat=1 'Odd Multiple' / 'Multiple' | J_and∩=0.178 J_and∪=0.147 J_or∪=0.172 |A|=63 |∩|=29
+[680/3885] L=14 cat=1 'Highly Composite Number' / 'Composite Number' | J_and∩=0.323 J_and∪=0.275 J_or∪=0.248 |A|=81 |∩|=58
+[690/3885] L=14 cat=1 'Fermat Prime' / 'Prime Number' | J_and∩=0.307 J_and∪=0.320 J_or∪=0.321 |A|=76 |∩|=47
+[700/3885] L=14 cat=1 'Electron' / 'Lepton' | J_and∩=0.338 J_and∪=0.259 J_or∪=0.294 |A|=69 |∩|=37
+[710/3885] L=14 cat=1 'Bottom quark' / 'Quark' | J_and∩=0.212 J_and∪=0.221 J_or∪=0.259 |A|=84 |∩|=39
+[720/3885] L=14 cat=1 'Higgs boson' / 'Scalar boson' | J_and∩=0.229 J_and∪=0.257 J_or∪=0.247 |A|=91 |∩|=24
+[730/3885] L=14 cat=1 'Superconductor' / 'Phase of matter' | J_and∩=0.195 J_and∪=0.338 J_or∪=0.266 |A|=73 |∩|=24
+[740/3885] L=14 cat=1 'Dirac fermion' / 'Fermion' | J_and∩=0.209 J_and∪=0.250 J_or∪=0.284 |A|=79 |∩|=42
+[750/3885] L=14 cat=1 'Peregrine Falcon' / 'Falcon' | J_and∩=0.185 J_and∪=0.205 J_or∪=0.225 |A|=78 |∩|=44
+[760/3885] L=14 cat=1 'Tawny Frogmouth' / 'Frogmouth' | J_and∩=0.273 J_and∪=0.291 J_or∪=0.328 |A|=64 |∩|=50
+[770/3885] L=14 cat=1 'Sapsucker' / 'Woodpecker' | J_and∩=0.310 J_and∪=0.266 J_or∪=0.248 |A|=90 |∩|=56
+[780/3885] L=14 cat=1 'Treecreeper' / 'Passerine' | J_and∩=0.230 J_and∪=0.276 J_or∪=0.313 |A|=72 |∩|=35
+[790/3885] L=14 cat=1 'Alula' / 'Wing Feather' | J_and∩=0.270 J_and∪=0.231 J_or∪=0.224 |A|=84 |∩|=53
+[800/3885] L=14 cat=2 'watering can' / 'potted plants' | J_and∩=0.204 J_and∪=0.186 J_or∪=0.189 |A|=88 |∩|=46
+[810/3885] L=14 cat=2 'outdoor rug' / 'patio furniture' | J_and∩=0.203 J_and∪=0.218 J_or∪=0.207 |A|=83 |∩|=50
+[820/3885] L=14 cat=2 'bonsai tree' / 'pruning wire' | J_and∩=0.172 J_and∪=0.148 J_or∪=0.148 |A|=65 |∩|=33
+[830/3885] L=14 cat=2 'hand fork' / 'weed removal' | J_and∩=0.133 J_and∪=0.152 J_or∪=0.153 |A|=100 |∩|=21
+[840/3885] L=14 cat=2 'outdoor cooler' / 'drink holders' | J_and∩=0.196 J_and∪=0.196 J_or∪=0.225 |A|=67 |∩|=39
+[850/3885] L=14 cat=2 'espresso' / 'latte' | J_and∩=0.176 J_and∪=0.174 J_or∪=0.169 |A|=61 |∩|=35
+[860/3885] L=14 cat=2 'croissant' / 'butter' | J_and∩=0.179 J_and∪=0.173 J_or∪=0.165 |A|=71 |∩|=31
+[870/3885] L=14 cat=2 'icing bag' / 'frosting' | J_and∩=0.165 J_and∪=0.160 J_or∪=0.177 |A|=69 |∩|=32
+[880/3885] L=14 cat=2 'buttery croissant' / 'flake' | J_and∩=0.160 J_and∪=0.223 J_or∪=0.254 |A|=78 |∩|=29
+[890/3885] L=14 cat=2 'powdered sugar' / 'scone' | J_and∩=0.184 J_and∪=0.179 J_or∪=0.200 |A|=88 |∩|=34
+[900/3885] L=14 cat=2 'bus stop' / 'ticket machine' | J_and∩=0.194 J_and∪=0.193 J_or∪=0.248 |A|=70 |∩|=47
+[910/3885] L=14 cat=2 'bicycle rack' / 'lock' | J_and∩=0.190 J_and∪=0.206 J_or∪=0.199 |A|=69 |∩|=29
+[920/3885] L=14 cat=2 'bus shelter' / 'timetable' | J_and∩=0.167 J_and∪=0.191 J_or∪=0.202 |A|=85 |∩|=29
+[930/3885] L=14 cat=2 'traffic circle' / 'yield line' | J_and∩=0.304 J_and∪=0.249 J_or∪=0.229 |A|=82 |∩|=35
+[940/3885] L=14 cat=2 'traffic light' / 'countdown timer' | J_and∩=0.230 J_and∪=0.270 J_or∪=0.284 |A|=89 |∩|=50
+[950/3885] L=14 cat=2 'pencil' / 'eraser' | J_and∩=0.234 J_and∪=0.163 J_or∪=0.181 |A|=90 |∩|=40
+[960/3885] L=14 cat=2 'desk' / 'chair' | J_and∩=0.145 J_and∪=0.144 J_or∪=0.144 |A|=86 |∩|=47
+[970/3885] L=14 cat=2 'pencil sharpener' / 'wood shavings' | J_and∩=0.170 J_and∪=0.218 J_or∪=0.219 |A|=79 |∩|=31
+[980/3885] L=14 cat=2 'desk organizer' / 'sticky notes' | J_and∩=0.162 J_and∪=0.214 J_or∪=0.222 |A|=72 |∩|=46
+[990/3885] L=14 cat=2 'binder rings' / 'loose leaf paper' | J_and∩=0.209 J_and∪=0.258 J_or∪=0.309 |A|=58 |∩|=34
+[1000/3885] L=14 cat=2 'fork' / 'knife' | J_and∩=0.207 J_and∪=0.186 J_or∪=0.227 |A|=99 |∩|=52
+[1010/3885] L=14 cat=2 'colander' / 'bowl' | J_and∩=0.227 J_and∪=0.238 J_or∪=0.255 |A|=66 |∩|=36
+[1020/3885] L=14 cat=2 'coffee cup' / 'saucer' | J_and∩=0.193 J_and∪=0.201 J_or∪=0.201 |A|=86 |∩|=43
+[1030/3885] L=14 cat=2 'chopsticks' / 'rice bowl' | J_and∩=0.181 J_and∪=0.183 J_or∪=0.209 |A|=82 |∩|=45
+[1040/3885] L=14 cat=2 'egg cup' / 'spoon' | J_and∩=0.196 J_and∪=0.194 J_or∪=0.219 |A|=68 |∩|=44
+[1050/3885] L=14 cat=2 'slide' / 'swing' | J_and∩=0.243 J_and∪=0.183 J_or∪=0.187 |A|=88 |∩|=43
+[1060/3885] L=14 cat=2 'marbles' / 'glass' | J_and∩=0.158 J_and∪=0.130 J_or∪=0.154 |A|=66 |∩|=32
+[1070/3885] L=14 cat=2 'water gun' / 'trigger' | J_and∩=0.168 J_and∪=0.223 J_or∪=0.192 |A|=80 |∩|=35
+[1080/3885] L=14 cat=2 'swing set' / 'chains' | J_and∩=0.151 J_and∪=0.204 J_or∪=0.181 |A|=86 |∩|=31
+[1090/3885] L=14 cat=2 'puzzle board' / 'pieces' | J_and∩=0.175 J_and∪=0.228 J_or∪=0.233 |A|=70 |∩|=24
+[1100/3885] L=14 cat=2 'sofa' / 'cushion' | J_and∩=0.143 J_and∪=0.144 J_or∪=0.162 |A|=73 |∩|=29
+[1110/3885] L=14 cat=2 'throw blanket' / 'sofa' | J_and∩=0.195 J_and∪=0.185 J_or∪=0.226 |A|=75 |∩|=45
+[1120/3885] L=14 cat=2 'desk chair' / 'mousepad' | J_and∩=0.168 J_and∪=0.178 J_or∪=0.200 |A|=75 |∩|=47
+[1130/3885] L=14 cat=2 'rocking chair' / 'glider' | J_and∩=0.186 J_and∪=0.165 J_or∪=0.186 |A|=79 |∩|=31
+[1140/3885] L=14 cat=2 'storage ottoman' / 'lid' | J_and∩=0.146 J_and∪=0.180 J_or∪=0.175 |A|=78 |∩|=23
+[1150/3885] L=14 cat=2 'tennis racket' / 'tennis ball' | J_and∩=0.243 J_and∪=0.193 J_or∪=0.171 |A|=79 |∩|=61
+[1160/3885] L=14 cat=2 'dumbbell' / 'kettlebell' | J_and∩=0.239 J_and∪=0.235 J_or∪=0.246 |A|=96 |∩|=28
+[1170/3885] L=14 cat=2 'cricket bat' / 'cricket ball' | J_and∩=0.237 J_and∪=0.255 J_or∪=0.231 |A|=81 |∩|=54
+[1180/3885] L=14 cat=2 'baseball cap' / 'batting glove' | J_and∩=0.175 J_and∪=0.173 J_or∪=0.176 |A|=86 |∩|=45
+[1190/3885] L=14 cat=2 'racquetball racket' / 'racquetball' | J_and∩=0.117 J_and∪=0.126 J_or∪=0.142 |A|=93 |∩|=40
+[1200/3885] L=14 cat=2 'Refrigerator' / 'Freezer' | J_and∩=0.204 J_and∪=0.184 J_or∪=0.171 |A|=71 |∩|=47
+[1210/3885] L=14 cat=2 'Air Conditioner' / 'Remote' | J_and∩=0.190 J_and∪=0.203 J_or∪=0.218 |A|=56 |∩|=34
+[1220/3885] L=14 cat=2 'Robot Vacuum' / 'Dock' | J_and∩=0.267 J_and∪=0.255 J_or∪=0.251 |A|=86 |∩|=40
+[1230/3885] L=14 cat=2 'Sewing Machine' / 'Needle' | J_and∩=0.133 J_and∪=0.157 J_or∪=0.159 |A|=77 |∩|=28
+[1240/3885] L=14 cat=2 'Sandwich Press' / 'Bread' | J_and∩=0.170 J_and∪=0.220 J_or∪=0.240 |A|=64 |∩|=22
+[1250/3885] L=14 cat=2 'laundry basket' / 'hamper' | J_and∩=0.154 J_and∪=0.158 J_or∪=0.183 |A|=73 |∩|=43
+[1260/3885] L=14 cat=2 'shoe boxes' / 'pairs' | J_and∩=0.175 J_and∪=0.173 J_or∪=0.181 |A|=81 |∩|=33
+[1270/3885] L=14 cat=2 'liquid detergent' / 'cap' | J_and∩=0.109 J_and∪=0.203 J_or∪=0.191 |A|=81 |∩|=26
+[1280/3885] L=14 cat=2 'hang dry' / 'line' | J_and∩=0.192 J_and∪=0.203 J_or∪=0.161 |A|=96 |∩|=32
+[1290/3885] L=14 cat=2 'jewelry organizer' / 'hooks' | J_and∩=0.156 J_and∪=0.211 J_or∪=0.200 |A|=71 |∩|=22
+[1300/3885] L=14 cat=2 'dress shirt' / 'collar' | J_and∩=0.162 J_and∪=0.184 J_or∪=0.173 |A|=83 |∩|=31
+[1310/3885] L=14 cat=2 'silk tie' / 'knot' | J_and∩=0.155 J_and∪=0.183 J_or∪=0.175 |A|=102 |∩|=33
+[1320/3885] L=14 cat=2 'linen shirt' / 'breathable fabric' | J_and∩=0.151 J_and∪=0.168 J_or∪=0.138 |A|=77 |∩|=40
+[1330/3885] L=14 cat=2 'polyester dress' / 'wrinkle free' | J_and∩=0.167 J_and∪=0.224 J_or∪=0.184 |A|=87 |∩|=28
+[1340/3885] L=14 cat=2 'linen dress' / 'breathable weave' | J_and∩=0.149 J_and∪=0.159 J_or∪=0.195 |A|=81 |∩|=38
+[1350/3885] L=14 cat=2 'lettuce' / 'tomato' | J_and∩=0.200 J_and∪=0.205 J_or∪=0.194 |A|=81 |∩|=44
+[1360/3885] L=14 cat=2 'cherry' / 'grape' | J_and∩=0.145 J_and∪=0.163 J_or∪=0.133 |A|=82 |∩|=42
+[1370/3885] L=14 cat=2 'radish' / 'turnip' | J_and∩=0.205 J_and∪=0.177 J_or∪=0.184 |A|=81 |∩|=57
+[1380/3885] L=14 cat=2 'produce sticker' / 'price' | J_and∩=0.143 J_and∪=0.217 J_or∪=0.198 |A|=71 |∩|=35
+[1390/3885] L=14 cat=2 'expiration date' / 'label' | J_and∩=0.216 J_and∪=0.255 J_or∪=0.250 |A|=52 |∩|=30
+[1400/3885] L=14 cat=2 'binder clip' / 'folder' | J_and∩=0.229 J_and∪=0.245 J_or∪=0.288 |A|=68 |∩|=34
+[1410/3885] L=14 cat=2 'paperclip' / 'binder' | J_and∩=0.204 J_and∪=0.200 J_or∪=0.222 |A|=90 |∩|=45
+[1420/3885] L=14 cat=2 'tape' / 'paper' | J_and∩=0.179 J_and∪=0.227 J_or∪=0.255 |A|=108 |∩|=37
+[1430/3885] L=14 cat=2 'notebook' / 'paper' | J_and∩=0.195 J_and∪=0.200 J_or∪=0.216 |A|=76 |∩|=42
+[1440/3885] L=14 cat=2 'whiteboard' / 'marker' | J_and∩=0.227 J_and∪=0.229 J_or∪=0.227 |A|=73 |∩|=44
+[1450/3885] L=14 cat=2 'laptop' / 'power adapter' | J_and∩=0.207 J_and∪=0.181 J_or∪=0.159 |A|=77 |∩|=39
+[1460/3885] L=14 cat=2 'ebook reader' / 'charging cable' | J_and∩=0.169 J_and∪=0.159 J_or∪=0.187 |A|=59 |∩|=34
+[1470/3885] L=14 cat=2 'usb hub' / 'multiport adapter' | J_and∩=0.247 J_and∪=0.237 J_or∪=0.233 |A|=61 |∩|=32
+[1480/3885] L=14 cat=2 'fitness tracker' / 'step counter' | J_and∩=0.241 J_and∪=0.255 J_or∪=0.299 |A|=69 |∩|=45
+[1490/3885] L=14 cat=2 'action camera' / 'mount bracket' | J_and∩=0.183 J_and∪=0.213 J_or∪=0.180 |A|=77 |∩|=34
+[1500/3885] L=14 cat=2 'takeout bag' / 'receipt' | J_and∩=0.205 J_and∪=0.190 J_or∪=0.221 |A|=77 |∩|=41
+[1510/3885] L=14 cat=2 'coffee cup' / 'cardboard sleeve' | J_and∩=0.159 J_and∪=0.191 J_or∪=0.203 |A|=86 |∩|=39
+[1520/3885] L=14 cat=2 'straw' / 'sip lid' | J_and∩=0.205 J_and∪=0.200 J_or∪=0.199 |A|=99 |∩|=43
+[1530/3885] L=14 cat=2 'juice box' / 'straw' | J_and∩=0.183 J_and∪=0.188 J_or∪=0.171 |A|=77 |∩|=39
+[1540/3885] L=14 cat=2 'driver pouch' / 'order bag' | J_and∩=0.294 J_and∪=0.331 J_or∪=0.300 |A|=72 |∩|=44
+[1550/3885] L=14 cat=2 'street sign' / 'pole' | J_and∩=0.170 J_and∪=0.196 J_or∪=0.189 |A|=72 |∩|=32
+[1560/3885] L=14 cat=2 'airport terminal' / 'gate' | J_and∩=0.137 J_and∪=0.180 J_or∪=0.225 |A|=66 |∩|=27
+[1570/3885] L=14 cat=2 'tennis court' / 'net' | J_and∩=0.139 J_and∪=0.147 J_or∪=0.162 |A|=71 |∩|=27
+[1580/3885] L=14 cat=2 'statue' / 'base' | J_and∩=0.238 J_and∪=0.205 J_or∪=0.214 |A|=79 |∩|=35
+[1590/3885] L=14 cat=2 'tunnel' / 'ventilation' | J_and∩=0.273 J_and∪=0.273 J_or∪=0.243 |A|=89 |∩|=33
+[1600/3885] L=14 cat=3 'Drill Shaft' / 'Harrow Chain' | J_and∩=0.313 J_and∪=0.342 J_or∪=0.313 |A|=79 |∩|=48
+[1610/3885] L=14 cat=3 'Curette Hook' / 'Rake Tines' | J_and∩=0.346 J_and∪=0.270 J_or∪=0.255 |A|=83 |∩|=31
+[1620/3885] L=14 cat=3 'Hemostat Ratchet' / 'Threshing Floor' | J_and∩=0.240 J_and∪=0.278 J_or∪=0.309 |A|=78 |∩|=41
+[1630/3885] L=14 cat=3 'Suction Tip' / 'Grain Sack Knot' | J_and∩=0.269 J_and∪=0.263 J_or∪=0.245 |A|=78 |∩|=40
+[1640/3885] L=14 cat=3 'Needle Driver Jaw' / 'Pitchfork Shaft' | J_and∩=0.184 J_and∪=0.213 J_or∪=0.230 |A|=79 |∩|=49
+[1650/3885] L=14 cat=3 'vacuum distillation' / 'clutch cable tension' | J_and∩=0.165 J_and∪=0.197 J_or∪=0.192 |A|=87 |∩|=24
+[1660/3885] L=14 cat=3 'aroma condensation' / 'cam chain tension' | J_and∩=0.219 J_and∪=0.305 J_or∪=0.305 |A|=69 |∩|=28
+[1670/3885] L=14 cat=3 'lavender hydrodistillation' / 'airbox gasket' | J_and∩=0.169 J_and∪=0.210 J_or∪=0.201 |A|=85 |∩|=29
+[1680/3885] L=14 cat=3 'cardamom steam' / 'connecting rod bushing' | J_and∩=0.184 J_and∪=0.210 J_or∪=0.210 |A|=99 |∩|=25
+[1690/3885] L=14 cat=3 'cedar wood steam' / 'clutch plate warping' | J_and∩=0.208 J_and∪=0.188 J_or∪=0.223 |A|=99 |∩|=29
+[1700/3885] L=14 cat=3 'Flap' / 'Grain' | J_and∩=0.218 J_and∪=0.240 J_or∪=0.299 |A|=96 |∩|=50
+[1710/3885] L=14 cat=3 'Satellite' / 'Brad nail' | J_and∩=0.198 J_and∪=0.206 J_or∪=0.162 |A|=92 |∩|=32
+[1720/3885] L=14 cat=3 'Throttle' / 'Chisel' | J_and∩=0.230 J_and∪=0.206 J_or∪=0.235 |A|=78 |∩|=55
+[1730/3885] L=14 cat=3 'Combustor' / 'Corner clamp' | J_and∩=0.255 J_and∪=0.248 J_or∪=0.243 |A|=69 |∩|=45
+[1740/3885] L=14 cat=3 'Bulkhead' / 'Kerf' | J_and∩=0.278 J_and∪=0.301 J_or∪=0.327 |A|=85 |∩|=47
+[1750/3885] L=14 cat=3 'Scribe' / 'Kickflip' | J_and∩=0.282 J_and∪=0.219 J_or∪=0.230 |A|=90 |∩|=40
+[1760/3885] L=14 cat=3 'Flourish' / 'Park' | J_and∩=0.131 J_and∪=0.211 J_or∪=0.198 |A|=72 |∩|=17
+[1770/3885] L=14 cat=3 'Serif' / 'Grab' | J_and∩=0.242 J_and∪=0.287 J_or∪=0.292 |A|=90 |∩|=38
+[1780/3885] L=14 cat=3 'Dip' / 'Ramp' | J_and∩=0.230 J_and∪=0.200 J_or∪=0.220 |A|=99 |∩|=50
+[1790/3885] L=14 cat=3 'Acid' / 'Manual' | J_and∩=0.279 J_and∪=0.264 J_or∪=0.253 |A|=73 |∩|=28
+[1800/3885] L=14 cat=3 'marine snow' / 'desert crust' | J_and∩=0.316 J_and∪=0.266 J_or∪=0.250 |A|=87 |∩|=39
+[1810/3885] L=14 cat=3 'marine detritus' / 'sandstorm' | J_and∩=0.307 J_and∪=0.242 J_or∪=0.246 |A|=92 |∩|=45
+[1820/3885] L=14 cat=3 'benthic invertebrate' / 'sunbaked clay' | J_and∩=0.254 J_and∪=0.232 J_or∪=0.281 |A|=130 |∩|=42
+[1830/3885] L=14 cat=3 'marine sediment' / 'dry oasis' | J_and∩=0.343 J_and∪=0.285 J_or∪=0.240 |A|=109 |∩|=59
+[1840/3885] L=14 cat=3 'abyssal barnacle' / 'desert floodplain' | J_and∩=0.270 J_and∪=0.200 J_or∪=0.188 |A|=104 |∩|=51
+[1850/3885] L=14 cat=3 'Laparoscope lens' / 'Cedar planks' | J_and∩=0.172 J_and∪=0.161 J_or∪=0.161 |A|=77 |∩|=38
+[1860/3885] L=14 cat=3 'Surgical scissors' / 'Willow branch' | J_and∩=0.183 J_and∪=0.185 J_or∪=0.210 |A|=65 |∩|=29
+[1870/3885] L=14 cat=3 'Surgical clamp' / 'Wrought steel' | J_and∩=0.164 J_and∪=0.188 J_or∪=0.178 |A|=69 |∩|=31
+[1880/3885] L=14 cat=3 'Saw tooth' / 'Leather patch' | J_and∩=0.222 J_and∪=0.234 J_or∪=0.237 |A|=71 |∩|=42
+[1890/3885] L=14 cat=3 'Cutter jaw' / 'Cedar dust' | J_and∩=0.222 J_and∪=0.263 J_or∪=0.274 |A|=76 |∩|=47
+[1900/3885] L=14 cat=3 'Oshi Press' / 'Draw Length' | J_and∩=0.190 J_and∪=0.238 J_or∪=0.244 |A|=78 |∩|=19
+[1910/3885] L=14 cat=3 'Nori Wrap' / 'Solder Seam' | J_and∩=0.298 J_and∪=0.271 J_or∪=0.235 |A|=80 |∩|=45
+[1920/3885] L=14 cat=3 'Cut Diagonal' / 'Punch Slot' | J_and∩=0.226 J_and∪=0.246 J_or∪=0.237 |A|=82 |∩|=39
+[1930/3885] L=14 cat=3 'Plate Neatly' / 'Forge Weld' | J_and∩=0.190 J_and∪=0.162 J_or∪=0.202 |A|=103 |∩|=20
+[1940/3885] L=14 cat=3 'Freeze Short' / 'Bevel Tip' | J_and∩=0.235 J_and∪=0.243 J_or∪=0.239 |A|=114 |∩|=31
+[1950/3885] L=14 cat=3 'honeycomb' / 'sandboxing' | J_and∩=0.228 J_and∪=0.281 J_or∪=0.336 |A|=64 |∩|=28
+[1960/3885] L=14 cat=3 'drone brood' / 'vulnerability scanning' | J_and∩=0.236 J_and∪=0.232 J_or∪=0.257 |A|=94 |∩|=34
+[1970/3885] L=14 cat=3 'outer cover' / 'virtual private network' | J_and∩=0.198 J_and∪=0.293 J_or∪=0.272 |A|=68 |∩|=19
+[1980/3885] L=14 cat=3 'syrup' / 'botnet' | J_and∩=0.309 J_and∪=0.272 J_or∪=0.295 |A|=89 |∩|=39
+[1990/3885] L=14 cat=3 'reducer' / 'proxy server' | J_and∩=0.312 J_and∪=0.321 J_or∪=0.274 |A|=95 |∩|=48
+[2000/3885] L=14 cat=3 'En Passant' / 'Detonator' | J_and∩=0.323 J_and∪=0.304 J_or∪=0.299 |A|=64 |∩|=42
+[2010/3885] L=14 cat=3 'Prophylaxis' / 'Wedge' | J_and∩=0.157 J_and∪=0.269 J_or∪=0.259 |A|=61 |∩|=21
+[2020/3885] L=14 cat=3 'Static Weakness' / 'Initiation System' | J_and∩=0.270 J_and∪=0.317 J_or∪=0.265 |A|=91 |∩|=33
+[2030/3885] L=14 cat=3 'Bishop Pair' / 'Loading Truck' | J_and∩=0.221 J_and∪=0.331 J_or∪=0.291 |A|=70 |∩|=23
+[2040/3885] L=14 cat=3 'Isolated Pawn' / 'Slot Drill' | J_and∩=0.302 J_and∪=0.256 J_or∪=0.261 |A|=80 |∩|=44
+[2050/3885] L=14 cat=3 'flute' / 'muffler' | J_and∩=0.204 J_and∪=0.163 J_or∪=0.179 |A|=108 |∩|=40
+[2060/3885] L=14 cat=3 'clarinet' / 'transmission gear' | J_and∩=0.148 J_and∪=0.172 J_or∪=0.143 |A|=106 |∩|=38
+[2070/3885] L=14 cat=3 'vibraphone' / 'stabilizer bar' | J_and∩=0.191 J_and∪=0.203 J_or∪=0.209 |A|=73 |∩|=34
+[2080/3885] L=14 cat=3 'straight trumpet' / 'catalytic converter' | J_and∩=0.167 J_and∪=0.172 J_or∪=0.202 |A|=85 |∩|=22
+[2090/3885] L=14 cat=3 'maple wood violin' / 'window regulator' | J_and∩=0.165 J_and∪=0.159 J_or∪=0.166 |A|=85 |∩|=32
+[2100/3885] L=14 cat=3 'Cross references' / 'slipstream effect' | J_and∩=0.091 J_and∪=0.189 J_or∪=0.179 |A|=85 |∩|=7
+[2110/3885] L=14 cat=3 'Metadata' / 'downforce settings' | J_and∩=0.323 J_and∪=0.282 J_or∪=0.287 |A|=65 |∩|=23
+[2120/3885] L=14 cat=3 'Authority file' / 'pit stop timer' | J_and∩=0.202 J_and∪=0.256 J_or∪=0.239 |A|=59 |∩|=27
+[2130/3885] L=14 cat=3 'Classification code' / 'suspension stiffness' | J_and∩=0.269 J_and∪=0.267 J_or∪=0.331 |A|=70 |∩|=43
+[2140/3885] L=14 cat=3 'Index entry' / 'pit wall radio' | J_and∩=0.232 J_and∪=0.278 J_or∪=0.279 |A|=68 |∩|=31
+[2150/3885] L=14 cat=3 'Brocade jacket' / 'Air tank' | J_and∩=0.208 J_and∪=0.226 J_or∪=0.241 |A|=73 |∩|=32
+[2160/3885] L=14 cat=3 'Velvet choker' / 'Octopus valve' | J_and∩=0.179 J_and∪=0.156 J_or∪=0.164 |A|=75 |∩|=43
+[2170/3885] L=14 cat=3 'Feathered headpiece' / 'Compass' | J_and∩=0.231 J_and∪=0.236 J_or∪=0.241 |A|=70 |∩|=34
+[2180/3885] L=14 cat=3 'Satin cape' / 'Fin strap' | J_and∩=0.153 J_and∪=0.152 J_or∪=0.166 |A|=76 |∩|=55
+[2190/3885] L=14 cat=3 'Satin ribbon' / 'Quick release' | J_and∩=0.224 J_and∪=0.224 J_or∪=0.234 |A|=71 |∩|=44
+[2200/3885] L=14 cat=3 'bone china' / 'pressure suit' | J_and∩=0.186 J_and∪=0.254 J_or∪=0.233 |A|=76 |∩|=26
+[2210/3885] L=14 cat=3 'steeping vessel' / 'gas metal arc' | J_and∩=0.221 J_and∪=0.357 J_or∪=0.312 |A|=65 |∩|=26
+[2220/3885] L=14 cat=3 'tea ritual' / 'welding rod' | J_and∩=0.099 J_and∪=0.146 J_or∪=0.164 |A|=71 |∩|=26
+[2230/3885] L=14 cat=3 'bone china cup' / 'pressure vessel' | J_and∩=0.196 J_and∪=0.199 J_or∪=0.175 |A|=85 |∩|=25
+[2240/3885] L=14 cat=3 'tea estate' / 'welding position' | J_and∩=0.106 J_and∪=0.165 J_or∪=0.146 |A|=74 |∩|=26
+[2250/3885] L=14 cat=3 'hydraulic press' / 'ivory damask' | J_and∩=0.090 J_and∪=0.182 J_or∪=0.165 |A|=104 |∩|=15
+[2260/3885] L=14 cat=3 'electric generator' / 'baby alpaca' | J_and∩=0.168 J_and∪=0.144 J_or∪=0.163 |A|=63 |∩|=32
+[2270/3885] L=14 cat=3 'tracked treads' / 'stiff organza' | J_and∩=0.220 J_and∪=0.253 J_or∪=0.269 |A|=81 |∩|=44
+[2280/3885] L=14 cat=3 'bucket wheel' / 'crushed velvet' | J_and∩=0.191 J_and∪=0.278 J_or∪=0.263 |A|=78 |∩|=29
+[2290/3885] L=14 cat=3 'crane jib' / 'silk jacquard' | J_and∩=0.161 J_and∪=0.188 J_or∪=0.175 |A|=69 |∩|=42
+[2300/3885] L=14 cat=3 'pointe shoes' / 'blasting charge' | J_and∩=0.134 J_and∪=0.167 J_or∪=0.176 |A|=66 |∩|=20
+[2310/3885] L=14 cat=3 'en pointe' / 'crusher chamber' | J_and∩=0.153 J_and∪=0.270 J_or∪=0.297 |A|=59 |∩|=17
+[2320/3885] L=14 cat=3 'pirouette' / 'quarry truck' | J_and∩=0.208 J_and∪=0.257 J_or∪=0.312 |A|=73 |∩|=29
+[2330/3885] L=14 cat=3 'glissade' / 'quarry cart' | J_and∩=0.238 J_and∪=0.219 J_or∪=0.234 |A|=100 |∩|=33
+[2340/3885] L=14 cat=3 'relevé' / 'rock splitter' | J_and∩=0.256 J_and∪=0.286 J_or∪=0.326 |A|=72 |∩|=35
+[2350/3885] L=14 cat=4 'Stoicism' / 'Macarons' | J_and∩=0.291 J_and∪=0.253 J_or∪=0.247 |A|=64 |∩|=32
+[2360/3885] L=14 cat=4 'Absurdism' / 'Churros' | J_and∩=0.250 J_and∪=0.252 J_or∪=0.241 |A|=65 |∩|=25
+[2370/3885] L=14 cat=4 'Structuralism' / 'Truffles' | J_and∩=0.237 J_and∪=0.210 J_or∪=0.218 |A|=71 |∩|=32
+[2380/3885] L=14 cat=4 'Fatalism' / 'Brownies' | J_and∩=0.209 J_and∪=0.258 J_or∪=0.286 |A|=66 |∩|=21
+[2390/3885] L=14 cat=4 'Compatibilism' / 'Syrups' | J_and∩=0.391 J_and∪=0.339 J_or∪=0.278 |A|=65 |∩|=32
+[2400/3885] L=14 cat=4 'liquid earth crust' / 'crystalline cloud formation' | J_and∩=0.276 J_and∪=0.228 J_or∪=0.231 |A|=91 |∩|=51
+[2410/3885] L=14 cat=4 'liquid ground surface' / 'crystalline air particles' | J_and∩=0.198 J_and∪=0.235 J_or∪=0.217 |A|=72 |∩|=29
+[2420/3885] L=14 cat=4 'floating landmass fragments' / 'melting structural beams' | J_and∩=0.216 J_and∪=0.357 J_or∪=0.336 |A|=69 |∩|=24
+[2430/3885] L=14 cat=4 'melting landscape contours' / 'dream spatial distortions' | J_and∩=0.138 J_and∪=0.171 J_or∪=0.120 |A|=98 |∩|=17
+[2440/3885] L=14 cat=4 'liquid wind currents' / 'crystalline storm fronts' | J_and∩=0.273 J_and∪=0.259 J_or∪=0.251 |A|=93 |∩|=42
+[2450/3885] L=14 cat=4 'Majoritarian Mandarin' / 'Minority Mango' | J_and∩=0.239 J_and∪=0.283 J_or∪=0.271 |A|=92 |∩|=44
+[2460/3885] L=14 cat=4 'Existentialist Eggplant' / 'Absurdist Asparagus' | J_and∩=0.235 J_and∪=0.248 J_or∪=0.239 |A|=81 |∩|=48
+[2470/3885] L=14 cat=4 'Majoritarian Melon' / 'Minority Macadamia' | J_and∩=0.168 J_and∪=0.221 J_or∪=0.222 |A|=81 |∩|=43
+[2480/3885] L=14 cat=4 'Existentialist Enokitake' / 'Absurdist Artichoke' | J_and∩=0.243 J_and∪=0.242 J_or∪=0.215 |A|=55 |∩|=36
+[2490/3885] L=14 cat=4 'Majoritarian Mango' / 'Minority Mandarin' | J_and∩=0.239 J_and∪=0.258 J_or∪=0.189 |A|=92 |∩|=42
+[2500/3885] L=14 cat=4 'crayon wax gear shift' / 'nap time dashboard clock' | J_and∩=0.156 J_and∪=0.172 J_or∪=0.189 |A|=82 |∩|=35
+[2510/3885] L=14 cat=4 'sticker panel fender' / 'marble gear box' | J_and∩=0.228 J_and∪=0.209 J_or∪=0.277 |A|=81 |∩|=42
+[2520/3885] L=14 cat=4 'sandbox torque converter' / 'juice box water pump' | J_and∩=0.264 J_and∪=0.250 J_or∪=0.313 |A|=76 |∩|=42
+[2530/3885] L=14 cat=4 'blanket fort roll cage' / 'playground slide shock mount' | J_and∩=0.329 J_and∪=0.301 J_or∪=0.316 |A|=81 |∩|=38
+[2540/3885] L=14 cat=4 'crayon wax fuel injector' / 'nap time starter motor' | J_and∩=0.180 J_and∪=0.192 J_or∪=0.210 |A|=74 |∩|=45
+[2550/3885] L=14 cat=4 'Hannibal' / 'vacuum decay' | J_and∩=0.105 J_and∪=0.202 J_or∪=0.268 |A|=55 |∩|=11
+[2560/3885] L=14 cat=4 'Marcus Aurelius' / 'magnetic field' | J_and∩=0.134 J_and∪=0.176 J_or∪=0.145 |A|=78 |∩|=16
+[2570/3885] L=14 cat=4 'Laozi' / 'quantum computer' | J_and∩=0.180 J_and∪=0.246 J_or∪=0.235 |A|=71 |∩|=17
+[2580/3885] L=14 cat=4 'Eratosthenes' / 'proton' | J_and∩=0.200 J_and∪=0.191 J_or∪=0.210 |A|=83 |∩|=30
+[2590/3885] L=14 cat=4 'Pliny' / 'gravity' | J_and∩=0.184 J_and∪=0.172 J_or∪=0.182 |A|=88 |∩|=24
+[2600/3885] L=14 cat=4 'Cartesian Crumb' / 'Spinozan Sugar' | J_and∩=0.216 J_and∪=0.275 J_or∪=0.289 |A|=84 |∩|=39
+[2610/3885] L=14 cat=4 'Solipsist Sorbet' / 'Nihilist Nectar' | J_and∩=0.155 J_and∪=0.195 J_or∪=0.163 |A|=53 |∩|=28
+[2620/3885] L=14 cat=4 'Feminist Fudge' / 'Queer Quince' | J_and∩=0.212 J_and∪=0.245 J_or∪=0.265 |A|=87 |∩|=51
+[2630/3885] L=14 cat=4 'Nihilist Nectar' / 'Existentialist Espresso' | J_and∩=0.206 J_and∪=0.204 J_or∪=0.227 |A|=60 |∩|=33
+[2640/3885] L=14 cat=4 'Kierkegaard Kugel' / 'Wittgenstein Wafer' | J_and∩=0.217 J_and∪=0.242 J_or∪=0.328 |A|=86 |∩|=46
+[2650/3885] L=14 cat=4 'Black Hole' / 'taking out trash' | J_and∩=0.183 J_and∪=0.234 J_or∪=0.243 |A|=78 |∩|=18
+[2660/3885] L=14 cat=4 'Pulsar' / 'sorting mail' | J_and∩=0.223 J_and∪=0.232 J_or∪=0.239 |A|=89 |∩|=35
+[2670/3885] L=14 cat=4 'Open Cluster' / 'folding towels' | J_and∩=0.235 J_and∪=0.261 J_or∪=0.244 |A|=60 |∩|=32
+[2680/3885] L=14 cat=4 'Oort Cloud' / 'dusting ceilings' | J_and∩=0.205 J_and∪=0.266 J_or∪=0.222 |A|=80 |∩|=22
+[2690/3885] L=14 cat=4 'Lagoon Nebula' / 'dusting chandeliers' | J_and∩=0.196 J_and∪=0.233 J_or∪=0.234 |A|=89 |∩|=25
+[2700/3885] L=14 cat=4 'paper airplane' / 'hovercraft' | J_and∩=0.153 J_and∪=0.156 J_or∪=0.170 |A|=75 |∩|=30
+[2710/3885] L=14 cat=4 'cookie jar' / 'comet chaser' | J_and∩=0.187 J_and∪=0.232 J_or∪=0.210 |A|=92 |∩|=27
+[2720/3885] L=14 cat=4 'bike chain' / 'nostalgia boat' | J_and∩=0.144 J_and∪=0.170 J_or∪=0.194 |A|=72 |∩|=31
+[2730/3885] L=14 cat=4 'mud pie' / 'fortune ferry' | J_and∩=0.238 J_and∪=0.247 J_or∪=0.212 |A|=79 |∩|=38
+[2740/3885] L=14 cat=4 'harmonica' / 'heart hovercraft' | J_and∩=0.211 J_and∪=0.188 J_or∪=0.188 |A|=86 |∩|=34
+[2750/3885] L=14 cat=4 'Hippocrates' / 'Terraforming Atmosphere Process' | J_and∩=0.322 J_and∪=0.260 J_or∪=0.217 |A|=84 |∩|=25
+[2760/3885] L=14 cat=4 'Herodotus' / 'Dark Matter Detection Grid' | J_and∩=0.167 J_and∪=0.231 J_or∪=0.258 |A|=71 |∩|=25
+[2770/3885] L=14 cat=4 'Lucretius' / 'Dark Energy Survey' | J_and∩=0.284 J_and∪=0.215 J_or∪=0.263 |A|=81 |∩|=33
+[2780/3885] L=14 cat=4 'Archytas' / 'Plasma Containment Field' | J_and∩=0.247 J_and∪=0.311 J_or∪=0.336 |A|=59 |∩|=20
+[2790/3885] L=14 cat=4 'Protagoras' / 'Relativistic Truth Metric' | J_and∩=0.333 J_and∪=0.344 J_or∪=0.344 |A|=81 |∩|=33
+[2800/3885] L=14 cat=4 'Dualism' / 'Panna cotta' | J_and∩=0.315 J_and∪=0.326 J_or∪=0.264 |A|=58 |∩|=30
+[2810/3885] L=14 cat=4 'Idealism' / 'Ganache' | J_and∩=0.176 J_and∪=0.214 J_or∪=0.213 |A|=78 |∩|=23
+[2820/3885] L=14 cat=4 'Epicureanism' / 'Jelly' | J_and∩=0.131 J_and∪=0.228 J_or∪=0.240 |A|=74 |∩|=17
+[2830/3885] L=14 cat=4 'Altruism' / 'Madeleine' | J_and∩=0.144 J_and∪=0.188 J_or∪=0.186 |A|=76 |∩|=20
+[2840/3885] L=14 cat=4 'Functionalism' / 'Genoise' | J_and∩=0.262 J_and∪=0.276 J_or∪=0.299 |A|=71 |∩|=35
+[2850/3885] L=14 cat=4 'Moon' / 'sweeping patios' | J_and∩=0.167 J_and∪=0.145 J_or∪=0.144 |A|=115 |∩|=22
+[2860/3885] L=14 cat=4 'Triangulum' / 'wiping mirrors' | J_and∩=0.192 J_and∪=0.176 J_or∪=0.180 |A|=86 |∩|=33
+[2870/3885] L=14 cat=4 'Asteroid' / 'polishing doorknobs' | J_and∩=0.137 J_and∪=0.191 J_or∪=0.184 |A|=55 |∩|=16
+[2880/3885] L=14 cat=4 'Blue Supergiant' / 'cleaning filters' | J_and∩=0.122 J_and∪=0.245 J_or∪=0.192 |A|=82 |∩|=23
+[2890/3885] L=14 cat=4 'Virgo' / 'trimming grass' | J_and∩=0.209 J_and∪=0.215 J_or∪=0.213 |A|=73 |∩|=21
+[2900/3885] L=14 cat=4 'Bedtime Story Dashboard' / 'Whispering Steering Wheel' | J_and∩=0.290 J_and∪=0.280 J_or∪=0.258 |A|=87 |∩|=43
+[2910/3885] L=14 cat=4 'Doodle Bug Body' / 'Marker Ink Paint' | J_and∩=0.169 J_and∪=0.175 J_or∪=0.193 |A|=83 |∩|=21
+[2920/3885] L=14 cat=4 'Nightstand Drawer Engine' / 'Moonlight Headlamps' | J_and∩=0.222 J_and∪=0.281 J_or∪=0.268 |A|=64 |∩|=25
+[2930/3885] L=14 cat=4 'Rocking Horse Gallop' / 'Stable Barn Garage' | J_and∩=0.219 J_and∪=0.181 J_or∪=0.223 |A|=81 |∩|=36
+[2940/3885] L=14 cat=4 'Nightlight Glow Core' / 'Star Map Dashboard' | J_and∩=0.306 J_and∪=0.356 J_or∪=0.345 |A|=77 |∩|=40
+[2950/3885] L=14 cat=4 'Hypatia' / 'Dark Matter Harvest' | J_and∩=0.259 J_and∪=0.241 J_or∪=0.279 |A|=81 |∩|=40
+[2960/3885] L=14 cat=4 'Socrates' / 'Memory Archive' | J_and∩=0.241 J_and∪=0.264 J_or∪=0.240 |A|=87 |∩|=35
+[2970/3885] L=14 cat=4 'Pericles' / 'Plasma Drive' | J_and∩=0.228 J_and∪=0.263 J_or∪=0.248 |A|=66 |∩|=26
+[2980/3885] L=14 cat=4 'Plato' / 'Ideal Form' | J_and∩=0.180 J_and∪=0.207 J_or∪=0.221 |A|=72 |∩|=27
+[2990/3885] L=14 cat=4 'Pythagoras' / 'Musical Harmony' | J_and∩=0.229 J_and∪=0.272 J_or∪=0.246 |A|=64 |∩|=23
+[3000/3885] L=14 cat=4 'Galen' / 'Asteroid Mining Colony' | J_and∩=0.178 J_and∪=0.250 J_or∪=0.236 |A|=74 |∩|=18
+[3010/3885] L=14 cat=4 'Marcus Aurelius' / 'Laser Cooling Protocol' | J_and∩=0.217 J_and∪=0.217 J_or∪=0.282 |A|=78 |∩|=18
+[3020/3885] L=14 cat=4 'Leonidas' / 'Relativistic Velocity Thrust' | J_and∩=0.224 J_and∪=0.240 J_or∪=0.304 |A|=78 |∩|=26
+[3030/3885] L=14 cat=4 'Antalcidas' / 'Magnetar Flare Prediction' | J_and∩=0.244 J_and∪=0.314 J_or∪=0.303 |A|=70 |∩|=24
+[3040/3885] L=14 cat=4 'Hyperides' / 'Fault Tolerance Matrix' | J_and∩=0.275 J_and∪=0.378 J_or∪=0.275 |A|=55 |∩|=27
+[3050/3885] L=14 cat=4 'Idealism' / 'Pudding' | J_and∩=0.144 J_and∪=0.185 J_or∪=0.192 |A|=78 |∩|=21
+[3060/3885] L=14 cat=4 'Determinism' / 'Cannoli' | J_and∩=0.161 J_and∪=0.179 J_or∪=0.167 |A|=65 |∩|=20
+[3070/3885] L=14 cat=4 'Confucian Order' / 'Sachertorte' | J_and∩=0.250 J_and∪=0.275 J_or∪=0.335 |A|=82 |∩|=37
+[3080/3885] L=14 cat=4 'Solipsistic Dream' / 'Strudel' | J_and∩=0.351 J_and∪=0.350 J_or∪=0.300 |A|=88 |∩|=38
+[3090/3885] L=14 cat=4 'Saturn' / 'dusting rings' | J_and∩=0.234 J_and∪=0.250 J_or∪=0.209 |A|=83 |∩|=36
+[3100/3885] L=14 cat=4 'Galaxy' / 'mending spirals' | J_and∩=0.185 J_and∪=0.262 J_or∪=0.299 |A|=70 |∩|=25
+[3110/3885] L=14 cat=4 'Milky Way' / 'dusting spiral' | J_and∩=0.300 J_and∪=0.247 J_or∪=0.237 |A|=94 |∩|=35
+[3120/3885] L=14 cat=4 'Red giant' / 'polishing glow' | J_and∩=0.250 J_and∪=0.280 J_or∪=0.278 |A|=72 |∩|=38
+[3130/3885] L=14 cat=4 'Mercury surface' / 'scrubbing rock' | J_and∩=0.333 J_and∪=0.234 J_or∪=0.238 |A|=118 |∩|=49
+[3140/3885] L=14 cat=5 'absolute certainty' / 'radical uncertainty' | J_and∩=0.202 J_and∪=0.263 J_or∪=0.250 |A|=68 |∩|=34
+[3150/3885] L=14 cat=5 'certain outcome' / 'doubtful result' | J_and∩=0.192 J_and∪=0.205 J_or∪=0.201 |A|=75 |∩|=28
+[3160/3885] L=14 cat=5 'certain knowledge' / 'radical doubt' | J_and∩=0.252 J_and∪=0.309 J_or∪=0.290 |A|=79 |∩|=38
+[3170/3885] L=14 cat=5 'concrete data' / 'abstract concept' | J_and∩=0.260 J_and∪=0.354 J_or∪=0.353 |A|=85 |∩|=32
+[3180/3885] L=14 cat=5 'definite coordinate' / 'unknown location' | J_and∩=0.200 J_and∪=0.273 J_or∪=0.285 |A|=80 |∩|=24
+[3190/3885] L=14 cat=5 'vibrant cell' / 'dead tissue' | J_and∩=0.270 J_and∪=0.269 J_or∪=0.197 |A|=83 |∩|=47
+[3200/3885] L=14 cat=5 'thriving colony' / 'extinct species' | J_and∩=0.315 J_and∪=0.324 J_or∪=0.338 |A|=72 |∩|=34
+[3210/3885] L=14 cat=5 'fertile ovum' / 'sterile fragment' | J_and∩=0.298 J_and∪=0.262 J_or∪=0.259 |A|=107 |∩|=39
+[3220/3885] L=14 cat=5 'active microbe' / 'sterile agar' | J_and∩=0.241 J_and∪=0.255 J_or∪=0.301 |A|=63 |∩|=30
+[3230/3885] L=14 cat=5 'growing fungus' / 'barren substrate' | J_and∩=0.273 J_and∪=0.232 J_or∪=0.241 |A|=130 |∩|=67
+[3240/3885] L=14 cat=5 'past' / 'future' | J_and∩=0.209 J_and∪=0.237 J_or∪=0.265 |A|=67 |∩|=43
+[3250/3885] L=14 cat=5 'fixed' / 'mutable' | J_and∩=0.128 J_and∪=0.184 J_or∪=0.188 |A|=55 |∩|=25
+[3260/3885] L=14 cat=5 'fixed' / 'shifting' | J_and∩=0.141 J_and∪=0.220 J_or∪=0.224 |A|=55 |∩|=18
+[3270/3885] L=14 cat=5 'static' / 'evolving' | J_and∩=0.158 J_and∪=0.165 J_or∪=0.174 |A|=81 |∩|=28
+[3280/3885] L=14 cat=5 'determined' / 'indeterminate' | J_and∩=0.208 J_and∪=0.213 J_or∪=0.228 |A|=77 |∩|=32
+[3290/3885] L=14 cat=5 'Infinite Weight' / 'Absolute Weightlessness' | J_and∩=0.151 J_and∪=0.138 J_or∪=0.122 |A|=53 |∩|=24
+[3300/3885] L=14 cat=5 'Gravitational Well' / 'Anti-Gravity Field' | J_and∩=0.326 J_and∪=0.366 J_or∪=0.381 |A|=75 |∩|=38
+[3310/3885] L=14 cat=5 'Crushing Depth' / 'Weightless Summit' | J_and∩=0.126 J_and∪=0.208 J_or∪=0.214 |A|=64 |∩|=21
+[3320/3885] L=14 cat=5 'Massive Comet' / 'Weightless Meteor' | J_and∩=0.315 J_and∪=0.331 J_or∪=0.291 |A|=80 |∩|=52
+[3330/3885] L=14 cat=5 'Gravitational Bond' / 'Anti-Gravity Release' | J_and∩=0.286 J_and∪=0.300 J_or∪=0.313 |A|=81 |∩|=27
+[3340/3885] L=14 cat=5 'soaking saturation' / 'absolute aridity' | J_and∩=0.256 J_and∪=0.324 J_or∪=0.319 |A|=78 |∩|=32
+[3350/3885] L=14 cat=5 'liquid pool' / 'dry well' | J_and∩=0.294 J_and∪=0.221 J_or∪=0.204 |A|=114 |∩|=45
+[3360/3885] L=14 cat=5 'rain-soaked moss' / 'sun-bleached rock' | J_and∩=0.184 J_and∪=0.195 J_or∪=0.219 |A|=106 |∩|=61
+[3370/3885] L=14 cat=5 'lacustrine depth' / 'cracked bed' | J_and∩=0.247 J_and∪=0.268 J_or∪=0.244 |A|=90 |∩|=30
+[3380/3885] L=14 cat=5 'saturated atmosphere' / 'arid sky' | J_and∩=0.337 J_and∪=0.324 J_or∪=0.276 |A|=105 |∩|=40
+[3390/3885] L=14 cat=5 'solid' / 'gas' | J_and∩=0.267 J_and∪=0.240 J_or∪=0.245 |A|=122 |∩|=63
+[3400/3885] L=14 cat=5 'liquid' / 'void' | J_and∩=0.247 J_and∪=0.191 J_or∪=0.196 |A|=123 |∩|=34
+[3410/3885] L=14 cat=5 'solid' / 'vapor' | J_and∩=0.316 J_and∪=0.234 J_or∪=0.247 |A|=122 |∩|=69
+[3420/3885] L=14 cat=5 'vaporization' / 'condensation' | J_and∩=0.252 J_and∪=0.195 J_or∪=0.190 |A|=125 |∩|=62
+[3430/3885] L=14 cat=5 'quantum' / 'solidifying' | J_and∩=0.215 J_and∪=0.197 J_or∪=0.198 |A|=81 |∩|=24
+[3440/3885] L=14 cat=5 'Crystalline lattice' / 'Liquid vapor' | J_and∩=0.202 J_and∪=0.261 J_or∪=0.248 |A|=68 |∩|=34
+[3450/3885] L=14 cat=5 'Frozen instant' / 'Fluid motion' | J_and∩=0.137 J_and∪=0.161 J_or∪=0.211 |A|=87 |∩|=22
+[3460/3885] L=14 cat=5 'Steel beam' / 'Liquid metal' | J_and∩=0.165 J_and∪=0.153 J_or∪=0.140 |A|=66 |∩|=36
+[3470/3885] L=14 cat=5 'Crystalline solid' / 'Gaseous vapor' | J_and∩=0.269 J_and∪=0.289 J_or∪=0.230 |A|=65 |∩|=39
+[3480/3885] L=14 cat=5 'Solid crystal' / 'Dissolving salt' | J_and∩=0.189 J_and∪=0.248 J_or∪=0.240 |A|=65 |∩|=25
+[3490/3885] L=14 cat=5 'square' / 'spheres' | J_and∩=0.265 J_and∪=0.227 J_or∪=0.210 |A|=85 |∩|=35
+[3500/3885] L=14 cat=5 'parallel' / 'intersecting' | J_and∩=0.240 J_and∪=0.259 J_or∪=0.281 |A|=77 |∩|=29
+[3510/3885] L=14 cat=5 'smooth' / 'jagged' | J_and∩=0.157 J_and∪=0.218 J_or∪=0.207 |A|=74 |∩|=31
+[3520/3885] L=14 cat=5 'metric' / 'topological' | J_and∩=0.180 J_and∪=0.281 J_or∪=0.277 |A|=75 |∩|=21
+[3530/3885] L=14 cat=5 'compact' / 'infinite' | J_and∩=0.179 J_and∪=0.150 J_or∪=0.192 |A|=87 |∩|=26
+[3540/3885] L=14 cat=5 'Cryogenic' / 'Incandescent' | J_and∩=0.177 J_and∪=0.218 J_or∪=0.189 |A|=76 |∩|=22
+[3550/3885] L=14 cat=5 'Negative Temperature' / 'Positive Temperature' | J_and∩=0.231 J_and∪=0.229 J_or∪=0.176 |A|=77 |∩|=34
+[3560/3885] L=14 cat=5 'Heat Flux' / 'Heat Block' | J_and∩=0.235 J_and∪=0.233 J_or∪=0.196 |A|=71 |∩|=37
+[3570/3885] L=14 cat=5 'Thermal Quench' / 'Thermal Runaway' | J_and∩=0.369 J_and∪=0.412 J_or∪=0.351 |A|=78 |∩|=57
+[3580/3885] L=14 cat=5 'Thermal Conductance' / 'Thermal Resistivity' | J_and∩=0.161 J_and∪=0.153 J_or∪=0.147 |A|=67 |∩|=44
+[3590/3885] L=14 cat=5 'Tautology' / 'Contradiction' | J_and∩=0.250 J_and∪=0.233 J_or∪=0.245 |A|=59 |∩|=36
+[3600/3885] L=14 cat=5 'Affirmative' / 'Negative' | J_and∩=0.181 J_and∪=0.166 J_or∪=0.174 |A|=87 |∩|=22
+[3610/3885] L=14 cat=5 'Explicit' / 'Implicit' | J_and∩=0.142 J_and∪=0.145 J_or∪=0.154 |A|=65 |∩|=42
+[3620/3885] L=14 cat=5 'Truth' / 'Falsity' | J_and∩=0.156 J_and∪=0.207 J_or∪=0.257 |A|=72 |∩|=45
+[3630/3885] L=14 cat=5 'Satisfiability' / 'Unsatisfiability' | J_and∩=0.230 J_and∪=0.300 J_or∪=0.298 |A|=79 |∩|=46
+[3640/3885] L=14 cat=5 'visible' / 'invisible' | J_and∩=0.102 J_and∪=0.134 J_or∪=0.138 |A|=66 |∩|=37
+[3650/3885] L=14 cat=5 'see-through' / 'solid' | J_and∩=0.198 J_and∪=0.206 J_or∪=0.233 |A|=71 |∩|=19
+[3660/3885] L=14 cat=5 'exposed' / 'buried' | J_and∩=0.101 J_and∪=0.150 J_or∪=0.182 |A|=53 |∩|=21
+[3670/3885] L=14 cat=5 'clear' / 'smudged' | J_and∩=0.195 J_and∪=0.242 J_or∪=0.281 |A|=86 |∩|=22
+[3680/3885] L=14 cat=5 'exposed' / 'wrapped' | J_and∩=0.140 J_and∪=0.108 J_or∪=0.125 |A|=53 |∩|=28
+[3690/3885] L=14 cat=5 'Chaotic Drift' / 'Fixed Point' | J_and∩=0.288 J_and∪=0.296 J_or∪=0.291 |A|=91 |∩|=42
+[3700/3885] L=14 cat=5 'Scattered Trajectory' / 'Single Path' | J_and∩=0.247 J_and∪=0.238 J_or∪=0.250 |A|=71 |∩|=35
+[3710/3885] L=14 cat=5 'Relentless Pursuit' / 'Stationary Target' | J_and∩=0.144 J_and∪=0.196 J_or∪=0.190 |A|=80 |∩|=21
+[3720/3885] L=14 cat=5 'Unbound Journey' / 'Fixed Destination' | J_and∩=0.204 J_and∪=0.214 J_or∪=0.242 |A|=83 |∩|=39
+[3730/3885] L=14 cat=5 'Unrestrained Expansion' / 'Confined Compression' | J_and∩=0.250 J_and∪=0.287 J_or∪=0.255 |A|=73 |∩|=48
+[3740/3885] L=14 cat=5 'Hydrostatic force' / 'Vacuum pull' | J_and∩=0.278 J_and∪=0.270 J_or∪=0.283 |A|=79 |∩|=43
+[3750/3885] L=14 cat=5 'Material compression' / 'Structural expansion' | J_and∩=0.138 J_and∪=0.177 J_or∪=0.199 |A|=56 |∩|=32
+[3760/3885] L=14 cat=5 'Molecular impact' / 'Void reflection' | J_and∩=0.129 J_and∪=0.217 J_or∪=0.189 |A|=67 |∩|=17
+[3770/3885] L=14 cat=5 'Bulk fluid' / 'Void space' | J_and∩=0.211 J_and∪=0.261 J_or∪=0.306 |A|=78 |∩|=33
+[3780/3885] L=14 cat=5 'Atomic packing' / 'Void dispersion' | J_and∩=0.160 J_and∪=0.233 J_or∪=0.228 |A|=77 |∩|=24
+[3790/3885] L=14 cat=5 'Null Signal' / 'Full Spectrum' | J_and∩=0.192 J_and∪=0.297 J_or∪=0.274 |A|=81 |∩|=23
+[3800/3885] L=14 cat=5 'Null Frequency' / 'Harmonic Overtone' | J_and∩=0.320 J_and∪=0.338 J_or∪=0.348 |A|=75 |∩|=46
+[3810/3885] L=14 cat=5 'Silent Motion' / 'Violent Vibration' | J_and∩=0.252 J_and∪=0.256 J_or∪=0.244 |A|=78 |∩|=58
+[3820/3885] L=14 cat=5 'Muffled Footsteps' / 'Stomping March' | J_and∩=0.114 J_and∪=0.266 J_or∪=0.264 |A|=89 |∩|=17
+[3830/3885] L=14 cat=5 'Null Frequency' / 'Bass Drop' | J_and∩=0.312 J_and∪=0.394 J_or∪=0.348 |A|=75 |∩|=44
+[3840/3885] L=14 cat=5 'thick matter' / 'thin absence' | J_and∩=0.229 J_and∪=0.247 J_or∪=0.302 |A|=72 |∩|=39
+[3850/3885] L=14 cat=5 'heavy weight' / 'zero mass' | J_and∩=0.282 J_and∪=0.286 J_or∪=0.244 |A|=79 |∩|=43
+[3860/3885] L=14 cat=5 'packed grains' / 'vacant nest' | J_and∩=0.333 J_and∪=0.287 J_or∪=0.279 |A|=88 |∩|=40
+[3870/3885] L=14 cat=5 'solid wall' / 'open door' | J_and∩=0.170 J_and∪=0.218 J_or∪=0.207 |A|=82 |∩|=26
+[3880/3885] L=14 cat=5 'heavy brick' / 'thin mist' | J_and∩=0.181 J_and∪=0.188 J_or∪=0.198 |A|=96 |∩|=35
+[3885/3885] L=14 cat=5 'heavy core' / 'empty shell' | J_and∩=0.316 J_and∪=0.278 J_or∪=0.308 |A|=96 |∩|=52
+Wrote metrics JSONL → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.jsonl
+Wrote metrics CSV   → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.csv
+Wrote metrics JSON  → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.json
+Wrote category summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/category_summary.csv
+=== Jaccard plots ===
+Loaded 3885 pairs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.csv
+cat=1 n=799 | Redundant / Strict Entailment | AND∩=0.233 AND∪=0.254 OR∪=0.253
+cat=2 n=795 | Typical Composition | AND∩=0.189 AND∪=0.203 OR∪=0.208
+cat=3 n=750 | Uncommon / Orthogonal | AND∩=0.216 AND∪=0.234 OR∪=0.239
+cat=4 n=795 | Surreal / Out-of-Distribution | AND∩=0.211 AND∪=0.239 OR∪=0.243
+cat=5 n=746 | Mutually Exclusive / Paradoxical | AND∩=0.225 AND∪=0.242 OR∪=0.243
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_cat5.png
+Saved focus  → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_and_min_vs_max.png
+Saved summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/jaccard_summary.png
+Done.
+Metrics: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/results_sae_jaccard.csv
+Figures: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_jaccard_simlarity/output/layer_14/figures_jaccard/

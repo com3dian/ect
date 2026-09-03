@@ -1,0 +1,50 @@
+Loaded WiLLMa credentials from /home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/.env
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 tropical geometry corpus generation ===
+types=A,B,C
+items_per_batch=50
+batches_per_type=3
+target_per_type=150
+model=Qwen/Qwen3.6-35B-A3B-FP8
+base_url=https://api.willma.surf.nl/v0
+base_url=https://api.willma.surf.nl/v0
+model=Qwen/Qwen3.6-35B-A3B-FP8
+existing_items=0
+target_per_type=150
+items_per_batch=50
+batches_per_type=3
+concurrency=1
+structured_output=json_schema (fallback: json_object)
+[A] batch 1 (have 0)
+  SKIP after retries: No JSON object/array found in model response
+[A] batch 2 (have 0)
+  +50 new (parsed 50; type total 50)
+[A] batch 3 (have 50)
+  SKIP after retries: No JSON object/array found in model response
+[B] batch 1 (have 0)
+  SKIP after retries: Empty model response
+[B] batch 2 (have 0)
+  +50 new (parsed 50; type total 50)
+[B] batch 3 (have 50)
+  SKIP after retries: No JSON object/array found in model response
+[C] batch 1 (have 0)
+  SKIP after retries: No JSON object/array found in model response
+[C] batch 2 (have 0)
+  SKIP after retries: No JSON object/array found in model response
+[C] batch 3 (have 0)
+  SKIP after retries: No JSON object/array found in model response
+Done. Per-type counts: {'A': 50, 'B': 50, 'C': 0}
+Skipped 7 failed batch(es):
+  - type A batch 0: No JSON object/array found in model response
+  - type A batch 2: No JSON object/array found in model response
+  - type B batch 0: Empty model response
+  - type B batch 2: No JSON object/array found in model response
+  - type C batch 0: No JSON object/array found in model response
+  - type C batch 1: No JSON object/array found in model response
+  - type C batch 2: No JSON object/array found in model response
+Wrote JSON  → /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json
+Wrote JSONL → /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.jsonl
+Elapsed: 1652.3s
+Done.
+JSON:  /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json
+JSONL: /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.jsonl

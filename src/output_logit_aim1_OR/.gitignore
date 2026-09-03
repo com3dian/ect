@@ -1,0 +1,10 @@
+# Local run artifacts
+output/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pt
+*.bin
+*.safetensors

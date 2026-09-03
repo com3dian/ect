@@ -1,0 +1,10 @@
+# SAE-lens AND/OR composition (GPU recommended)
+torch>=2.1.0
+transformers>=4.57.0
+accelerate>=0.33.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+sae-lens>=5.0.0
+numpy>=1.26.0
+pandas>=2.0.0
+tqdm>=4.66.0

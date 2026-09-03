@@ -1,0 +1,23 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 57/320 [00:00<00:00, 506.68it/s]Loading weights:  34%|███▍      | 108/320 [00:00<00:00, 292.65it/s]Loading weights:  44%|████▍     | 142/320 [00:00<00:00, 235.92it/s]Loading weights:  53%|█████▎    | 169/320 [00:00<00:00, 187.97it/s]Loading weights:  59%|█████▉    | 190/320 [00:00<00:00, 191.42it/s]Loading weights:  66%|██████▌   | 211/320 [00:00<00:00, 188.98it/s]Loading weights:  72%|███████▏  | 231/320 [00:01<00:00, 179.87it/s]Loading weights:  78%|███████▊  | 250/320 [00:01<00:00, 132.91it/s]Loading weights:  85%|████████▍ | 271/320 [00:01<00:00, 134.64it/s]Loading weights:  89%|████████▉ | 286/320 [00:01<00:00, 130.80it/s]Loading weights:  97%|█████████▋| 310/320 [00:01<00:00, 142.70it/s]Loading weights: 100%|██████████| 320/320 [00:01<00:00, 180.64it/s]
+/home/WUR/lu087/Github/ect/src/aim2_entailment/jacobian.py:77: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more information. (Triggered internally at /__w/pytorch/pytorch/build/aten/src/ATen/core/TensorBody.h:493.)
+  if h_ell.grad is None:
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/experiment.py", line 382, in <module>
+    main()
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/experiment.py", line 362, in main
+    run_experiment(
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/experiment.py", line 292, in run_experiment
+    extract_vectors_for_pairs(
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/experiment.py", line 125, in extract_vectors_for_pairs
+    payload = extract_steering_vectors(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/vectors.py", line 46, in extract_steering_vectors
+    v_ect = compute_v_ect_vjp(
+            ^^^^^^^^^^^^^^^^^^
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/jacobian.py", line 78, in compute_v_ect_vjp
+    raise RuntimeError("h_ell.grad is None; check autograd connectivity")
+RuntimeError: h_ell.grad is None; check autograd connectivity

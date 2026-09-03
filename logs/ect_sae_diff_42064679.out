@@ -1,0 +1,215 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Differential SAE experiment ===
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=3885)
+device=cuda dtype=bfloat16 layer=14
+baseline_mode=relu(v - v_base) save_features=True top_k=256
+loaded on cuda, vocab_size=256000
+n_layers=26 → using layer_index=14
+todo=3885 done=0
+metrics → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_composition_metrics.jsonl
+distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+baselines ready | mass_single=595.1444 mass_composed=621.1502
+[1/3885] L=14 cat=1 'Transitive Verb' / 'Verb' | tvd_and_min=0.8177 tvd_or_max=0.7083 jaccard=0.2475 mass_a=241.689
+[10/3885] L=14 cat=1 'Superlative Adjective' / 'Adjective' | tvd_and_min=0.8641 tvd_or_max=0.6987 jaccard=0.1455 mass_a=265.057
+[20/3885] L=14 cat=1 'Definite Article' / 'Determiner' | tvd_and_min=0.8626 tvd_or_max=0.6840 jaccard=0.2268 mass_a=282.641
+[30/3885] L=14 cat=1 'Relative Clause' / 'Clause' | tvd_and_min=0.8459 tvd_or_max=0.6584 jaccard=0.2247 mass_a=176.287
+[40/3885] L=14 cat=1 'Exclamatory Sentence' / 'Sentence' | tvd_and_min=0.8752 tvd_or_max=0.8043 jaccard=0.2588 mass_a=212.753
+[50/3885] L=14 cat=1 'Active Voice' / 'Voice' | tvd_and_min=0.9356 tvd_or_max=0.7832 jaccard=0.1016 mass_a=427.495
+[60/3885] L=14 cat=1 'Sleet' / 'Precipitation' | tvd_and_min=0.8626 tvd_or_max=0.8178 jaccard=0.1667 mass_a=303.623
+[70/3885] L=14 cat=1 'Cold Front' / 'Front' | tvd_and_min=0.9071 tvd_or_max=0.8319 jaccard=0.0732 mass_a=354.709
+[80/3885] L=14 cat=1 'Haze' / 'Visibility Condition' | tvd_and_min=0.8732 tvd_or_max=0.7847 jaccard=0.1905 mass_a=314.439
+[90/3885] L=14 cat=1 'Macroburst' / 'Downburst' | tvd_and_min=0.7857 tvd_or_max=0.7563 jaccard=0.3750 mass_a=280.538
+[100/3885] L=14 cat=1 'Sun Dog' / 'Halo' | tvd_and_min=0.9855 tvd_or_max=0.8926 jaccard=0.0365 mass_a=413.008
+[110/3885] L=14 cat=1 'Hydrothermal Vent' / 'Seafloor Feature' | tvd_and_min=0.8031 tvd_or_max=0.7860 jaccard=0.2692 mass_a=420.688
+[120/3885] L=14 cat=1 'Oxygen Minimum Zone' / 'Oceanic Layer' | tvd_and_min=0.7688 tvd_or_max=0.6845 jaccard=0.2935 mass_a=269.100
+[130/3885] L=14 cat=1 'Fringing Reef' / 'Coral Reef Structure' | tvd_and_min=0.7930 tvd_or_max=0.7230 jaccard=0.3118 mass_a=323.660
+[140/3885] L=14 cat=1 'Bathyal Zone' / 'Deep Marine Region' | tvd_and_min=0.7653 tvd_or_max=0.7563 jaccard=0.5616 mass_a=303.809
+[150/3885] L=14 cat=1 'Mediterranean Water' / 'Intermediate Water Mass' | tvd_and_min=0.8824 tvd_or_max=0.7949 jaccard=0.1743 mass_a=382.175
+[160/3885] L=14 cat=1 'Lead' / 'Post-transition metal' | tvd_and_min=0.9540 tvd_or_max=0.8516 jaccard=0.0511 mass_a=392.591
+[170/3885] L=14 cat=1 'Phosphorus' / 'Pnictogen' | tvd_and_min=0.9385 tvd_or_max=0.8222 jaccard=0.1263 mass_a=350.710
+[180/3885] L=14 cat=1 'Potassium' / 'Alkali metal' | tvd_and_min=0.9468 tvd_or_max=0.8482 jaccard=0.0882 mass_a=357.616
+[190/3885] L=14 cat=1 'Titanium' / 'Transition metal' | tvd_and_min=0.9769 tvd_or_max=0.8216 jaccard=0.0485 mass_a=380.610
+[200/3885] L=14 cat=1 'Tin' / 'Post-transition metal' | tvd_and_min=0.9737 tvd_or_max=0.8781 jaccard=0.0901 mass_a=409.200
+[210/3885] L=14 cat=1 'Whimper' / 'Cry' | tvd_and_min=0.8727 tvd_or_max=0.7721 jaccard=0.1619 mass_a=325.814
+[220/3885] L=14 cat=1 'Watery Eyes' / 'Crying' | tvd_and_min=0.6675 tvd_or_max=0.6520 jaccard=0.3061 mass_a=449.839
+[230/3885] L=14 cat=1 'Eye Roll' / 'Dismissive Expression' | tvd_and_min=0.7736 tvd_or_max=0.7245 jaccard=0.2955 mass_a=504.026
+[240/3885] L=14 cat=1 'Closed Mouth Smile' / 'Smile' | tvd_and_min=0.7538 tvd_or_max=0.7080 jaccard=0.2037 mass_a=301.857
+[250/3885] L=14 cat=1 'Angry Glare' / 'Glare' | tvd_and_min=0.8024 tvd_or_max=0.6736 jaccard=0.2885 mass_a=413.099
+[260/3885] L=14 cat=1 'Corporate Counsel' / 'Attorney' | tvd_and_min=0.8214 tvd_or_max=0.6966 jaccard=0.1619 mass_a=392.806
+[270/3885] L=14 cat=1 'Indictment' / 'Charging Document' | tvd_and_min=0.7632 tvd_or_max=0.6464 jaccard=0.3953 mass_a=241.324
+[280/3885] L=14 cat=1 'Subpoena Duces Tecum' / 'Subpoena' | tvd_and_min=0.8241 tvd_or_max=0.7254 jaccard=0.4247 mass_a=262.281
+[290/3885] L=14 cat=1 'Will' / 'Testamentary Document' | tvd_and_min=0.8034 tvd_or_max=0.6958 jaccard=0.2316 mass_a=276.764
+[300/3885] L=14 cat=1 'Arbitrator' / 'ADR Professional' | tvd_and_min=0.9093 tvd_or_max=0.8191 jaccard=0.2809 mass_a=305.731
+[310/3885] L=14 cat=1 'Blue-Green' / 'Tertiary Color' | tvd_and_min=0.8564 tvd_or_max=0.8124 jaccard=0.1609 mass_a=260.870
+[320/3885] L=14 cat=1 'Cool Colors' / 'Color Temperature' | tvd_and_min=0.8116 tvd_or_max=0.8175 jaccard=0.1776 mass_a=408.503
+[330/3885] L=14 cat=1 'RYB Model' / 'Color Model' | tvd_and_min=0.8767 tvd_or_max=0.8620 jaccard=0.2632 mass_a=212.672
+[340/3885] L=14 cat=1 'Pastel Colors' / 'Color Classification' | tvd_and_min=0.7573 tvd_or_max=0.7385 jaccard=0.2338 mass_a=360.572
+[350/3885] L=14 cat=1 'Blue-Orange' / 'Complementary Pair' | tvd_and_min=0.8666 tvd_or_max=0.7650 jaccard=0.1868 mass_a=276.550
+[360/3885] L=14 cat=1 'Escape wheel' / 'Gear' | tvd_and_min=0.8698 tvd_or_max=0.7502 jaccard=0.1429 mass_a=285.153
+[370/3885] L=14 cat=1 'Cannon pinion' / 'Gear' | tvd_and_min=0.9384 tvd_or_max=0.8217 jaccard=0.0962 mass_a=212.192
+[380/3885] L=14 cat=1 'Release lever' / 'Lever' | tvd_and_min=0.8926 tvd_or_max=0.7733 jaccard=0.2842 mass_a=286.645
+[390/3885] L=14 cat=1 'Snail' / 'Cam' | tvd_and_min=0.8548 tvd_or_max=0.7693 jaccard=0.1827 mass_a=295.461
+[400/3885] L=14 cat=1 'Train' / 'Mechanism' | tvd_and_min=0.8859 tvd_or_max=0.8624 jaccard=0.2857 mass_a=261.744
+[410/3885] L=14 cat=1 'Bassoon' / 'Woodwind Instrument' | tvd_and_min=0.8828 tvd_or_max=0.7852 jaccard=0.1979 mass_a=302.006
+[420/3885] L=14 cat=1 'Snare Drum' / 'Percussion Instrument' | tvd_and_min=0.8727 tvd_or_max=0.7506 jaccard=0.3592 mass_a=404.494
+[430/3885] L=14 cat=1 'Valve' / 'Trumpet' | tvd_and_min=0.9013 tvd_or_max=0.8553 jaccard=0.2222 mass_a=292.356
+[440/3885] L=14 cat=1 'Hammers' / 'Piano' | tvd_and_min=0.8938 tvd_or_max=0.8139 jaccard=0.1333 mass_a=310.969
+[450/3885] L=14 cat=1 'Resonance' / 'Acoustic Property' | tvd_and_min=0.9207 tvd_or_max=0.8413 jaccard=0.1905 mass_a=282.657
+[460/3885] L=14 cat=1 'Sternum' / 'Thoracic Bone' | tvd_and_min=0.8957 tvd_or_max=0.8083 jaccard=0.1771 mass_a=310.791
+[470/3885] L=14 cat=1 'Hyoid' / 'Neck Bone' | tvd_and_min=0.8841 tvd_or_max=0.8141 jaccard=0.1942 mass_a=281.340
+[480/3885] L=14 cat=1 'Levator Scapulae' / 'Neck Muscle' | tvd_and_min=0.8760 tvd_or_max=0.7466 jaccard=0.2857 mass_a=313.276
+[490/3885] L=14 cat=1 'Intercostals' / 'Thoracic Muscle' | tvd_and_min=0.7976 tvd_or_max=0.7862 jaccard=0.1887 mass_a=402.649
+[500/3885] L=14 cat=1 'Biceps Femoris' / 'Thigh Muscle' | tvd_and_min=0.9131 tvd_or_max=0.7705 jaccard=0.2283 mass_a=329.526
+[510/3885] L=14 cat=1 'Flood Irrigation' / 'Watering Method' | tvd_and_min=0.8820 tvd_or_max=0.8511 jaccard=0.2105 mass_a=275.214
+[520/3885] L=14 cat=1 'Long Day' / 'Photoperiod' | tvd_and_min=0.8808 tvd_or_max=0.8978 jaccard=0.1717 mass_a=378.463
+[530/3885] L=14 cat=1 'Sepal' / 'Flower Part' | tvd_and_min=0.9364 tvd_or_max=0.8476 jaccard=0.1731 mass_a=393.054
+[540/3885] L=14 cat=1 'Cover Crop' / 'Field Management' | tvd_and_min=0.8006 tvd_or_max=0.6796 jaccard=0.0901 mass_a=227.843
+[550/3885] L=14 cat=1 'Nutrient Film' / 'Hydroponic Technique' | tvd_and_min=0.9050 tvd_or_max=0.7729 jaccard=0.1954 mass_a=275.487
+[560/3885] L=14 cat=1 'Leaf vein' / 'Leaf' | tvd_and_min=0.9130 tvd_or_max=0.8608 jaccard=0.1591 mass_a=247.127
+[570/3885] L=14 cat=1 'Tuber' / 'Stem' | tvd_and_min=0.8154 tvd_or_max=0.8412 jaccard=0.3125 mass_a=292.613
+[580/3885] L=14 cat=1 'Tepal' / 'Flower perianth' | tvd_and_min=0.8908 tvd_or_max=0.7501 jaccard=0.1071 mass_a=285.331
+[590/3885] L=14 cat=1 'Cotyledon' / 'Seed' | tvd_and_min=0.9293 tvd_or_max=0.8192 jaccard=0.1101 mass_a=298.605
+[600/3885] L=14 cat=1 'Companion cell' / 'Phloem' | tvd_and_min=0.7977 tvd_or_max=0.6722 jaccard=0.2989 mass_a=264.151
+[610/3885] L=14 cat=1 'Pentagon' / 'Polygon' | tvd_and_min=0.9061 tvd_or_max=0.7827 jaccard=0.2360 mass_a=323.848
+[620/3885] L=14 cat=1 'Diameter' / 'Circle' | tvd_and_min=0.9072 tvd_or_max=0.8064 jaccard=0.1190 mass_a=236.696
+[630/3885] L=14 cat=1 'Obtuse Angle' / 'Angle' | tvd_and_min=0.8586 tvd_or_max=0.7638 jaccard=0.2025 mass_a=251.840
+[640/3885] L=14 cat=1 'Cube' / 'Polyhedron' | tvd_and_min=0.8330 tvd_or_max=0.7667 jaccard=0.2949 mass_a=254.017
+[650/3885] L=14 cat=1 'Vertex' / 'Polyhedron' | tvd_and_min=0.8822 tvd_or_max=0.7975 jaccard=0.1910 mass_a=275.629
+[660/3885] L=14 cat=1 'Natural Number' / 'Integer' | tvd_and_min=0.8095 tvd_or_max=0.6908 jaccard=0.1429 mass_a=319.181
+[670/3885] L=14 cat=1 'Odd Multiple' / 'Multiple' | tvd_and_min=0.8589 tvd_or_max=0.8771 jaccard=0.1957 mass_a=295.344
+[680/3885] L=14 cat=1 'Highly Composite Number' / 'Composite Number' | tvd_and_min=0.7901 tvd_or_max=0.7965 jaccard=0.4565 mass_a=295.237
+[690/3885] L=14 cat=1 'Fermat Prime' / 'Prime Number' | tvd_and_min=0.8342 tvd_or_max=0.7223 jaccard=0.2571 mass_a=267.603
+[700/3885] L=14 cat=1 'Electron' / 'Lepton' | tvd_and_min=0.8978 tvd_or_max=0.8008 jaccard=0.2366 mass_a=302.032
+[710/3885] L=14 cat=1 'Bottom quark' / 'Quark' | tvd_and_min=0.8869 tvd_or_max=0.8065 jaccard=0.1624 mass_a=341.695
+[720/3885] L=14 cat=1 'Higgs boson' / 'Scalar boson' | tvd_and_min=0.8991 tvd_or_max=0.8047 jaccard=0.0821 mass_a=450.976
+[730/3885] L=14 cat=1 'Superconductor' / 'Phase of matter' | tvd_and_min=0.8693 tvd_or_max=0.7478 jaccard=0.1613 mass_a=278.900
+[740/3885] L=14 cat=1 'Dirac fermion' / 'Fermion' | tvd_and_min=0.8907 tvd_or_max=0.7451 jaccard=0.2451 mass_a=335.052
+[750/3885] L=14 cat=1 'Peregrine Falcon' / 'Falcon' | tvd_and_min=0.9052 tvd_or_max=0.7521 jaccard=0.2887 mass_a=282.385
+[760/3885] L=14 cat=1 'Tawny Frogmouth' / 'Frogmouth' | tvd_and_min=0.8445 tvd_or_max=0.7649 jaccard=0.5806 mass_a=238.386
+[770/3885] L=14 cat=1 'Sapsucker' / 'Woodpecker' | tvd_and_min=0.8143 tvd_or_max=0.8145 jaccard=0.4301 mass_a=354.289
+[780/3885] L=14 cat=1 'Treecreeper' / 'Passerine' | tvd_and_min=0.9255 tvd_or_max=0.7076 jaccard=0.1700 mass_a=257.364
+[790/3885] L=14 cat=1 'Alula' / 'Wing Feather' | tvd_and_min=0.7860 tvd_or_max=0.7923 jaccard=0.3455 mass_a=278.866
+[800/3885] L=14 cat=2 'watering can' / 'potted plants' | tvd_and_min=0.8966 tvd_or_max=0.8822 jaccard=0.2700 mass_a=295.673
+[810/3885] L=14 cat=2 'outdoor rug' / 'patio furniture' | tvd_and_min=0.8322 tvd_or_max=0.7856 jaccard=0.4239 mass_a=334.130
+[820/3885] L=14 cat=2 'bonsai tree' / 'pruning wire' | tvd_and_min=0.9072 tvd_or_max=0.8837 jaccard=0.1712 mass_a=215.939
+[830/3885] L=14 cat=2 'hand fork' / 'weed removal' | tvd_and_min=0.9820 tvd_or_max=0.8397 jaccard=0.0263 mass_a=428.632
+[840/3885] L=14 cat=2 'outdoor cooler' / 'drink holders' | tvd_and_min=0.8712 tvd_or_max=0.8048 jaccard=0.3200 mass_a=217.276
+[850/3885] L=14 cat=2 'espresso' / 'latte' | tvd_and_min=0.9452 tvd_or_max=0.8824 jaccard=0.1515 mass_a=188.573
+[860/3885] L=14 cat=2 'croissant' / 'butter' | tvd_and_min=0.9538 tvd_or_max=0.8911 jaccard=0.1346 mass_a=254.585
+[870/3885] L=14 cat=2 'icing bag' / 'frosting' | tvd_and_min=0.9435 tvd_or_max=0.8529 jaccard=0.1200 mass_a=243.469
+[880/3885] L=14 cat=2 'buttery croissant' / 'flake' | tvd_and_min=0.9598 tvd_or_max=0.7872 jaccard=0.0714 mass_a=304.693
+[890/3885] L=14 cat=2 'powdered sugar' / 'scone' | tvd_and_min=0.9297 tvd_or_max=0.8450 jaccard=0.1456 mass_a=394.896
+[900/3885] L=14 cat=2 'bus stop' / 'ticket machine' | tvd_and_min=0.8854 tvd_or_max=0.8029 jaccard=0.3684 mass_a=235.721
+[910/3885] L=14 cat=2 'bicycle rack' / 'lock' | tvd_and_min=0.9232 tvd_or_max=0.8450 jaccard=0.1290 mass_a=229.503
+[920/3885] L=14 cat=2 'bus shelter' / 'timetable' | tvd_and_min=0.9536 tvd_or_max=0.8024 jaccard=0.0682 mass_a=295.684
+[930/3885] L=14 cat=2 'traffic circle' / 'yield line' | tvd_and_min=0.8009 tvd_or_max=0.7890 jaccard=0.1719 mass_a=394.767
+[940/3885] L=14 cat=2 'traffic light' / 'countdown timer' | tvd_and_min=0.8048 tvd_or_max=0.7203 jaccard=0.3069 mass_a=316.052
+[950/3885] L=14 cat=2 'pencil' / 'eraser' | tvd_and_min=0.9044 tvd_or_max=0.8707 jaccard=0.2075 mass_a=328.849
+[960/3885] L=14 cat=2 'desk' / 'chair' | tvd_and_min=0.9424 tvd_or_max=0.8871 jaccard=0.2844 mass_a=309.508
+[970/3885] L=14 cat=2 'pencil sharpener' / 'wood shavings' | tvd_and_min=0.9214 tvd_or_max=0.7817 jaccard=0.1391 mass_a=298.713
+[980/3885] L=14 cat=2 'desk organizer' / 'sticky notes' | tvd_and_min=0.9046 tvd_or_max=0.7948 jaccard=0.3483 mass_a=229.378
+[990/3885] L=14 cat=2 'binder rings' / 'loose leaf paper' | tvd_and_min=0.8842 tvd_or_max=0.7719 jaccard=0.1786 mass_a=193.460
+[1000/3885] L=14 cat=2 'fork' / 'knife' | tvd_and_min=0.8288 tvd_or_max=0.7869 jaccard=0.2857 mass_a=402.306
+[1010/3885] L=14 cat=2 'colander' / 'bowl' | tvd_and_min=0.8767 tvd_or_max=0.7385 jaccard=0.1837 mass_a=252.390
+[1020/3885] L=14 cat=2 'coffee cup' / 'saucer' | tvd_and_min=0.8800 tvd_or_max=0.8596 jaccard=0.2404 mass_a=315.150
+[1030/3885] L=14 cat=2 'chopsticks' / 'rice bowl' | tvd_and_min=0.9091 tvd_or_max=0.8491 jaccard=0.2626 mass_a=272.989
+[1040/3885] L=14 cat=2 'egg cup' / 'spoon' | tvd_and_min=0.9405 tvd_or_max=0.8085 jaccard=0.2373 mass_a=223.501
+[1050/3885] L=14 cat=2 'slide' / 'swing' | tvd_and_min=0.9121 tvd_or_max=0.8486 jaccard=0.1643 mass_a=252.729
+[1060/3885] L=14 cat=2 'marbles' / 'glass' | tvd_and_min=0.9747 tvd_or_max=0.8730 jaccard=0.1579 mass_a=262.690
+[1070/3885] L=14 cat=2 'water gun' / 'trigger' | tvd_and_min=0.8458 tvd_or_max=0.8040 jaccard=0.1746 mass_a=367.390
+[1080/3885] L=14 cat=2 'swing set' / 'chains' | tvd_and_min=0.9849 tvd_or_max=0.8139 jaccard=0.1284 mass_a=336.125
+[1090/3885] L=14 cat=2 'puzzle board' / 'pieces' | tvd_and_min=0.9444 tvd_or_max=0.7927 jaccard=0.0638 mass_a=206.756
+[1100/3885] L=14 cat=2 'sofa' / 'cushion' | tvd_and_min=0.9746 tvd_or_max=0.8620 jaccard=0.0833 mass_a=249.899
+[1110/3885] L=14 cat=2 'throw blanket' / 'sofa' | tvd_and_min=0.8622 tvd_or_max=0.7981 jaccard=0.3708 mass_a=296.497
+[1120/3885] L=14 cat=2 'desk chair' / 'mousepad' | tvd_and_min=0.9382 tvd_or_max=0.8550 jaccard=0.3605 mass_a=256.869
+[1130/3885] L=14 cat=2 'rocking chair' / 'glider' | tvd_and_min=0.8750 tvd_or_max=0.8258 jaccard=0.1268 mass_a=275.959
+[1140/3885] L=14 cat=2 'storage ottoman' / 'lid' | tvd_and_min=0.9702 tvd_or_max=0.8516 jaccard=0.0559 mass_a=311.155
+[1150/3885] L=14 cat=2 'tennis racket' / 'tennis ball' | tvd_and_min=0.8454 tvd_or_max=0.8684 jaccard=0.4722 mass_a=276.255
+[1160/3885] L=14 cat=2 'dumbbell' / 'kettlebell' | tvd_and_min=0.9040 tvd_or_max=0.7605 jaccard=0.0970 mass_a=485.031
+[1170/3885] L=14 cat=2 'cricket bat' / 'cricket ball' | tvd_and_min=0.8501 tvd_or_max=0.8364 jaccard=0.3913 mass_a=266.431
+[1180/3885] L=14 cat=2 'baseball cap' / 'batting glove' | tvd_and_min=0.9068 tvd_or_max=0.8541 jaccard=0.2286 mass_a=298.686
+[1190/3885] L=14 cat=2 'racquetball racket' / 'racquetball' | tvd_and_min=0.9191 tvd_or_max=0.8444 jaccard=0.1849 mass_a=457.298
+[1200/3885] L=14 cat=2 'Refrigerator' / 'Freezer' | tvd_and_min=0.8627 tvd_or_max=0.8606 jaccard=0.3690 mass_a=267.656
+[1210/3885] L=14 cat=2 'Air Conditioner' / 'Remote' | tvd_and_min=0.8603 tvd_or_max=0.7955 jaccard=0.2000 mass_a=232.398
+[1220/3885] L=14 cat=2 'Robot Vacuum' / 'Dock' | tvd_and_min=0.8241 tvd_or_max=0.7662 jaccard=0.2000 mass_a=396.197
+[1230/3885] L=14 cat=2 'Sewing Machine' / 'Needle' | tvd_and_min=0.8999 tvd_or_max=0.8613 jaccard=0.1404 mass_a=322.099
+[1240/3885] L=14 cat=2 'Sandwich Press' / 'Bread' | tvd_and_min=0.8766 tvd_or_max=0.7481 jaccard=0.0734 mass_a=292.012
+[1250/3885] L=14 cat=2 'laundry basket' / 'hamper' | tvd_and_min=0.9344 tvd_or_max=0.8430 jaccard=0.3187 mass_a=259.909
+[1260/3885] L=14 cat=2 'shoe boxes' / 'pairs' | tvd_and_min=0.8254 tvd_or_max=0.7975 jaccard=0.1538 mass_a=294.614
+[1270/3885] L=14 cat=2 'liquid detergent' / 'cap' | tvd_and_min=0.9040 tvd_or_max=0.7699 jaccard=0.1301 mass_a=377.750
+[1280/3885] L=14 cat=2 'hang dry' / 'line' | tvd_and_min=0.8564 tvd_or_max=0.8492 jaccard=0.1185 mass_a=401.755
+[1290/3885] L=14 cat=2 'jewelry organizer' / 'hooks' | tvd_and_min=0.9816 tvd_or_max=0.8022 jaccard=0.0286 mass_a=286.676
+[1300/3885] L=14 cat=2 'dress shirt' / 'collar' | tvd_and_min=0.9290 tvd_or_max=0.8428 jaccard=0.1318 mass_a=294.688
+[1310/3885] L=14 cat=2 'silk tie' / 'knot' | tvd_and_min=0.9480 tvd_or_max=0.8365 jaccard=0.1440 mass_a=443.999
+[1320/3885] L=14 cat=2 'linen shirt' / 'breathable fabric' | tvd_and_min=0.9591 tvd_or_max=0.9313 jaccard=0.2449 mass_a=258.158
+[1330/3885] L=14 cat=2 'polyester dress' / 'wrinkle free' | tvd_and_min=0.9391 tvd_or_max=0.8280 jaccard=0.1092 mass_a=327.625
+[1340/3885] L=14 cat=2 'linen dress' / 'breathable weave' | tvd_and_min=0.9189 tvd_or_max=0.8596 jaccard=0.2258 mass_a=290.363
+[1350/3885] L=14 cat=2 'lettuce' / 'tomato' | tvd_and_min=0.9077 tvd_or_max=0.8701 jaccard=0.3229 mass_a=309.033
+[1360/3885] L=14 cat=2 'cherry' / 'grape' | tvd_and_min=0.9814 tvd_or_max=0.8986 jaccard=0.2203 mass_a=319.794
+[1370/3885] L=14 cat=2 'radish' / 'turnip' | tvd_and_min=0.8782 tvd_or_max=0.8483 jaccard=0.4396 mass_a=305.236
+[1380/3885] L=14 cat=2 'produce sticker' / 'price' | tvd_and_min=0.9384 tvd_or_max=0.8348 jaccard=0.1743 mass_a=227.585
+[1390/3885] L=14 cat=2 'expiration date' / 'label' | tvd_and_min=0.9335 tvd_or_max=0.8285 jaccard=0.1461 mass_a=156.155
+[1400/3885] L=14 cat=2 'binder clip' / 'folder' | tvd_and_min=0.9244 tvd_or_max=0.7682 jaccard=0.1573 mass_a=243.613
+[1410/3885] L=14 cat=2 'paperclip' / 'binder' | tvd_and_min=0.9191 tvd_or_max=0.8466 jaccard=0.2255 mass_a=304.059
+[1420/3885] L=14 cat=2 'tape' / 'paper' | tvd_and_min=0.9651 tvd_or_max=0.7930 jaccard=0.1197 mass_a=508.329
+[1430/3885] L=14 cat=2 'notebook' / 'paper' | tvd_and_min=0.8700 tvd_or_max=0.8273 jaccard=0.2500 mass_a=245.571
+[1440/3885] L=14 cat=2 'whiteboard' / 'marker' | tvd_and_min=0.9367 tvd_or_max=0.8543 jaccard=0.2697 mass_a=211.592
+[1450/3885] L=14 cat=2 'laptop' / 'power adapter' | tvd_and_min=0.9201 tvd_or_max=0.8784 jaccard=0.2234 mass_a=266.953
+[1460/3885] L=14 cat=2 'ebook reader' / 'charging cable' | tvd_and_min=0.9041 tvd_or_max=0.8276 jaccard=0.2024 mass_a=187.086
+[1470/3885] L=14 cat=2 'usb hub' / 'multiport adapter' | tvd_and_min=0.8502 tvd_or_max=0.7752 jaccard=0.1684 mass_a=172.929
+[1480/3885] L=14 cat=2 'fitness tracker' / 'step counter' | tvd_and_min=0.8725 tvd_or_max=0.7197 jaccard=0.3580 mass_a=244.755
+[1490/3885] L=14 cat=2 'action camera' / 'mount bracket' | tvd_and_min=0.8896 tvd_or_max=0.8244 jaccard=0.1963 mass_a=316.306
+[1500/3885] L=14 cat=2 'takeout bag' / 'receipt' | tvd_and_min=0.8933 tvd_or_max=0.8192 jaccard=0.2400 mass_a=269.782
+[1510/3885] L=14 cat=2 'coffee cup' / 'cardboard sleeve' | tvd_and_min=0.8932 tvd_or_max=0.8283 jaccard=0.1680 mass_a=315.150
+[1520/3885] L=14 cat=2 'straw' / 'sip lid' | tvd_and_min=0.8983 tvd_or_max=0.8354 jaccard=0.2569 mass_a=473.625
+[1530/3885] L=14 cat=2 'juice box' / 'straw' | tvd_and_min=0.8976 tvd_or_max=0.8250 jaccard=0.1840 mass_a=276.076
+[1540/3885] L=14 cat=2 'driver pouch' / 'order bag' | tvd_and_min=0.8609 tvd_or_max=0.7516 jaccard=0.2796 mass_a=242.865
+[1550/3885] L=14 cat=2 'street sign' / 'pole' | tvd_and_min=0.8927 tvd_or_max=0.8397 jaccard=0.1538 mass_a=215.819
+[1560/3885] L=14 cat=2 'airport terminal' / 'gate' | tvd_and_min=0.9277 tvd_or_max=0.8306 jaccard=0.0893 mass_a=206.855
+[1570/3885] L=14 cat=2 'tennis court' / 'net' | tvd_and_min=0.9268 tvd_or_max=0.8630 jaccard=0.0940 mass_a=218.788
+[1580/3885] L=14 cat=2 'statue' / 'base' | tvd_and_min=0.8644 tvd_or_max=0.7981 jaccard=0.1214 mass_a=277.438
+[1590/3885] L=14 cat=2 'tunnel' / 'ventilation' | tvd_and_min=0.8333 tvd_or_max=0.7531 jaccard=0.1694 mass_a=398.202
+[1600/3885] L=14 cat=3 'Drill Shaft' / 'Harrow Chain' | tvd_and_min=0.8155 tvd_or_max=0.7593 jaccard=0.3452 mass_a=282.885
+[1610/3885] L=14 cat=3 'Curette Hook' / 'Rake Tines' | tvd_and_min=0.8145 tvd_or_max=0.8024 jaccard=0.1415 mass_a=327.604
+[1620/3885] L=14 cat=3 'Hemostat Ratchet' / 'Threshing Floor' | tvd_and_min=0.8359 tvd_or_max=0.6677 jaccard=0.2788 mass_a=281.864
+[1630/3885] L=14 cat=3 'Suction Tip' / 'Grain Sack Knot' | tvd_and_min=0.8483 tvd_or_max=0.7987 jaccard=0.2110 mass_a=344.709
+[1640/3885] L=14 cat=3 'Needle Driver Jaw' / 'Pitchfork Shaft' | tvd_and_min=0.9002 tvd_or_max=0.8180 jaccard=0.3810 mass_a=336.807
+[1650/3885] L=14 cat=3 'vacuum distillation' / 'clutch cable tension' | tvd_and_min=0.9251 tvd_or_max=0.8295 jaccard=0.1129 mass_a=446.835
+[1660/3885] L=14 cat=3 'aroma condensation' / 'cam chain tension' | tvd_and_min=0.8919 tvd_or_max=0.7206 jaccard=0.1613 mass_a=313.025
+[1670/3885] L=14 cat=3 'lavender hydrodistillation' / 'airbox gasket' | tvd_and_min=0.9263 tvd_or_max=0.8040 jaccard=0.1102 mass_a=326.593
+[1680/3885] L=14 cat=3 'cardamom steam' / 'connecting rod bushing' | tvd_and_min=0.9472 tvd_or_max=0.8397 jaccard=0.0863 mass_a=410.627
+[1690/3885] L=14 cat=3 'cedar wood steam' / 'clutch plate warping' | tvd_and_min=0.8235 tvd_or_max=0.7846 jaccard=0.0963 mass_a=402.177
+[1700/3885] L=14 cat=3 'Flap' / 'Grain' | tvd_and_min=0.8987 tvd_or_max=0.7864 jaccard=0.2710 mass_a=363.808
+[1710/3885] L=14 cat=3 'Satellite' / 'Brad nail' | tvd_and_min=0.9401 tvd_or_max=0.8974 jaccard=0.1186 mass_a=337.619
+[1720/3885] L=14 cat=3 'Throttle' / 'Chisel' | tvd_and_min=0.8123 tvd_or_max=0.8191 jaccard=0.4430 mass_a=283.871
+[1730/3885] L=14 cat=3 'Combustor' / 'Corner clamp' | tvd_and_min=0.8698 tvd_or_max=0.8302 jaccard=0.3111 mass_a=220.814
+[1740/3885] L=14 cat=3 'Bulkhead' / 'Kerf' | tvd_and_min=0.8522 tvd_or_max=0.7416 jaccard=0.2747 mass_a=282.597
+[1750/3885] L=14 cat=3 'Scribe' / 'Kickflip' | tvd_and_min=0.8423 tvd_or_max=0.8217 jaccard=0.1739 mass_a=334.886
+[1760/3885] L=14 cat=3 'Flourish' / 'Park' | tvd_and_min=0.9210 tvd_or_max=0.7608 jaccard=0.0840 mass_a=406.225
+[1770/3885] L=14 cat=3 'Serif' / 'Grab' | tvd_and_min=0.8381 tvd_or_max=0.7381 jaccard=0.1875 mass_a=324.544
+[1780/3885] L=14 cat=3 'Dip' / 'Ramp' | tvd_and_min=0.8779 tvd_or_max=0.8208 jaccard=0.3043 mass_a=414.675
+[1790/3885] L=14 cat=3 'Acid' / 'Manual' | tvd_and_min=0.8151 tvd_or_max=0.7963 jaccard=0.0924 mass_a=305.633
+[1800/3885] L=14 cat=3 'marine snow' / 'desert crust' | tvd_and_min=0.6705 tvd_or_max=0.6537 jaccard=0.1691 mass_a=400.564
+[1810/3885] L=14 cat=3 'marine detritus' / 'sandstorm' | tvd_and_min=0.7425 tvd_or_max=0.7329 jaccard=0.2480 mass_a=434.635
+[1820/3885] L=14 cat=3 'benthic invertebrate' / 'sunbaked clay' | tvd_and_min=0.7405 tvd_or_max=0.6690 jaccard=0.1718 mass_a=662.545
+[1830/3885] L=14 cat=3 'marine sediment' / 'dry oasis' | tvd_and_min=0.6718 tvd_or_max=0.6860 jaccard=0.3284 mass_a=581.370
+[1840/3885] L=14 cat=3 'abyssal barnacle' / 'desert floodplain' | tvd_and_min=0.7059 tvd_or_max=0.7804 jaccard=0.2766 mass_a=556.224
+[1850/3885] L=14 cat=3 'Laparoscope lens' / 'Cedar planks' | tvd_and_min=0.9036 tvd_or_max=0.8489 jaccard=0.1776 mass_a=284.768
+[1860/3885] L=14 cat=3 'Surgical scissors' / 'Willow branch' | tvd_and_min=0.8880 tvd_or_max=0.8517 jaccard=0.1875 mass_a=265.584
+[1870/3885] L=14 cat=3 'Surgical clamp' / 'Wrought steel' | tvd_and_min=0.8870 tvd_or_max=0.8165 jaccard=0.1863 mass_a=239.843
+[1880/3885] L=14 cat=3 'Saw tooth' / 'Leather patch' | tvd_and_min=0.8896 tvd_or_max=0.8396 jaccard=0.3068 mass_a=252.431
+[1890/3885] L=14 cat=3 'Cutter jaw' / 'Cedar dust' | tvd_and_min=0.8508 tvd_or_max=0.7807 jaccard=0.2571 mass_a=296.558
+[1900/3885] L=14 cat=3 'Oshi Press' / 'Draw Length' | tvd_and_min=0.8023 tvd_or_max=0.6848 jaccard=0.1024 mass_a=317.949
+[1910/3885] L=14 cat=3 'Nori Wrap' / 'Solder Seam' | tvd_and_min=0.7940 tvd_or_max=0.7632 jaccard=0.2679 mass_a=308.626
+[1920/3885] L=14 cat=3 'Cut Diagonal' / 'Punch Slot' | tvd_and_min=0.8610 tvd_or_max=0.8285 jaccard=0.2545 mass_a=286.479
+[1930/3885] L=14 cat=3 'Plate Neatly' / 'Forge Weld' | tvd_and_min=0.9228 tvd_or_max=0.8003 jaccard=0.0507 mass_a=538.342
+[1940/3885] L=14 cat=3 'Freeze Short' / 'Bevel Tip' | tvd_and_min=0.7955 tvd_or_max=0.7151 jaccard=0.1377 mass_a=507.539
+[1950/3885] L=14 cat=3 'honeycomb' / 'sandboxing' | tvd_and_min=0.8876 tvd_or_max=0.6933 jaccard=0.0943 mass_a=247.435
+[1960/3885] L=14 cat=3 'drone brood' / 'vulnerability scanning' | tvd_and_min=0.8315 tvd_or_max=0.7602 jaccard=0.1491 mass_a=358.463
+[1970/3885] L=14 cat=3 'outer cover' / 'virtual private network' | tvd_and_min=0.9168 tvd_or_max=0.8028 jaccard=0.0879 mass_a=170.776
+[1980/3885] L=14 cat=3 'syrup' / 'botnet' | tvd_and_min=0.8806 tvd_or_max=0.7627 jaccard=0.2059 mass_a=331.333
+[1990/3885] L=14 cat=3 'reducer' / 'proxy server' | tvd_and_min=0.7503 tvd_or_max=0.7498 jaccard=0.2605 mass_a=324.524
+[2000/3885] L=14 cat=3 'En Passant' / 'Detonator' | tvd_and_min=0.8288 tvd_or_max=0.7508 jaccard=0.2857 mass_a=229.814
+[2010/3885] L=14 cat=3 'Prophylaxis' / 'Wedge' | tvd_and_min=0.9204 tvd_or_max=0.8055 jaccard=0.1075 mass_a=303.860

@@ -1,0 +1,131 @@
+"""Domain seeds for the 5-dimensional orthogonality spectrum corpus."""
+
+domain_seeds_map = {
+    # Category 1: Redundant / Entailment
+    # Strategy: Emphasize essential attributes, anatomy, axioms, or professional necessities.
+    1: [
+        "Biological Anatomy and Species Traits (e.g., animals and their inherent body parts)",
+        "Basic Euclidean Geometry (e.g., shapes and their fundamental properties)",
+        "Fundamental Physics and States of Matter (e.g., phases of water, classical mechanics)",
+        "Traditional Professions and Their Essential Tools (e.g., doctors, carpenters)",
+        "Chemical Elements and their fundamental characteristics",
+        "Meteorology and Natural Weather Phenomena",
+        "Classical Musical Instruments and their acoustic properties",
+        "Astronomical Bodies and the Cosmos",
+        "Culinary Staples and Raw Ingredients (e.g., sugar, salt, water)",
+        "Basic Human Emotions and Facial Expressions",
+        "Plant Botany and Inherent Botanical Structures (e.g., roots, leaves, photosynthesis)",
+        "Basic Arithmetic and Number Properties (e.g., even numbers, prime factors)",
+        "Human Skeletal and Muscular Anatomy",
+        "Legal Professions and Their Essential Documents (e.g., judges, contracts)",
+        "Oceanography and Inherent Properties of Water Bodies",
+        "Color Theory and Primary Color Relationships",
+        "Bird Species and Their Inherent Flight or Nesting Traits",
+        "Agricultural Crops and Their Essential Growing Conditions",
+        "Clockwork Mechanisms and Their Inherent Moving Parts",
+        "Language Grammar and Fundamental Syntactic Rules",
+    ],
+
+    # Category 2: Typical Composition
+    # Strategy: Emphasize grounded everyday human life, supermarket shelves, and common visual features.
+    2: [
+        "Supermarket Produce and Groceries (e.g., fruits, vegetables, packaging)",
+        "Everyday Furniture and Home Decor",
+        "Common Clothing, Apparel, and Textiles",
+        "Urban Transportation, Vehicles, and Commuting",
+        "Office Supplies and Desktop Stationery",
+        "Everyday Household Appliances",
+        "Pets, Domestic Animals, and Veterinary care",
+        "Public Infrastructure (e.g., streets, parks, buildings)",
+        "Coffee Shops, Bakeries, and Common Beverages",
+        "Basic Consumer Electronics and Gadgets (e.g., phones, TVs)",
+        "Kitchen Utensils, Cookware, and Dining Table Settings",
+        "School Supplies, Backpacks, and Classroom Items",
+        "Sports Equipment for Recreational Activities (e.g., balls, rackets)",
+        "Personal Hygiene and Bathroom Toiletries",
+        "Garden Tools, Potted Plants, and Outdoor Patio Furniture",
+        "Fast Food Packaging, Menus, and Takeout Containers",
+        "Children's Toys, Board Games, and Playgrounds",
+        "Bookstore Shelves, Magazines, and Reading Nooks",
+        "Laundry Rooms, Detergents, and Closet Organization",
+        "Hardware Store Aisles, Nails, Screws, and Hand Tools",
+    ],
+
+    # Category 3: Uncommon / Orthogonal
+    # Strategy: Force cross-domain fusion. Collide two domains that are physically possible but
+    # socially or historically mismatched (different eras, professions, or contexts).
+    3: [
+        "Medieval Weaponry combined with Soft/Delicate Materials",
+        "Industrial Heavy Machinery made of Luxury Textiles",
+        "Primitive Stone Age Tools interacting with Advanced Electronics",
+        "Fine Dining/Haute Cuisine combined with Construction Equipment",
+        "Deep Sea Marine Biology found in Desert Environments",
+        "Aerospace Engineering mixed with Rustic Woodworking",
+        "Orchestral Symphony Instruments used as Automotive Parts",
+        "High Fashion Runway concepts applied to Gardening/Agriculture",
+        "Extreme Sporting Goods used in Baking/Pastry Making",
+        "Medical Surgical Equipment made from Rustic Farming Materials",
+        "Victorian Tea Ceremony rituals applied to Underwater Welding",
+        "Ballet Choreography performed with Mining and Quarry Equipment",
+        "Library Cataloging Systems applied to Formula One Racing",
+        "Sushi Preparation techniques combined with Blacksmith Forging",
+        "Calligraphy and Illuminated Manuscripts used in Skateboarding",
+        "Beekeeping and Apiary tools integrated into Cybersecurity Ops",
+        "Taxidermy methods applied to Smartphone Manufacturing",
+        "Opera Stage Costumes used as Scuba Diving Gear",
+        "Chess Strategy frameworks applied to Demolition and Explosives",
+        "Perfume Distillation techniques mixed with Motorcycle Repair",
+    ],
+
+    # Category 4: Surreal / Out-of-Distribution
+    # Strategy: Encourage category errors. Reify abstract concepts, anthropomorphize animals,
+    # and break common sense.
+    4: [
+        "Anthropomorphic Animals working in Corporate White-Collar Jobs",
+        "Abstract Human Emotions manifesting as Physical Furniture",
+        "Mythological/Fantasy Creatures using Modern Software Engineering",
+        "Inanimate Food Items holding strong Political Ideologies",
+        "Planetary Bodies and Galaxies performing Mundane Household Chores",
+        "Historical Figures from Antiquity placed in Hard Sci-Fi Scenarios",
+        "Software Engineering Concepts constructed out of Organic/Fleshy Matter",
+        "Pure Mathematical Theorems interacting physically with Flora/Plants",
+        "Dreamscapes, Hallucinations, and Salvador Dali-esque Landscapes",
+        "Microscopic Organisms dealing with Macroeconomic Crises",
+        "Colors and Musical Notes holding Conversations with Each Other",
+        "Weather Phenomena Employed as Classroom Teachers",
+        "Punctuation Marks and Typography Characters Living as Citizens",
+        "Architectural Buildings Walking Through Crowded City Streets",
+        "Philosophical Ideologies Manifesting as Edible Desserts",
+        "Insects Negotiating International Peace Treaties",
+        "Shadows and Reflections Filing Legal Complaints Against Objects",
+        "Stock Market Indices Experiencing Romantic Relationships",
+        "Kitchen Spices Conducting Orchestral Symphonies",
+        "Childhood Memories Materializing as Sentient Vehicles",
+    ],
+
+    # Category 5: Mutually Exclusive / Paradoxical
+    # Strategy: Force the model to seek physical-law inversions, mutually exclusive states,
+    # and logical NOT-gate contradictions.
+    5: [
+        "Thermodynamics and Extreme Contrasting Temperatures (e.g., freezing fire)",
+        "States of Matter Transitions that physically contradict (e.g., solid gas)",
+        "Optical Physics, Illumination, and Absolute Darkness",
+        "Temporal Paradoxes and Impossible Time States (e.g., a futuristic antique)",
+        "Boolean Logic, Truth Values, and Epistemological Contradictions",
+        "Geometric Impossibilities (e.g., spherical cubes, one-dimensional spheres)",
+        "Absolute Silence combined with Deafening Acoustic Noise",
+        "Complete Vacuum Environments combined with Extreme High Pressure",
+        "Biological Life and Vitality combined with Absolute Sterility/Death",
+        "Perfect Transparency combined with Complete Opacity",
+        "Infinite Weight combined with Absolute Weightlessness",
+        "Maximum Velocity combined with Perfect Stillness",
+        "Total Order and Rigidity combined with Absolute Chaos and Fluidity",
+        "Perfect Memory Retention combined with Total Amnesia",
+        "Absolute Certainty combined with Radical Uncertainty",
+        "Omnidirectional Motion combined with Absolute Immobility",
+        "Complete Wetness combined with Absolute Aridity",
+        "Maximum Density combined with Perfect Emptiness",
+        "Eternal Continuity combined with Instantaneous Discontinuity",
+        "Absolute Singularity combined with Infinite Multiplicity",
+    ]
+}

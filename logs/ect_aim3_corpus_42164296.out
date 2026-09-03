@@ -1,0 +1,42 @@
+Loaded WiLLMa credentials from /home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/.env
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 tropical geometry corpus generation ===
+types=A,B,C
+items_per_batch=50
+batches_per_type=3
+target_per_type=150
+model=Qwen/Qwen3.6-35B-A3B-FP8
+base_url=https://api.willma.surf.nl/v0
+base_url=https://api.willma.surf.nl/v0
+model=Qwen/Qwen3.6-35B-A3B-FP8
+existing_items=100
+target_per_type=150
+items_per_batch=50
+batches_per_type=3
+concurrency=1
+structured_output=json_schema strict (forced=True, disable_thinking=True)
+[A] batch 1 (have 50)
+  +48 new (parsed 48; type total 98)
+[A] batch 2 (have 98)
+  +49 new (parsed 49; type total 147)
+[A] batch 3 (have 147)
+  +47 new (parsed 47; type total 194)
+[B] batch 1 (have 50)
+  +48 new (parsed 48; type total 98)
+[B] batch 2 (have 98)
+  +48 new (parsed 48; type total 146)
+[B] batch 3 (have 146)
+  +50 new (parsed 50; type total 196)
+[C] batch 1 (have 0)
+  +48 new (parsed 48; type total 48)
+[C] batch 2 (have 48)
+  +50 new (parsed 50; type total 98)
+[C] batch 3 (have 98)
+  +50 new (parsed 50; type total 148)
+Done. Per-type counts: {'A': 194, 'B': 196, 'C': 148}
+Wrote JSON  → /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json
+Wrote JSONL → /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.jsonl
+Elapsed: 1917.5s
+Done.
+JSON:  /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json
+JSONL: /home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.jsonl

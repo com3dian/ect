@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/experiment.py", line 47, in <module>
+    from .prepare_data import load_pairs
+  File "/home/WUR/lu087/Github/ect/src/aim2_entailment/prepare_data.py", line 120, in <module>
+    def load_pairs(path: Path | str = DEFAULT_PAIRS_JSONL) -> list[dict[str, Any]]:
+                                      ^^^^^^^^^^^^^^^^^^^
+NameError: name 'DEFAULT_PAIRS_JSONL' is not defined

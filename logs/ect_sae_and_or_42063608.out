@@ -1,0 +1,16 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=2)
+device=cuda dtype=bfloat16 layer=14
+loaded on cuda, vocab_size=256000
+n_layers=26 → using layer_index=14
+todo=2 done=0
+metrics → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_composition_metrics.jsonl
+[1/2] L=14 cat=1 'Transitive Verb' / 'Verb' | tvd_and_min=0.5151 tvd_or_max=0.4765 jaccard=0.3445
+[2/2] L=14 cat=1 'Intransitive Verb' / 'Verb' | tvd_and_min=0.5040 tvd_or_max=0.5079 jaccard=0.3065
+Wrote metrics JSONL → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_composition_metrics.jsonl
+Wrote metrics CSV   → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_composition_metrics.csv
+Wrote category summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/category_summary.csv
+Done. Metrics: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/sae_composition_metrics.csv
+Category summary: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR/output/layer_14/category_summary.csv

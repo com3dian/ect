@@ -1,0 +1,11 @@
+# Local run artifacts
+output/
+data/
+logs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pt
+*.bin

@@ -1,0 +1,114 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+HF_HOME=/lustre/scratch/WUR/AIN/lu087/huggingface
+model=google/gemma-2-2b  output_dir=/home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b
+=== Aim-3 four-point geometry ===
+model_id=google/gemma-2-2b
+design=four_point_six_pair layer=14/26
+variants=['natural', 'shuffled_middles', 'reversed']
+metric=d_M=-sum log π  fp_slack=max(S)-second_max(S)
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json todo=8 done=0
+[1/8] A_00000 …
+  fp_slack=1.125
+[2/8] A_00001 …
+  fp_slack=0.312
+[3/8] A_00002 …
+  fp_slack=0.090
+[4/8] A_00003 …
+  fp_slack=0.301
+[5/8] A_00004 …
+  fp_slack=2.750
+[6/8] A_00005 …
+  fp_slack=0.625
+[7/8] A_00006 …
+  fp_slack=1.253
+[8/8] A_00007 …
+  fp_slack=2.437
+Wrote distances → /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/four_point_distances.jsonl
+Wrote summary   → /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/four_point_summary.json
+{
+  "layer_index": 14,
+  "n_items": 8,
+  "prompt_design": "four_point_six_pair_cloze_v1",
+  "metric": "d_M=-sum log \u03c0(target|cloze)",
+  "fp_slack_formula": "max(S1,S2,S3) - second_max(S1,S2,S3)",
+  "by_type": {
+    "A": {
+      "n": 8,
+      "by_variant": {
+        "natural": {
+          "n": 8,
+          "fp_slack_mean": 1.111737061291933,
+          "fp_slack_median": 0.875,
+          "fp_slack_std": 0.9380181913315371
+        },
+        "reversed": {
+          "n": 8,
+          "fp_slack_mean": 1.1087158769369125,
+          "fp_slack_median": 1.2437642365694046,
+          "fp_slack_std": 0.5873076019653648
+        },
+        "shuffled_middles": {
+          "n": 8,
+          "fp_slack_mean": 1.8569376477971673,
+          "fp_slack_median": 1.6624791622161865,
+          "fp_slack_std": 1.415978435297448
+        }
+      },
+      "paired_tests": {
+        "natural_vs_shuffled_middles": {
+          "n": 8,
+          "natural_fp_slack_mean": 1.111737061291933,
+          "other_fp_slack_mean": 1.8569376477971673,
+          "diff_mean_other_minus_natural": 0.7452005865052342,
+          "diff_median_other_minus_natural": 0.555835485458374,
+          "paired_frac_natural_lower": 0.625,
+          "paired_n_natural_lower": 5,
+          "wilcoxon": {
+            "statistic": 26.0,
+            "pvalue": 0.15625,
+            "alternative": "greater (other - natural > 0)"
+          },
+          "binomial_sign": {
+            "successes": 5,
+            "n": 8,
+            "pvalue": 0.36328125,
+            "alternative": "greater than 0.5 (natural wins more often)"
+          }
+        },
+        "natural_vs_reversed": {
+          "n": 8,
+          "natural_fp_slack_mean": 1.111737061291933,
+          "other_fp_slack_mean": 1.1087158769369125,
+          "diff_mean_other_minus_natural": -0.003021184355020523,
+          "diff_median_other_minus_natural": 0.3687642365694046,
+          "paired_frac_natural_lower": 0.625,
+          "paired_n_natural_lower": 5,
+          "wilcoxon": {
+            "statistic": 19.0,
+            "pvalue": 0.47265625,
+            "alternative": "greater (other - natural > 0)"
+          },
+          "binomial_sign": {
+            "successes": 5,
+            "n": 8,
+            "pvalue": 0.36328125,
+            "alternative": "greater than 0.5 (natural wins more often)"
+          }
+        }
+      },
+      "inference": {
+        "primary": "Wilcoxon signed-rank on fp_slack_shuffled - fp_slack_natural (H1: >0)",
+        "robustness": "Binomial test on fraction(natural < shuffled) vs 0.5"
+      }
+    }
+  }
+}
+
+=== Plot Type A four-point ===
+Wrote /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/figures/type_a_four_point_slack.png
+=== Plot Type B/C triangle ===
+Wrote /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/figures/type_bc_triangle_slack.png
+Done.
+Distances: /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/four_point_distances.jsonl
+Summary:   /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/four_point_summary.json
+Figures:   /home/WUR/lu087/Github/ect/src/aim3_four_point_geometry/output_gemma-2-2b/layer_14/figures/

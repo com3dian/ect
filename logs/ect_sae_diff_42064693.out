@@ -1,0 +1,453 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Differential SAE experiment ===
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/vocabulary_gen_aim1_AND/output/orthogonality_spectrum_corpus.jsonl (n=3885)
+device=cuda dtype=bfloat16 layer=14
+baseline_mode=relu(v - v_base) save_features=True top_k=256
+loaded on cuda, vocab_size=256000
+n_layers=26 → using layer_index=14
+todo=3885 done=0
+metrics → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.jsonl
+distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+baselines ready | mass_single=595.1444 mass_composed=621.1502
+[1/3885] L=14 cat=1 'Transitive Verb' / 'Verb' | tvd_and_min=0.8227 tvd_or_max=0.7121 win_and=max win_or=mean l0_a=69.0→56
+[10/3885] L=14 cat=1 'Superlative Adjective' / 'Adjective' | tvd_and_min=0.8653 tvd_or_max=0.7060 win_and=max win_or=mean l0_a=75.0→59
+[20/3885] L=14 cat=1 'Definite Article' / 'Determiner' | tvd_and_min=0.8632 tvd_or_max=0.6832 win_and=mean win_or=mean l0_a=72.0→53
+[30/3885] L=14 cat=1 'Relative Clause' / 'Clause' | tvd_and_min=0.8437 tvd_or_max=0.6514 win_and=mean win_or=max l0_a=60.0→46
+[40/3885] L=14 cat=1 'Exclamatory Sentence' / 'Sentence' | tvd_and_min=0.8753 tvd_or_max=0.8043 win_and=max win_or=max l0_a=66.0→52
+[50/3885] L=14 cat=1 'Active Voice' / 'Voice' | tvd_and_min=0.9356 tvd_or_max=0.7866 win_and=max win_or=max l0_a=76.0→69
+[60/3885] L=14 cat=1 'Sleet' / 'Precipitation' | tvd_and_min=0.8633 tvd_or_max=0.8188 win_and=mean win_or=mean l0_a=84.0→63
+[70/3885] L=14 cat=1 'Cold Front' / 'Front' | tvd_and_min=0.9071 tvd_or_max=0.8317 win_and=mean win_or=mean l0_a=83.0→69
+[80/3885] L=14 cat=1 'Haze' / 'Visibility Condition' | tvd_and_min=0.8707 tvd_or_max=0.7903 win_and=max win_or=max l0_a=86.0→69
+[90/3885] L=14 cat=1 'Macroburst' / 'Downburst' | tvd_and_min=0.7838 tvd_or_max=0.7658 win_and=max win_or=mean l0_a=80.0→64
+[100/3885] L=14 cat=1 'Sun Dog' / 'Halo' | tvd_and_min=0.9863 tvd_or_max=0.8954 win_and=max win_or=max l0_a=86.0→74
+[110/3885] L=14 cat=1 'Hydrothermal Vent' / 'Seafloor Feature' | tvd_and_min=0.8103 tvd_or_max=0.7947 win_and=max win_or=mean l0_a=99.0→84
+[120/3885] L=14 cat=1 'Oxygen Minimum Zone' / 'Oceanic Layer' | tvd_and_min=0.7679 tvd_or_max=0.6837 win_and=mean win_or=mean l0_a=74.0→59
+[130/3885] L=14 cat=1 'Fringing Reef' / 'Coral Reef Structure' | tvd_and_min=0.7934 tvd_or_max=0.7206 win_and=max win_or=max l0_a=84.0→72
+[140/3885] L=14 cat=1 'Bathyal Zone' / 'Deep Marine Region' | tvd_and_min=0.7658 tvd_or_max=0.7555 win_and=max win_or=max l0_a=78.0→63
+[150/3885] L=14 cat=1 'Mediterranean Water' / 'Intermediate Water Mass' | tvd_and_min=0.8795 tvd_or_max=0.8056 win_and=max win_or=max l0_a=72.0→61
+[160/3885] L=14 cat=1 'Lead' / 'Post-transition metal' | tvd_and_min=0.9540 tvd_or_max=0.8579 win_and=mean win_or=mean l0_a=98.0→82
+[170/3885] L=14 cat=1 'Phosphorus' / 'Pnictogen' | tvd_and_min=0.9385 tvd_or_max=0.8330 win_and=max win_or=mean l0_a=59.0→53
+[180/3885] L=14 cat=1 'Potassium' / 'Alkali metal' | tvd_and_min=0.9472 tvd_or_max=0.8543 win_and=max win_or=max l0_a=57.0→52
+[190/3885] L=14 cat=1 'Titanium' / 'Transition metal' | tvd_and_min=0.9769 tvd_or_max=0.8416 win_and=mean win_or=max l0_a=62.0→55
+[200/3885] L=14 cat=1 'Tin' / 'Post-transition metal' | tvd_and_min=0.9743 tvd_or_max=0.8882 win_and=max win_or=max l0_a=66.0→59
+[210/3885] L=14 cat=1 'Whimper' / 'Cry' | tvd_and_min=0.8727 tvd_or_max=0.7737 win_and=mean win_or=mean l0_a=83.0→68
+[220/3885] L=14 cat=1 'Watery Eyes' / 'Crying' | tvd_and_min=0.6654 tvd_or_max=0.6611 win_and=mean win_or=mean l0_a=75.0→70
+[230/3885] L=14 cat=1 'Eye Roll' / 'Dismissive Expression' | tvd_and_min=0.7778 tvd_or_max=0.7276 win_and=mean win_or=mean l0_a=103.0→94
+[240/3885] L=14 cat=1 'Closed Mouth Smile' / 'Smile' | tvd_and_min=0.7540 tvd_or_max=0.7068 win_and=mean win_or=mean l0_a=77.0→64
+[250/3885] L=14 cat=1 'Angry Glare' / 'Glare' | tvd_and_min=0.8019 tvd_or_max=0.6815 win_and=mean win_or=mean l0_a=85.0→74
+[260/3885] L=14 cat=1 'Corporate Counsel' / 'Attorney' | tvd_and_min=0.8212 tvd_or_max=0.6904 win_and=max win_or=max l0_a=76.0→67
+[270/3885] L=14 cat=1 'Indictment' / 'Charging Document' | tvd_and_min=0.7648 tvd_or_max=0.6502 win_and=max win_or=max l0_a=66.0→52
+[280/3885] L=14 cat=1 'Subpoena Duces Tecum' / 'Subpoena' | tvd_and_min=0.8241 tvd_or_max=0.7257 win_and=max win_or=max l0_a=70.0→53
+[290/3885] L=14 cat=1 'Will' / 'Testamentary Document' | tvd_and_min=0.8018 tvd_or_max=0.7015 win_and=mean win_or=mean l0_a=82.0→65
+[300/3885] L=14 cat=1 'Arbitrator' / 'ADR Professional' | tvd_and_min=0.9094 tvd_or_max=0.8190 win_and=max win_or=max l0_a=63.0→53
+[310/3885] L=14 cat=1 'Blue-Green' / 'Tertiary Color' | tvd_and_min=0.8566 tvd_or_max=0.8120 win_and=max win_or=max l0_a=67.0→49
+[320/3885] L=14 cat=1 'Cool Colors' / 'Color Temperature' | tvd_and_min=0.8111 tvd_or_max=0.8164 win_and=mean win_or=mean l0_a=70.0→64
+[330/3885] L=14 cat=1 'RYB Model' / 'Color Model' | tvd_and_min=0.8764 tvd_or_max=0.8623 win_and=mean win_or=mean l0_a=69.0→49
+[340/3885] L=14 cat=1 'Pastel Colors' / 'Color Classification' | tvd_and_min=0.7514 tvd_or_max=0.7484 win_and=max win_or=mean l0_a=63.0→56
+[350/3885] L=14 cat=1 'Blue-Orange' / 'Complementary Pair' | tvd_and_min=0.8618 tvd_or_max=0.7739 win_and=mean win_or=max l0_a=74.0→53
+[360/3885] L=14 cat=1 'Escape wheel' / 'Gear' | tvd_and_min=0.8709 tvd_or_max=0.7500 win_and=mean win_or=max l0_a=67.0→56
+[370/3885] L=14 cat=1 'Cannon pinion' / 'Gear' | tvd_and_min=0.9393 tvd_or_max=0.8166 win_and=max win_or=max l0_a=67.0→50
+[380/3885] L=14 cat=1 'Release lever' / 'Lever' | tvd_and_min=0.8926 tvd_or_max=0.7738 win_and=max win_or=max l0_a=76.0→59
+[390/3885] L=14 cat=1 'Snail' / 'Cam' | tvd_and_min=0.8580 tvd_or_max=0.7621 win_and=max win_or=max l0_a=77.0→61
+[400/3885] L=14 cat=1 'Train' / 'Mechanism' | tvd_and_min=0.8869 tvd_or_max=0.8610 win_and=mean win_or=mean l0_a=75.0→53
+[410/3885] L=14 cat=1 'Bassoon' / 'Woodwind Instrument' | tvd_and_min=0.8819 tvd_or_max=0.7829 win_and=mean win_or=mean l0_a=75.0→61
+[420/3885] L=14 cat=1 'Snare Drum' / 'Percussion Instrument' | tvd_and_min=0.8722 tvd_or_max=0.7556 win_and=max win_or=max l0_a=97.0→84
+[430/3885] L=14 cat=1 'Valve' / 'Trumpet' | tvd_and_min=0.9023 tvd_or_max=0.8547 win_and=mean win_or=mean l0_a=84.0→65
+[440/3885] L=14 cat=1 'Hammers' / 'Piano' | tvd_and_min=0.8950 tvd_or_max=0.8087 win_and=max win_or=max l0_a=64.0→51
+[450/3885] L=14 cat=1 'Resonance' / 'Acoustic Property' | tvd_and_min=0.9207 tvd_or_max=0.8415 win_and=max win_or=max l0_a=70.0→53
+[460/3885] L=14 cat=1 'Sternum' / 'Thoracic Bone' | tvd_and_min=0.8973 tvd_or_max=0.8090 win_and=max win_or=max l0_a=73.0→58
+[470/3885] L=14 cat=1 'Hyoid' / 'Neck Bone' | tvd_and_min=0.8850 tvd_or_max=0.8158 win_and=max win_or=max l0_a=68.0→57
+[480/3885] L=14 cat=1 'Levator Scapulae' / 'Neck Muscle' | tvd_and_min=0.8762 tvd_or_max=0.7504 win_and=max win_or=max l0_a=66.0→55
+[490/3885] L=14 cat=1 'Intercostals' / 'Thoracic Muscle' | tvd_and_min=0.7973 tvd_or_max=0.7920 win_and=mean win_or=mean l0_a=68.0→62
+[500/3885] L=14 cat=1 'Biceps Femoris' / 'Thigh Muscle' | tvd_and_min=0.9131 tvd_or_max=0.7719 win_and=max win_or=max l0_a=66.0→55
+[510/3885] L=14 cat=1 'Flood Irrigation' / 'Watering Method' | tvd_and_min=0.8820 tvd_or_max=0.8511 win_and=mean win_or=mean l0_a=74.0→59
+[520/3885] L=14 cat=1 'Long Day' / 'Photoperiod' | tvd_and_min=0.8783 tvd_or_max=0.8998 win_and=mean win_or=mean l0_a=75.0→63
+[530/3885] L=14 cat=1 'Sepal' / 'Flower Part' | tvd_and_min=0.9353 tvd_or_max=0.8584 win_and=max win_or=max l0_a=97.0→76
+[540/3885] L=14 cat=1 'Cover Crop' / 'Field Management' | tvd_and_min=0.8009 tvd_or_max=0.6701 win_and=mean win_or=mean l0_a=69.0→56
+[550/3885] L=14 cat=1 'Nutrient Film' / 'Hydroponic Technique' | tvd_and_min=0.9055 tvd_or_max=0.7751 win_and=max win_or=max l0_a=68.0→52
+[560/3885] L=14 cat=1 'Leaf vein' / 'Leaf' | tvd_and_min=0.9130 tvd_or_max=0.8602 win_and=max win_or=max l0_a=63.0→51
+[570/3885] L=14 cat=1 'Tuber' / 'Stem' | tvd_and_min=0.8197 tvd_or_max=0.8442 win_and=mean win_or=prod l0_a=84.0→62
+[580/3885] L=14 cat=1 'Tepal' / 'Flower perianth' | tvd_and_min=0.8908 tvd_or_max=0.7542 win_and=mean win_or=mean l0_a=89.0→69
+[590/3885] L=14 cat=1 'Cotyledon' / 'Seed' | tvd_and_min=0.9294 tvd_or_max=0.8184 win_and=max win_or=mean l0_a=77.0→62
+[600/3885] L=14 cat=1 'Companion cell' / 'Phloem' | tvd_and_min=0.7974 tvd_or_max=0.6727 win_and=max win_or=max l0_a=75.0→58
+[610/3885] L=14 cat=1 'Pentagon' / 'Polygon' | tvd_and_min=0.9030 tvd_or_max=0.7818 win_and=max win_or=max l0_a=87.0→69
+[620/3885] L=14 cat=1 'Diameter' / 'Circle' | tvd_and_min=0.9068 tvd_or_max=0.8073 win_and=max win_or=max l0_a=57.0→40
+[630/3885] L=14 cat=1 'Obtuse Angle' / 'Angle' | tvd_and_min=0.8541 tvd_or_max=0.7653 win_and=mean win_or=mean l0_a=68.0→54
+[640/3885] L=14 cat=1 'Cube' / 'Polyhedron' | tvd_and_min=0.8356 tvd_or_max=0.7692 win_and=mean win_or=mean l0_a=75.0→51
+[650/3885] L=14 cat=1 'Vertex' / 'Polyhedron' | tvd_and_min=0.8815 tvd_or_max=0.8050 win_and=max win_or=max l0_a=76.0→56
+[660/3885] L=14 cat=1 'Natural Number' / 'Integer' | tvd_and_min=0.8095 tvd_or_max=0.6879 win_and=mean win_or=mean l0_a=96.0→75
+[670/3885] L=14 cat=1 'Odd Multiple' / 'Multiple' | tvd_and_min=0.8617 tvd_or_max=0.8735 win_and=min win_or=min l0_a=63.0→51
+[680/3885] L=14 cat=1 'Highly Composite Number' / 'Composite Number' | tvd_and_min=0.7900 tvd_or_max=0.7951 win_and=mean win_or=mean l0_a=81.0→69
+[690/3885] L=14 cat=1 'Fermat Prime' / 'Prime Number' | tvd_and_min=0.8336 tvd_or_max=0.7246 win_and=max win_or=max l0_a=76.0→64
+[700/3885] L=14 cat=1 'Electron' / 'Lepton' | tvd_and_min=0.8992 tvd_or_max=0.8063 win_and=mean win_or=mean l0_a=69.0→54
+[710/3885] L=14 cat=1 'Bottom quark' / 'Quark' | tvd_and_min=0.8874 tvd_or_max=0.8052 win_and=mean win_or=mean l0_a=84.0→69
+[720/3885] L=14 cat=1 'Higgs boson' / 'Scalar boson' | tvd_and_min=0.8991 tvd_or_max=0.8280 win_and=mean win_or=mean l0_a=91.0→82
+[730/3885] L=14 cat=1 'Superconductor' / 'Phase of matter' | tvd_and_min=0.8701 tvd_or_max=0.7477 win_and=mean win_or=mean l0_a=73.0→62
+[740/3885] L=14 cat=1 'Dirac fermion' / 'Fermion' | tvd_and_min=0.8900 tvd_or_max=0.7589 win_and=max win_or=max l0_a=79.0→68
+[750/3885] L=14 cat=1 'Peregrine Falcon' / 'Falcon' | tvd_and_min=0.9052 tvd_or_max=0.7521 win_and=max win_or=max l0_a=78.0→61
+[760/3885] L=14 cat=1 'Tawny Frogmouth' / 'Frogmouth' | tvd_and_min=0.8445 tvd_or_max=0.7648 win_and=max win_or=max l0_a=64.0→47
+[770/3885] L=14 cat=1 'Sapsucker' / 'Woodpecker' | tvd_and_min=0.8169 tvd_or_max=0.8122 win_and=mean win_or=max l0_a=90.0→74
+[780/3885] L=14 cat=1 'Treecreeper' / 'Passerine' | tvd_and_min=0.9256 tvd_or_max=0.7069 win_and=max win_or=max l0_a=72.0→59
+[790/3885] L=14 cat=1 'Alula' / 'Wing Feather' | tvd_and_min=0.7873 tvd_or_max=0.7909 win_and=mean win_or=min l0_a=84.0→67
+[800/3885] L=14 cat=2 'watering can' / 'potted plants' | tvd_and_min=0.8953 tvd_or_max=0.8823 win_and=mean win_or=mean l0_a=88.0→73
+[810/3885] L=14 cat=2 'outdoor rug' / 'patio furniture' | tvd_and_min=0.8315 tvd_or_max=0.7913 win_and=max win_or=max l0_a=83.0→69
+[820/3885] L=14 cat=2 'bonsai tree' / 'pruning wire' | tvd_and_min=0.9077 tvd_or_max=0.8878 win_and=mean win_or=mean l0_a=65.0→53
+[830/3885] L=14 cat=2 'hand fork' / 'weed removal' | tvd_and_min=0.9820 tvd_or_max=0.8394 win_and=max win_or=max l0_a=100.0→80
+[840/3885] L=14 cat=2 'outdoor cooler' / 'drink holders' | tvd_and_min=0.8703 tvd_or_max=0.8052 win_and=max win_or=max l0_a=67.0→54
+[850/3885] L=14 cat=2 'espresso' / 'latte' | tvd_and_min=0.9452 tvd_or_max=0.8858 win_and=max win_or=max l0_a=61.0→46
+[860/3885] L=14 cat=2 'croissant' / 'butter' | tvd_and_min=0.9517 tvd_or_max=0.8865 win_and=max win_or=max l0_a=71.0→49
+[870/3885] L=14 cat=2 'icing bag' / 'frosting' | tvd_and_min=0.9438 tvd_or_max=0.8523 win_and=max win_or=max l0_a=69.0→55
+[880/3885] L=14 cat=2 'buttery croissant' / 'flake' | tvd_and_min=0.9598 tvd_or_max=0.7866 win_and=mean win_or=mean l0_a=78.0→63
+[890/3885] L=14 cat=2 'powdered sugar' / 'scone' | tvd_and_min=0.9325 tvd_or_max=0.8345 win_and=mean win_or=mean l0_a=88.0→72
+[900/3885] L=14 cat=2 'bus stop' / 'ticket machine' | tvd_and_min=0.8846 tvd_or_max=0.8041 win_and=max win_or=max l0_a=70.0→53
+[910/3885] L=14 cat=2 'bicycle rack' / 'lock' | tvd_and_min=0.9202 tvd_or_max=0.8504 win_and=mean win_or=mean l0_a=69.0→55
+[920/3885] L=14 cat=2 'bus shelter' / 'timetable' | tvd_and_min=0.9536 tvd_or_max=0.8055 win_and=max win_or=max l0_a=85.0→68
+[930/3885] L=14 cat=2 'traffic circle' / 'yield line' | tvd_and_min=0.8011 tvd_or_max=0.7925 win_and=mean win_or=mean l0_a=82.0→65
+[940/3885] L=14 cat=2 'traffic light' / 'countdown timer' | tvd_and_min=0.8029 tvd_or_max=0.7237 win_and=mean win_or=max l0_a=89.0→70
+[950/3885] L=14 cat=2 'pencil' / 'eraser' | tvd_and_min=0.9052 tvd_or_max=0.8704 win_and=mean win_or=max l0_a=90.0→73
+[960/3885] L=14 cat=2 'desk' / 'chair' | tvd_and_min=0.9422 tvd_or_max=0.8877 win_and=max win_or=max l0_a=86.0→67
+[970/3885] L=14 cat=2 'pencil sharpener' / 'wood shavings' | tvd_and_min=0.9220 tvd_or_max=0.7850 win_and=max win_or=max l0_a=79.0→63
+[980/3885] L=14 cat=2 'desk organizer' / 'sticky notes' | tvd_and_min=0.9066 tvd_or_max=0.7896 win_and=max win_or=max l0_a=72.0→56
+[990/3885] L=14 cat=2 'binder rings' / 'loose leaf paper' | tvd_and_min=0.8861 tvd_or_max=0.7703 win_and=mean win_or=mean l0_a=58.0→43
+[1000/3885] L=14 cat=2 'fork' / 'knife' | tvd_and_min=0.8318 tvd_or_max=0.7859 win_and=mean win_or=max l0_a=99.0→77
+[1010/3885] L=14 cat=2 'colander' / 'bowl' | tvd_and_min=0.8764 tvd_or_max=0.7420 win_and=mean win_or=mean l0_a=66.0→52
+[1020/3885] L=14 cat=2 'coffee cup' / 'saucer' | tvd_and_min=0.8790 tvd_or_max=0.8568 win_and=mean win_or=mean l0_a=86.0→71
+[1030/3885] L=14 cat=2 'chopsticks' / 'rice bowl' | tvd_and_min=0.9091 tvd_or_max=0.8491 win_and=mean win_or=mean l0_a=82.0→62
+[1040/3885] L=14 cat=2 'egg cup' / 'spoon' | tvd_and_min=0.9436 tvd_or_max=0.7940 win_and=max win_or=max l0_a=68.0→54
+[1050/3885] L=14 cat=2 'slide' / 'swing' | tvd_and_min=0.9135 tvd_or_max=0.8423 win_and=max win_or=max l0_a=88.0→69
+[1060/3885] L=14 cat=2 'marbles' / 'glass' | tvd_and_min=0.9727 tvd_or_max=0.8714 win_and=max win_or=max l0_a=66.0→50
+[1070/3885] L=14 cat=2 'water gun' / 'trigger' | tvd_and_min=0.8453 tvd_or_max=0.8071 win_and=mean win_or=mean l0_a=80.0→66
+[1080/3885] L=14 cat=2 'swing set' / 'chains' | tvd_and_min=0.9849 tvd_or_max=0.8269 win_and=max win_or=max l0_a=86.0→71
+[1090/3885] L=14 cat=2 'puzzle board' / 'pieces' | tvd_and_min=0.9444 tvd_or_max=0.7914 win_and=mean win_or=mean l0_a=70.0→51
+[1100/3885] L=14 cat=2 'sofa' / 'cushion' | tvd_and_min=0.9742 tvd_or_max=0.8633 win_and=max win_or=max l0_a=73.0→60
+[1110/3885] L=14 cat=2 'throw blanket' / 'sofa' | tvd_and_min=0.8601 tvd_or_max=0.7992 win_and=mean win_or=mean l0_a=75.0→62
+[1120/3885] L=14 cat=2 'desk chair' / 'mousepad' | tvd_and_min=0.9390 tvd_or_max=0.8539 win_and=max win_or=max l0_a=75.0→60
+[1130/3885] L=14 cat=2 'rocking chair' / 'glider' | tvd_and_min=0.8951 tvd_or_max=0.8316 win_and=mean win_or=mean l0_a=79.0→68
+[1140/3885] L=14 cat=2 'storage ottoman' / 'lid' | tvd_and_min=0.9702 tvd_or_max=0.8444 win_and=max win_or=mean l0_a=78.0→64
+[1150/3885] L=14 cat=2 'tennis racket' / 'tennis ball' | tvd_and_min=0.8357 tvd_or_max=0.8697 win_and=mean win_or=max l0_a=79.0→65
+[1160/3885] L=14 cat=2 'dumbbell' / 'kettlebell' | tvd_and_min=0.9061 tvd_or_max=0.7710 win_and=mean win_or=mean l0_a=96.0→83
+[1170/3885] L=14 cat=2 'cricket bat' / 'cricket ball' | tvd_and_min=0.8503 tvd_or_max=0.8363 win_and=max win_or=max l0_a=81.0→64
+[1180/3885] L=14 cat=2 'baseball cap' / 'batting glove' | tvd_and_min=0.9073 tvd_or_max=0.8528 win_and=max win_or=max l0_a=86.0→68
+[1190/3885] L=14 cat=2 'racquetball racket' / 'racquetball' | tvd_and_min=0.9185 tvd_or_max=0.8423 win_and=max win_or=max l0_a=93.0→77
+[1200/3885] L=14 cat=2 'Refrigerator' / 'Freezer' | tvd_and_min=0.8641 tvd_or_max=0.8602 win_and=mean win_or=max l0_a=71.0→57
+[1210/3885] L=14 cat=2 'Air Conditioner' / 'Remote' | tvd_and_min=0.8590 tvd_or_max=0.7871 win_and=mean win_or=mean l0_a=56.0→42
+[1220/3885] L=14 cat=2 'Robot Vacuum' / 'Dock' | tvd_and_min=0.8287 tvd_or_max=0.7745 win_and=mean win_or=mean l0_a=86.0→74
+[1230/3885] L=14 cat=2 'Sewing Machine' / 'Needle' | tvd_and_min=0.8993 tvd_or_max=0.8626 win_and=mean win_or=mean l0_a=77.0→66
+[1240/3885] L=14 cat=2 'Sandwich Press' / 'Bread' | tvd_and_min=0.8790 tvd_or_max=0.7413 win_and=mean win_or=mean l0_a=64.0→54
+[1250/3885] L=14 cat=2 'laundry basket' / 'hamper' | tvd_and_min=0.9344 tvd_or_max=0.8429 win_and=max win_or=max l0_a=73.0→59
+[1260/3885] L=14 cat=2 'shoe boxes' / 'pairs' | tvd_and_min=0.8266 tvd_or_max=0.7970 win_and=mean win_or=mean l0_a=81.0→69
+[1270/3885] L=14 cat=2 'liquid detergent' / 'cap' | tvd_and_min=0.9040 tvd_or_max=0.7731 win_and=mean win_or=mean l0_a=81.0→69
+[1280/3885] L=14 cat=2 'hang dry' / 'line' | tvd_and_min=0.8616 tvd_or_max=0.8488 win_and=mean win_or=max l0_a=96.0→83
+[1290/3885] L=14 cat=2 'jewelry organizer' / 'hooks' | tvd_and_min=0.9816 tvd_or_max=0.8093 win_and=mean win_or=mean l0_a=71.0→57
+[1300/3885] L=14 cat=2 'dress shirt' / 'collar' | tvd_and_min=0.9297 tvd_or_max=0.8405 win_and=mean win_or=mean l0_a=83.0→68
+[1310/3885] L=14 cat=2 'silk tie' / 'knot' | tvd_and_min=0.9478 tvd_or_max=0.8312 win_and=max win_or=max l0_a=102.0→88
+[1320/3885] L=14 cat=2 'linen shirt' / 'breathable fabric' | tvd_and_min=0.9597 tvd_or_max=0.9318 win_and=max win_or=max l0_a=77.0→67
+[1330/3885] L=14 cat=2 'polyester dress' / 'wrinkle free' | tvd_and_min=0.9391 tvd_or_max=0.8279 win_and=max win_or=mean l0_a=87.0→67
+[1340/3885] L=14 cat=2 'linen dress' / 'breathable weave' | tvd_and_min=0.9259 tvd_or_max=0.8554 win_and=mean win_or=mean l0_a=81.0→67
+[1350/3885] L=14 cat=2 'lettuce' / 'tomato' | tvd_and_min=0.9082 tvd_or_max=0.8708 win_and=max win_or=max l0_a=81.0→65
+[1360/3885] L=14 cat=2 'cherry' / 'grape' | tvd_and_min=0.9820 tvd_or_max=0.8983 win_and=max win_or=max l0_a=82.0→69
+[1370/3885] L=14 cat=2 'radish' / 'turnip' | tvd_and_min=0.8768 tvd_or_max=0.8497 win_and=max win_or=max l0_a=81.0→63
+[1380/3885] L=14 cat=2 'produce sticker' / 'price' | tvd_and_min=0.9386 tvd_or_max=0.8310 win_and=max win_or=max l0_a=71.0→57
+[1390/3885] L=14 cat=2 'expiration date' / 'label' | tvd_and_min=0.9349 tvd_or_max=0.8175 win_and=max win_or=max l0_a=52.0→32
+[1400/3885] L=14 cat=2 'binder clip' / 'folder' | tvd_and_min=0.9244 tvd_or_max=0.7603 win_and=max win_or=max l0_a=68.0→55
+[1410/3885] L=14 cat=2 'paperclip' / 'binder' | tvd_and_min=0.9136 tvd_or_max=0.8362 win_and=max win_or=max l0_a=90.0→70
+[1420/3885] L=14 cat=2 'tape' / 'paper' | tvd_and_min=0.9642 tvd_or_max=0.7839 win_and=max win_or=max l0_a=108.0→95
+[1430/3885] L=14 cat=2 'notebook' / 'paper' | tvd_and_min=0.8727 tvd_or_max=0.8294 win_and=mean win_or=mean l0_a=76.0→61
+[1440/3885] L=14 cat=2 'whiteboard' / 'marker' | tvd_and_min=0.9376 tvd_or_max=0.8541 win_and=max win_or=max l0_a=73.0→55
+[1450/3885] L=14 cat=2 'laptop' / 'power adapter' | tvd_and_min=0.9221 tvd_or_max=0.8770 win_and=max win_or=max l0_a=77.0→62
+[1460/3885] L=14 cat=2 'ebook reader' / 'charging cable' | tvd_and_min=0.9026 tvd_or_max=0.8245 win_and=max win_or=mean l0_a=59.0→43
+[1470/3885] L=14 cat=2 'usb hub' / 'multiport adapter' | tvd_and_min=0.8513 tvd_or_max=0.7851 win_and=mean win_or=mean l0_a=61.0→46
+[1480/3885] L=14 cat=2 'fitness tracker' / 'step counter' | tvd_and_min=0.8728 tvd_or_max=0.7191 win_and=max win_or=max l0_a=69.0→56
+[1490/3885] L=14 cat=2 'action camera' / 'mount bracket' | tvd_and_min=0.8897 tvd_or_max=0.8235 win_and=max win_or=mean l0_a=77.0→67
+[1500/3885] L=14 cat=2 'takeout bag' / 'receipt' | tvd_and_min=0.8951 tvd_or_max=0.8171 win_and=max win_or=max l0_a=77.0→62
+[1510/3885] L=14 cat=2 'coffee cup' / 'cardboard sleeve' | tvd_and_min=0.8928 tvd_or_max=0.8287 win_and=mean win_or=mean l0_a=86.0→71
+[1520/3885] L=14 cat=2 'straw' / 'sip lid' | tvd_and_min=0.9041 tvd_or_max=0.8520 win_and=max win_or=mean l0_a=99.0→86
+[1530/3885] L=14 cat=2 'juice box' / 'straw' | tvd_and_min=0.8951 tvd_or_max=0.8431 win_and=max win_or=max l0_a=77.0→62
+[1540/3885] L=14 cat=2 'driver pouch' / 'order bag' | tvd_and_min=0.8620 tvd_or_max=0.7501 win_and=max win_or=max l0_a=72.0→58
+[1550/3885] L=14 cat=2 'street sign' / 'pole' | tvd_and_min=0.8848 tvd_or_max=0.8463 win_and=mean win_or=mean l0_a=72.0→53
+[1560/3885] L=14 cat=2 'airport terminal' / 'gate' | tvd_and_min=0.9277 tvd_or_max=0.8364 win_and=mean win_or=mean l0_a=66.0→48
+[1570/3885] L=14 cat=2 'tennis court' / 'net' | tvd_and_min=0.9327 tvd_or_max=0.8709 win_and=mean win_or=mean l0_a=71.0→58
+[1580/3885] L=14 cat=2 'statue' / 'base' | tvd_and_min=0.8694 tvd_or_max=0.8247 win_and=mean win_or=mean l0_a=79.0→62
+[1590/3885] L=14 cat=2 'tunnel' / 'ventilation' | tvd_and_min=0.8327 tvd_or_max=0.7570 win_and=mean win_or=mean l0_a=89.0→75
+[1600/3885] L=14 cat=3 'Drill Shaft' / 'Harrow Chain' | tvd_and_min=0.8160 tvd_or_max=0.7442 win_and=max win_or=max l0_a=79.0→62
+[1610/3885] L=14 cat=3 'Curette Hook' / 'Rake Tines' | tvd_and_min=0.8148 tvd_or_max=0.7989 win_and=mean win_or=mean l0_a=83.0→70
+[1620/3885] L=14 cat=3 'Hemostat Ratchet' / 'Threshing Floor' | tvd_and_min=0.8358 tvd_or_max=0.6580 win_and=max win_or=max l0_a=78.0→64
+[1630/3885] L=14 cat=3 'Suction Tip' / 'Grain Sack Knot' | tvd_and_min=0.8483 tvd_or_max=0.8002 win_and=max win_or=mean l0_a=78.0→61
+[1640/3885] L=14 cat=3 'Needle Driver Jaw' / 'Pitchfork Shaft' | tvd_and_min=0.9015 tvd_or_max=0.8178 win_and=max win_or=max l0_a=79.0→62
+[1650/3885] L=14 cat=3 'vacuum distillation' / 'clutch cable tension' | tvd_and_min=0.9251 tvd_or_max=0.8319 win_and=mean win_or=mean l0_a=87.0→76
+[1660/3885] L=14 cat=3 'aroma condensation' / 'cam chain tension' | tvd_and_min=0.8919 tvd_or_max=0.7182 win_and=max win_or=max l0_a=69.0→53
+[1670/3885] L=14 cat=3 'lavender hydrodistillation' / 'airbox gasket' | tvd_and_min=0.9255 tvd_or_max=0.8059 win_and=mean win_or=mean l0_a=85.0→74
+[1680/3885] L=14 cat=3 'cardamom steam' / 'connecting rod bushing' | tvd_and_min=0.9470 tvd_or_max=0.8400 win_and=max win_or=max l0_a=99.0→85
+[1690/3885] L=14 cat=3 'cedar wood steam' / 'clutch plate warping' | tvd_and_min=0.8241 tvd_or_max=0.7836 win_and=mean win_or=mean l0_a=99.0→83
+[1700/3885] L=14 cat=3 'Flap' / 'Grain' | tvd_and_min=0.8998 tvd_or_max=0.7793 win_and=max win_or=max l0_a=96.0→81
+[1710/3885] L=14 cat=3 'Satellite' / 'Brad nail' | tvd_and_min=0.9395 tvd_or_max=0.8964 win_and=max win_or=max l0_a=92.0→76
+[1720/3885] L=14 cat=3 'Throttle' / 'Chisel' | tvd_and_min=0.8124 tvd_or_max=0.8202 win_and=mean win_or=mean l0_a=78.0→59
+[1730/3885] L=14 cat=3 'Combustor' / 'Corner clamp' | tvd_and_min=0.8687 tvd_or_max=0.8301 win_and=max win_or=max l0_a=69.0→54
+[1740/3885] L=14 cat=3 'Bulkhead' / 'Kerf' | tvd_and_min=0.8516 tvd_or_max=0.7414 win_and=mean win_or=mean l0_a=85.0→63
+[1750/3885] L=14 cat=3 'Scribe' / 'Kickflip' | tvd_and_min=0.8439 tvd_or_max=0.8212 win_and=mean win_or=mean l0_a=90.0→69
+[1760/3885] L=14 cat=3 'Flourish' / 'Park' | tvd_and_min=0.9220 tvd_or_max=0.7818 win_and=max win_or=mean l0_a=72.0→65
+[1770/3885] L=14 cat=3 'Serif' / 'Grab' | tvd_and_min=0.8383 tvd_or_max=0.7380 win_and=max win_or=max l0_a=90.0→69
+[1780/3885] L=14 cat=3 'Dip' / 'Ramp' | tvd_and_min=0.8765 tvd_or_max=0.8221 win_and=max win_or=mean l0_a=99.0→82
+[1790/3885] L=14 cat=3 'Acid' / 'Manual' | tvd_and_min=0.8158 tvd_or_max=0.7914 win_and=mean win_or=mean l0_a=73.0→57
+[1800/3885] L=14 cat=3 'marine snow' / 'desert crust' | tvd_and_min=0.6760 tvd_or_max=0.6454 win_and=mean win_or=mean l0_a=87.0→69
+[1810/3885] L=14 cat=3 'marine detritus' / 'sandstorm' | tvd_and_min=0.7414 tvd_or_max=0.7350 win_and=mean win_or=mean l0_a=92.0→75
+[1820/3885] L=14 cat=3 'benthic invertebrate' / 'sunbaked clay' | tvd_and_min=0.7405 tvd_or_max=0.6736 win_and=mean win_or=mean l0_a=130.0→115
+[1830/3885] L=14 cat=3 'marine sediment' / 'dry oasis' | tvd_and_min=0.6749 tvd_or_max=0.6854 win_and=mean win_or=min l0_a=109.0→94
+[1840/3885] L=14 cat=3 'abyssal barnacle' / 'desert floodplain' | tvd_and_min=0.7057 tvd_or_max=0.7809 win_and=min win_or=min l0_a=104.0→88
+[1850/3885] L=14 cat=3 'Laparoscope lens' / 'Cedar planks' | tvd_and_min=0.9036 tvd_or_max=0.8479 win_and=mean win_or=mean l0_a=77.0→63
+[1860/3885] L=14 cat=3 'Surgical scissors' / 'Willow branch' | tvd_and_min=0.8876 tvd_or_max=0.8533 win_and=mean win_or=max l0_a=65.0→54
+[1870/3885] L=14 cat=3 'Surgical clamp' / 'Wrought steel' | tvd_and_min=0.8836 tvd_or_max=0.8203 win_and=mean win_or=max l0_a=69.0→56
+[1880/3885] L=14 cat=3 'Saw tooth' / 'Leather patch' | tvd_and_min=0.8899 tvd_or_max=0.8399 win_and=max win_or=max l0_a=71.0→56
+[1890/3885] L=14 cat=3 'Cutter jaw' / 'Cedar dust' | tvd_and_min=0.8563 tvd_or_max=0.7736 win_and=max win_or=max l0_a=76.0→58
+[1900/3885] L=14 cat=3 'Oshi Press' / 'Draw Length' | tvd_and_min=0.8009 tvd_or_max=0.6770 win_and=mean win_or=mean l0_a=78.0→66
+[1910/3885] L=14 cat=3 'Nori Wrap' / 'Solder Seam' | tvd_and_min=0.7955 tvd_or_max=0.7637 win_and=mean win_or=mean l0_a=80.0→67
+[1920/3885] L=14 cat=3 'Cut Diagonal' / 'Punch Slot' | tvd_and_min=0.8605 tvd_or_max=0.8321 win_and=max win_or=mean l0_a=82.0→63
+[1930/3885] L=14 cat=3 'Plate Neatly' / 'Forge Weld' | tvd_and_min=0.9228 tvd_or_max=0.8409 win_and=mean win_or=mean l0_a=103.0→90
+[1940/3885] L=14 cat=3 'Freeze Short' / 'Bevel Tip' | tvd_and_min=0.7954 tvd_or_max=0.7291 win_and=mean win_or=mean l0_a=114.0→103
+[1950/3885] L=14 cat=3 'honeycomb' / 'sandboxing' | tvd_and_min=0.8876 tvd_or_max=0.6900 win_and=mean win_or=mean l0_a=64.0→48
+[1960/3885] L=14 cat=3 'drone brood' / 'vulnerability scanning' | tvd_and_min=0.8375 tvd_or_max=0.7737 win_and=mean win_or=mean l0_a=94.0→79
+[1970/3885] L=14 cat=3 'outer cover' / 'virtual private network' | tvd_and_min=0.9146 tvd_or_max=0.7836 win_and=max win_or=mean l0_a=68.0→44
+[1980/3885] L=14 cat=3 'syrup' / 'botnet' | tvd_and_min=0.8777 tvd_or_max=0.7715 win_and=max win_or=max l0_a=89.0→71
+[1990/3885] L=14 cat=3 'reducer' / 'proxy server' | tvd_and_min=0.7466 tvd_or_max=0.7470 win_and=mean win_or=mean l0_a=95.0→73
+[2000/3885] L=14 cat=3 'En Passant' / 'Detonator' | tvd_and_min=0.8295 tvd_or_max=0.7512 win_and=max win_or=max l0_a=64.0→48
+[2010/3885] L=14 cat=3 'Prophylaxis' / 'Wedge' | tvd_and_min=0.9204 tvd_or_max=0.8102 win_and=max win_or=max l0_a=61.0→49
+[2020/3885] L=14 cat=3 'Static Weakness' / 'Initiation System' | tvd_and_min=0.8146 tvd_or_max=0.7644 win_and=max win_or=max l0_a=91.0→69
+[2030/3885] L=14 cat=3 'Bishop Pair' / 'Loading Truck' | tvd_and_min=0.8555 tvd_or_max=0.7968 win_and=max win_or=mean l0_a=70.0→55
+[2040/3885] L=14 cat=3 'Isolated Pawn' / 'Slot Drill' | tvd_and_min=0.7939 tvd_or_max=0.7648 win_and=mean win_or=max l0_a=80.0→59
+[2050/3885] L=14 cat=3 'flute' / 'muffler' | tvd_and_min=0.9397 tvd_or_max=0.8613 win_and=max win_or=max l0_a=108.0→89
+[2060/3885] L=14 cat=3 'clarinet' / 'transmission gear' | tvd_and_min=0.8636 tvd_or_max=0.8491 win_and=mean win_or=mean l0_a=106.0→90
+[2070/3885] L=14 cat=3 'vibraphone' / 'stabilizer bar' | tvd_and_min=0.8746 tvd_or_max=0.8353 win_and=mean win_or=mean l0_a=73.0→56
+[2080/3885] L=14 cat=3 'straight trumpet' / 'catalytic converter' | tvd_and_min=0.9207 tvd_or_max=0.8346 win_and=max win_or=max l0_a=85.0→73
+[2090/3885] L=14 cat=3 'maple wood violin' / 'window regulator' | tvd_and_min=0.9174 tvd_or_max=0.8523 win_and=max win_or=max l0_a=85.0→72
+[2100/3885] L=14 cat=3 'Cross references' / 'slipstream effect' | tvd_and_min=0.9784 tvd_or_max=0.8995 win_and=mean win_or=mean l0_a=85.0→79
+[2110/3885] L=14 cat=3 'Metadata' / 'downforce settings' | tvd_and_min=0.8162 tvd_or_max=0.7797 win_and=mean win_or=mean l0_a=65.0→52
+[2120/3885] L=14 cat=3 'Authority file' / 'pit stop timer' | tvd_and_min=0.9285 tvd_or_max=0.8431 win_and=mean win_or=mean l0_a=59.0→41
+[2130/3885] L=14 cat=3 'Classification code' / 'suspension stiffness' | tvd_and_min=0.8804 tvd_or_max=0.7860 win_and=mean win_or=max l0_a=70.0→47
+[2140/3885] L=14 cat=3 'Index entry' / 'pit wall radio' | tvd_and_min=0.9003 tvd_or_max=0.7634 win_and=max win_or=max l0_a=68.0→50
+[2150/3885] L=14 cat=3 'Brocade jacket' / 'Air tank' | tvd_and_min=0.9001 tvd_or_max=0.7772 win_and=max win_or=max l0_a=73.0→58
+[2160/3885] L=14 cat=3 'Velvet choker' / 'Octopus valve' | tvd_and_min=0.8979 tvd_or_max=0.8749 win_and=mean win_or=max l0_a=75.0→58
+[2170/3885] L=14 cat=3 'Feathered headpiece' / 'Compass' | tvd_and_min=0.8717 tvd_or_max=0.7310 win_and=mean win_or=mean l0_a=70.0→55
+[2180/3885] L=14 cat=3 'Satin cape' / 'Fin strap' | tvd_and_min=0.9108 tvd_or_max=0.8703 win_and=max win_or=max l0_a=76.0→60
+[2190/3885] L=14 cat=3 'Satin ribbon' / 'Quick release' | tvd_and_min=0.8202 tvd_or_max=0.7277 win_and=mean win_or=mean l0_a=71.0→54
+[2200/3885] L=14 cat=3 'bone china' / 'pressure suit' | tvd_and_min=0.9028 tvd_or_max=0.8098 win_and=max win_or=mean l0_a=76.0→60
+[2210/3885] L=14 cat=3 'steeping vessel' / 'gas metal arc' | tvd_and_min=0.8720 tvd_or_max=0.6029 win_and=max win_or=mean l0_a=65.0→51
+[2220/3885] L=14 cat=3 'tea ritual' / 'welding rod' | tvd_and_min=0.9504 tvd_or_max=0.8327 win_and=mean win_or=max l0_a=71.0→59
+[2230/3885] L=14 cat=3 'bone china cup' / 'pressure vessel' | tvd_and_min=0.9194 tvd_or_max=0.8564 win_and=mean win_or=mean l0_a=85.0→72
+[2240/3885] L=14 cat=3 'tea estate' / 'welding position' | tvd_and_min=0.9638 tvd_or_max=0.9015 win_and=mean win_or=mean l0_a=74.0→59
+[2250/3885] L=14 cat=3 'hydraulic press' / 'ivory damask' | tvd_and_min=0.9670 tvd_or_max=0.8301 win_and=mean win_or=mean l0_a=104.0→96
+[2260/3885] L=14 cat=3 'electric generator' / 'baby alpaca' | tvd_and_min=0.9542 tvd_or_max=0.8761 win_and=mean win_or=max l0_a=63.0→47
+[2270/3885] L=14 cat=3 'tracked treads' / 'stiff organza' | tvd_and_min=0.8866 tvd_or_max=0.7951 win_and=max win_or=max l0_a=81.0→62
+[2280/3885] L=14 cat=3 'bucket wheel' / 'crushed velvet' | tvd_and_min=0.9298 tvd_or_max=0.7442 win_and=mean win_or=mean l0_a=78.0→65
+[2290/3885] L=14 cat=3 'crane jib' / 'silk jacquard' | tvd_and_min=0.9346 tvd_or_max=0.8413 win_and=max win_or=max l0_a=69.0→53
+[2300/3885] L=14 cat=3 'pointe shoes' / 'blasting charge' | tvd_and_min=0.9732 tvd_or_max=0.8466 win_and=max win_or=mean l0_a=66.0→53
+[2310/3885] L=14 cat=3 'en pointe' / 'crusher chamber' | tvd_and_min=0.9682 tvd_or_max=0.7657 win_and=mean win_or=max l0_a=59.0→50
+[2320/3885] L=14 cat=3 'pirouette' / 'quarry truck' | tvd_and_min=0.8948 tvd_or_max=0.7331 win_and=mean win_or=mean l0_a=73.0→55
+[2330/3885] L=14 cat=3 'glissade' / 'quarry cart' | tvd_and_min=0.9000 tvd_or_max=0.7814 win_and=mean win_or=max l0_a=100.0→83
+[2340/3885] L=14 cat=3 'relevé' / 'rock splitter' | tvd_and_min=0.8929 tvd_or_max=0.7309 win_and=max win_or=mean l0_a=72.0→56
+[2350/3885] L=14 cat=4 'Stoicism' / 'Macarons' | tvd_and_min=0.8117 tvd_or_max=0.7448 win_and=mean win_or=mean l0_a=64.0→51
+[2360/3885] L=14 cat=4 'Absurdism' / 'Churros' | tvd_and_min=0.8060 tvd_or_max=0.7596 win_and=mean win_or=mean l0_a=65.0→54
+[2370/3885] L=14 cat=4 'Structuralism' / 'Truffles' | tvd_and_min=0.7834 tvd_or_max=0.7389 win_and=mean win_or=mean l0_a=71.0→56
+[2380/3885] L=14 cat=4 'Fatalism' / 'Brownies' | tvd_and_min=0.7798 tvd_or_max=0.6715 win_and=mean win_or=mean l0_a=66.0→60
+[2390/3885] L=14 cat=4 'Compatibilism' / 'Syrups' | tvd_and_min=0.6677 tvd_or_max=0.6879 win_and=mean win_or=mean l0_a=65.0→56
+[2400/3885] L=14 cat=4 'liquid earth crust' / 'crystalline cloud formation' | tvd_and_min=0.7782 tvd_or_max=0.7858 win_and=mean win_or=mean l0_a=91.0→75
+[2410/3885] L=14 cat=4 'liquid ground surface' / 'crystalline air particles' | tvd_and_min=0.9176 tvd_or_max=0.7797 win_and=max win_or=max l0_a=72.0→58
+[2420/3885] L=14 cat=4 'floating landmass fragments' / 'melting structural beams' | tvd_and_min=0.9002 tvd_or_max=0.6894 win_and=max win_or=max l0_a=69.0→54
+[2430/3885] L=14 cat=4 'melting landscape contours' / 'dream spatial distortions' | tvd_and_min=0.9280 tvd_or_max=0.8813 win_and=max win_or=max l0_a=98.0→90
+[2440/3885] L=14 cat=4 'liquid wind currents' / 'crystalline storm fronts' | tvd_and_min=0.7825 tvd_or_max=0.7070 win_and=max win_or=max l0_a=93.0→85
+[2450/3885] L=14 cat=4 'Majoritarian Mandarin' / 'Minority Mango' | tvd_and_min=0.8386 tvd_or_max=0.7505 win_and=max win_or=max l0_a=92.0→82
+[2460/3885] L=14 cat=4 'Existentialist Eggplant' / 'Absurdist Asparagus' | tvd_and_min=0.8111 tvd_or_max=0.7798 win_and=max win_or=mean l0_a=81.0→66
+[2470/3885] L=14 cat=4 'Majoritarian Melon' / 'Minority Macadamia' | tvd_and_min=0.8939 tvd_or_max=0.8161 win_and=max win_or=max l0_a=81.0→66
+[2480/3885] L=14 cat=4 'Existentialist Enokitake' / 'Absurdist Artichoke' | tvd_and_min=0.8585 tvd_or_max=0.8479 win_and=mean win_or=max l0_a=55.0→41
+[2490/3885] L=14 cat=4 'Majoritarian Mango' / 'Minority Mandarin' | tvd_and_min=0.8269 tvd_or_max=0.8418 win_and=mean win_or=min l0_a=92.0→78
+[2500/3885] L=14 cat=4 'crayon wax gear shift' / 'nap time dashboard clock' | tvd_and_min=0.9327 tvd_or_max=0.8603 win_and=max win_or=max l0_a=82.0→65
+[2510/3885] L=14 cat=4 'sticker panel fender' / 'marble gear box' | tvd_and_min=0.8407 tvd_or_max=0.7690 win_and=mean win_or=mean l0_a=81.0→68
+[2520/3885] L=14 cat=4 'sandbox torque converter' / 'juice box water pump' | tvd_and_min=0.8364 tvd_or_max=0.7187 win_and=max win_or=mean l0_a=76.0→61
+[2530/3885] L=14 cat=4 'blanket fort roll cage' / 'playground slide shock mount' | tvd_and_min=0.8462 tvd_or_max=0.7450 win_and=max win_or=max l0_a=81.0→67
+[2540/3885] L=14 cat=4 'crayon wax fuel injector' / 'nap time starter motor' | tvd_and_min=0.9075 tvd_or_max=0.8265 win_and=max win_or=max l0_a=74.0→58
+[2550/3885] L=14 cat=4 'Hannibal' / 'vacuum decay' | tvd_and_min=0.9705 tvd_or_max=0.7868 win_and=max win_or=mean l0_a=55.0→48
+[2560/3885] L=14 cat=4 'Marcus Aurelius' / 'magnetic field' | tvd_and_min=0.9471 tvd_or_max=0.9111 win_and=max win_or=mean l0_a=78.0→67
+[2570/3885] L=14 cat=4 'Laozi' / 'quantum computer' | tvd_and_min=0.9610 tvd_or_max=0.7912 win_and=max win_or=mean l0_a=71.0→58
+[2580/3885] L=14 cat=4 'Eratosthenes' / 'proton' | tvd_and_min=0.9100 tvd_or_max=0.8060 win_and=mean win_or=mean l0_a=83.0→65
+[2590/3885] L=14 cat=4 'Pliny' / 'gravity' | tvd_and_min=0.9287 tvd_or_max=0.8631 win_and=mean win_or=mean l0_a=88.0→72
+[2600/3885] L=14 cat=4 'Cartesian Crumb' / 'Spinozan Sugar' | tvd_and_min=0.8761 tvd_or_max=0.7648 win_and=mean win_or=max l0_a=84.0→71
+[2610/3885] L=14 cat=4 'Solipsist Sorbet' / 'Nihilist Nectar' | tvd_and_min=0.9034 tvd_or_max=0.9050 win_and=mean win_or=mean l0_a=53.0→42
+[2620/3885] L=14 cat=4 'Feminist Fudge' / 'Queer Quince' | tvd_and_min=0.8198 tvd_or_max=0.7253 win_and=max win_or=mean l0_a=87.0→75
+[2630/3885] L=14 cat=4 'Nihilist Nectar' / 'Existentialist Espresso' | tvd_and_min=0.9035 tvd_or_max=0.8347 win_and=max win_or=max l0_a=60.0→46
+[2640/3885] L=14 cat=4 'Kierkegaard Kugel' / 'Wittgenstein Wafer' | tvd_and_min=0.8835 tvd_or_max=0.6949 win_and=max win_or=max l0_a=86.0→70
+[2650/3885] L=14 cat=4 'Black Hole' / 'taking out trash' | tvd_and_min=0.8856 tvd_or_max=0.7946 win_and=mean win_or=mean l0_a=78.0→66
+[2660/3885] L=14 cat=4 'Pulsar' / 'sorting mail' | tvd_and_min=0.8669 tvd_or_max=0.7946 win_and=mean win_or=mean l0_a=89.0→69
+[2670/3885] L=14 cat=4 'Open Cluster' / 'folding towels' | tvd_and_min=0.9396 tvd_or_max=0.7941 win_and=mean win_or=mean l0_a=60.0→44
+[2680/3885] L=14 cat=4 'Oort Cloud' / 'dusting ceilings' | tvd_and_min=0.9009 tvd_or_max=0.8280 win_and=mean win_or=mean l0_a=80.0→64
+[2690/3885] L=14 cat=4 'Lagoon Nebula' / 'dusting chandeliers' | tvd_and_min=0.9187 tvd_or_max=0.8176 win_and=mean win_or=mean l0_a=89.0→73
+[2700/3885] L=14 cat=4 'paper airplane' / 'hovercraft' | tvd_and_min=0.9559 tvd_or_max=0.8536 win_and=mean win_or=mean l0_a=75.0→60
+[2710/3885] L=14 cat=4 'cookie jar' / 'comet chaser' | tvd_and_min=0.8667 tvd_or_max=0.7907 win_and=mean win_or=mean l0_a=92.0→78
+[2720/3885] L=14 cat=4 'bike chain' / 'nostalgia boat' | tvd_and_min=0.9368 tvd_or_max=0.8256 win_and=max win_or=mean l0_a=72.0→56
+[2730/3885] L=14 cat=4 'mud pie' / 'fortune ferry' | tvd_and_min=0.8529 tvd_or_max=0.8009 win_and=mean win_or=mean l0_a=79.0→62
+[2740/3885] L=14 cat=4 'harmonica' / 'heart hovercraft' | tvd_and_min=0.9449 tvd_or_max=0.8528 win_and=max win_or=max l0_a=86.0→65
+[2750/3885] L=14 cat=4 'Hippocrates' / 'Terraforming Atmosphere Process' | tvd_and_min=0.7080 tvd_or_max=0.7017 win_and=mean win_or=mean l0_a=84.0→73
+[2760/3885] L=14 cat=4 'Herodotus' / 'Dark Matter Detection Grid' | tvd_and_min=0.8536 tvd_or_max=0.7210 win_and=mean win_or=mean l0_a=71.0→56
+[2770/3885] L=14 cat=4 'Lucretius' / 'Dark Energy Survey' | tvd_and_min=0.7195 tvd_or_max=0.7073 win_and=mean win_or=mean l0_a=81.0→65
+[2780/3885] L=14 cat=4 'Archytas' / 'Plasma Containment Field' | tvd_and_min=0.8127 tvd_or_max=0.6634 win_and=mean win_or=mean l0_a=59.0→48
+[2790/3885] L=14 cat=4 'Protagoras' / 'Relativistic Truth Metric' | tvd_and_min=0.7878 tvd_or_max=0.6493 win_and=mean win_or=mean l0_a=81.0→67
+[2800/3885] L=14 cat=4 'Dualism' / 'Panna cotta' | tvd_and_min=0.8664 tvd_or_max=0.7942 win_and=mean win_or=mean l0_a=58.0→39
+[2810/3885] L=14 cat=4 'Idealism' / 'Ganache' | tvd_and_min=0.9795 tvd_or_max=0.8327 win_and=max win_or=max l0_a=78.0→65
+[2820/3885] L=14 cat=4 'Epicureanism' / 'Jelly' | tvd_and_min=0.9727 tvd_or_max=0.8052 win_and=mean win_or=mean l0_a=74.0→63
+[2830/3885] L=14 cat=4 'Altruism' / 'Madeleine' | tvd_and_min=0.9587 tvd_or_max=0.8680 win_and=mean win_or=mean l0_a=76.0→68
+[2840/3885] L=14 cat=4 'Functionalism' / 'Genoise' | tvd_and_min=0.8397 tvd_or_max=0.7301 win_and=max win_or=max l0_a=71.0→55
+[2850/3885] L=14 cat=4 'Moon' / 'sweeping patios' | tvd_and_min=0.9112 tvd_or_max=0.8808 win_and=mean win_or=mean l0_a=115.0→103
+[2860/3885] L=14 cat=4 'Triangulum' / 'wiping mirrors' | tvd_and_min=0.8145 tvd_or_max=0.8284 win_and=mean win_or=mean l0_a=86.0→69
+[2870/3885] L=14 cat=4 'Asteroid' / 'polishing doorknobs' | tvd_and_min=0.9397 tvd_or_max=0.8779 win_and=max win_or=max l0_a=55.0→44
+[2880/3885] L=14 cat=4 'Blue Supergiant' / 'cleaning filters' | tvd_and_min=0.9780 tvd_or_max=0.8419 win_and=max win_or=max l0_a=82.0→64
+[2890/3885] L=14 cat=4 'Virgo' / 'trimming grass' | tvd_and_min=0.9214 tvd_or_max=0.8677 win_and=mean win_or=mean l0_a=73.0→61
+[2900/3885] L=14 cat=4 'Bedtime Story Dashboard' / 'Whispering Steering Wheel' | tvd_and_min=0.7470 tvd_or_max=0.7445 win_and=mean win_or=mean l0_a=87.0→77
+[2910/3885] L=14 cat=4 'Doodle Bug Body' / 'Marker Ink Paint' | tvd_and_min=0.9467 tvd_or_max=0.8109 win_and=max win_or=max l0_a=83.0→71
+[2920/3885] L=14 cat=4 'Nightstand Drawer Engine' / 'Moonlight Headlamps' | tvd_and_min=0.7898 tvd_or_max=0.7067 win_and=mean win_or=mean l0_a=64.0→46
+[2930/3885] L=14 cat=4 'Rocking Horse Gallop' / 'Stable Barn Garage' | tvd_and_min=0.8509 tvd_or_max=0.8069 win_and=mean win_or=mean l0_a=81.0→69
+[2940/3885] L=14 cat=4 'Nightlight Glow Core' / 'Star Map Dashboard' | tvd_and_min=0.7583 tvd_or_max=0.6375 win_and=mean win_or=mean l0_a=77.0→65
+[2950/3885] L=14 cat=4 'Hypatia' / 'Dark Matter Harvest' | tvd_and_min=0.6879 tvd_or_max=0.6649 win_and=mean win_or=mean l0_a=81.0→64
+[2960/3885] L=14 cat=4 'Socrates' / 'Memory Archive' | tvd_and_min=0.8436 tvd_or_max=0.7606 win_and=max win_or=max l0_a=87.0→70
+[2970/3885] L=14 cat=4 'Pericles' / 'Plasma Drive' | tvd_and_min=0.8855 tvd_or_max=0.7854 win_and=mean win_or=mean l0_a=66.0→51
+[2980/3885] L=14 cat=4 'Plato' / 'Ideal Form' | tvd_and_min=0.9411 tvd_or_max=0.8049 win_and=max win_or=max l0_a=72.0→55
+[2990/3885] L=14 cat=4 'Pythagoras' / 'Musical Harmony' | tvd_and_min=0.8373 tvd_or_max=0.7674 win_and=mean win_or=mean l0_a=64.0→48
+[3000/3885] L=14 cat=4 'Galen' / 'Asteroid Mining Colony' | tvd_and_min=0.9268 tvd_or_max=0.7842 win_and=max win_or=max l0_a=74.0→62
+[3010/3885] L=14 cat=4 'Marcus Aurelius' / 'Laser Cooling Protocol' | tvd_and_min=0.8009 tvd_or_max=0.7408 win_and=mean win_or=mean l0_a=78.0→67
+[3020/3885] L=14 cat=4 'Leonidas' / 'Relativistic Velocity Thrust' | tvd_and_min=0.7607 tvd_or_max=0.6361 win_and=mean win_or=mean l0_a=78.0→61
+[3030/3885] L=14 cat=4 'Antalcidas' / 'Magnetar Flare Prediction' | tvd_and_min=0.7729 tvd_or_max=0.5434 win_and=mean win_or=max l0_a=70.0→57
+[3040/3885] L=14 cat=4 'Hyperides' / 'Fault Tolerance Matrix' | tvd_and_min=0.9004 tvd_or_max=0.8188 win_and=max win_or=max l0_a=55.0→40
+[3050/3885] L=14 cat=4 'Idealism' / 'Pudding' | tvd_and_min=0.9683 tvd_or_max=0.8502 win_and=mean win_or=mean l0_a=78.0→65
+[3060/3885] L=14 cat=4 'Determinism' / 'Cannoli' | tvd_and_min=0.9133 tvd_or_max=0.8941 win_and=mean win_or=mean l0_a=65.0→56
+[3070/3885] L=14 cat=4 'Confucian Order' / 'Sachertorte' | tvd_and_min=0.8545 tvd_or_max=0.6721 win_and=mean win_or=max l0_a=82.0→67
+[3080/3885] L=14 cat=4 'Solipsistic Dream' / 'Strudel' | tvd_and_min=0.7424 tvd_or_max=0.6725 win_and=mean win_or=mean l0_a=88.0→74
+[3090/3885] L=14 cat=4 'Saturn' / 'dusting rings' | tvd_and_min=0.8300 tvd_or_max=0.8052 win_and=mean win_or=mean l0_a=83.0→68
+[3100/3885] L=14 cat=4 'Galaxy' / 'mending spirals' | tvd_and_min=0.9567 tvd_or_max=0.7511 win_and=max win_or=mean l0_a=70.0→53
+[3110/3885] L=14 cat=4 'Milky Way' / 'dusting spiral' | tvd_and_min=0.7655 tvd_or_max=0.7470 win_and=mean win_or=mean l0_a=94.0→79
+[3120/3885] L=14 cat=4 'Red giant' / 'polishing glow' | tvd_and_min=0.7645 tvd_or_max=0.6889 win_and=mean win_or=mean l0_a=72.0→56
+[3130/3885] L=14 cat=4 'Mercury surface' / 'scrubbing rock' | tvd_and_min=0.6455 tvd_or_max=0.6755 win_and=min win_or=mean l0_a=118.0→100
+[3140/3885] L=14 cat=5 'absolute certainty' / 'radical uncertainty' | tvd_and_min=0.9332 tvd_or_max=0.8030 win_and=max win_or=max l0_a=68.0→53
+[3150/3885] L=14 cat=5 'certain outcome' / 'doubtful result' | tvd_and_min=0.9097 tvd_or_max=0.9068 win_and=mean win_or=min l0_a=75.0→60
+[3160/3885] L=14 cat=5 'certain knowledge' / 'radical doubt' | tvd_and_min=0.8686 tvd_or_max=0.7620 win_and=max win_or=max l0_a=79.0→56
+[3170/3885] L=14 cat=5 'concrete data' / 'abstract concept' | tvd_and_min=0.8752 tvd_or_max=0.7622 win_and=mean win_or=mean l0_a=85.0→65
+[3180/3885] L=14 cat=5 'definite coordinate' / 'unknown location' | tvd_and_min=0.9495 tvd_or_max=0.8257 win_and=mean win_or=mean l0_a=80.0→65
+[3190/3885] L=14 cat=5 'vibrant cell' / 'dead tissue' | tvd_and_min=0.7822 tvd_or_max=0.8193 win_and=max win_or=mean l0_a=83.0→71
+[3200/3885] L=14 cat=5 'thriving colony' / 'extinct species' | tvd_and_min=0.8017 tvd_or_max=0.7316 win_and=mean win_or=mean l0_a=72.0→56
+[3210/3885] L=14 cat=5 'fertile ovum' / 'sterile fragment' | tvd_and_min=0.7073 tvd_or_max=0.7339 win_and=mean win_or=mean l0_a=107.0→96
+[3220/3885] L=14 cat=5 'active microbe' / 'sterile agar' | tvd_and_min=0.8585 tvd_or_max=0.7351 win_and=mean win_or=mean l0_a=63.0→47
+[3230/3885] L=14 cat=5 'growing fungus' / 'barren substrate' | tvd_and_min=0.7127 tvd_or_max=0.7174 win_and=mean win_or=mean l0_a=130.0→120
+[3240/3885] L=14 cat=5 'past' / 'future' | tvd_and_min=0.8683 tvd_or_max=0.7759 win_and=mean win_or=mean l0_a=67.0→53
+[3250/3885] L=14 cat=5 'fixed' / 'mutable' | tvd_and_min=0.9658 tvd_or_max=0.8817 win_and=max win_or=max l0_a=55.0→49
+[3260/3885] L=14 cat=5 'fixed' / 'shifting' | tvd_and_min=0.9056 tvd_or_max=0.8001 win_and=mean win_or=mean l0_a=55.0→49
+[3270/3885] L=14 cat=5 'static' / 'evolving' | tvd_and_min=0.9296 tvd_or_max=0.8833 win_and=mean win_or=mean l0_a=81.0→71
+[3280/3885] L=14 cat=5 'determined' / 'indeterminate' | tvd_and_min=0.9519 tvd_or_max=0.8727 win_and=max win_or=max l0_a=77.0→64
+[3290/3885] L=14 cat=5 'Infinite Weight' / 'Absolute Weightlessness' | tvd_and_min=0.8840 tvd_or_max=0.8892 win_and=mean win_or=mean l0_a=53.0→50
+[3300/3885] L=14 cat=5 'Gravitational Well' / 'Anti-Gravity Field' | tvd_and_min=0.7645 tvd_or_max=0.6702 win_and=mean win_or=mean l0_a=75.0→57
+[3310/3885] L=14 cat=5 'Crushing Depth' / 'Weightless Summit' | tvd_and_min=0.9515 tvd_or_max=0.7909 win_and=max win_or=max l0_a=64.0→54
+[3320/3885] L=14 cat=5 'Massive Comet' / 'Weightless Meteor' | tvd_and_min=0.8095 tvd_or_max=0.7552 win_and=max win_or=max l0_a=80.0→65
+[3330/3885] L=14 cat=5 'Gravitational Bond' / 'Anti-Gravity Release' | tvd_and_min=0.8316 tvd_or_max=0.6617 win_and=max win_or=max l0_a=81.0→65
+[3340/3885] L=14 cat=5 'soaking saturation' / 'absolute aridity' | tvd_and_min=0.9106 tvd_or_max=0.7786 win_and=max win_or=max l0_a=78.0→61
+[3350/3885] L=14 cat=5 'liquid pool' / 'dry well' | tvd_and_min=0.7956 tvd_or_max=0.8056 win_and=mean win_or=min l0_a=114.0→103
+[3360/3885] L=14 cat=5 'rain-soaked moss' / 'sun-bleached rock' | tvd_and_min=0.8555 tvd_or_max=0.7614 win_and=max win_or=mean l0_a=106.0→95
+[3370/3885] L=14 cat=5 'lacustrine depth' / 'cracked bed' | tvd_and_min=0.8333 tvd_or_max=0.7755 win_and=mean win_or=mean l0_a=90.0→80
+[3380/3885] L=14 cat=5 'saturated atmosphere' / 'arid sky' | tvd_and_min=0.7571 tvd_or_max=0.7103 win_and=mean win_or=mean l0_a=105.0→90
+[3390/3885] L=14 cat=5 'solid' / 'gas' | tvd_and_min=0.6841 tvd_or_max=0.6528 win_and=max win_or=mean l0_a=122.0→108
+[3400/3885] L=14 cat=5 'liquid' / 'void' | tvd_and_min=0.8846 tvd_or_max=0.8701 win_and=mean win_or=mean l0_a=123.0→109
+[3410/3885] L=14 cat=5 'solid' / 'vapor' | tvd_and_min=0.6658 tvd_or_max=0.6596 win_and=mean win_or=mean l0_a=122.0→108
+[3420/3885] L=14 cat=5 'vaporization' / 'condensation' | tvd_and_min=0.7559 tvd_or_max=0.7373 win_and=mean win_or=mean l0_a=125.0→112
+[3430/3885] L=14 cat=5 'quantum' / 'solidifying' | tvd_and_min=0.9628 tvd_or_max=0.8686 win_and=mean win_or=mean l0_a=81.0→67
+[3440/3885] L=14 cat=5 'Crystalline lattice' / 'Liquid vapor' | tvd_and_min=0.8817 tvd_or_max=0.8169 win_and=mean win_or=mean l0_a=68.0→51
+[3450/3885] L=14 cat=5 'Frozen instant' / 'Fluid motion' | tvd_and_min=0.9093 tvd_or_max=0.8420 win_and=mean win_or=mean l0_a=87.0→71
+[3460/3885] L=14 cat=5 'Steel beam' / 'Liquid metal' | tvd_and_min=0.8876 tvd_or_max=0.8751 win_and=mean win_or=mean l0_a=66.0→52
+[3470/3885] L=14 cat=5 'Crystalline solid' / 'Gaseous vapor' | tvd_and_min=0.8326 tvd_or_max=0.7951 win_and=mean win_or=mean l0_a=65.0→53
+[3480/3885] L=14 cat=5 'Solid crystal' / 'Dissolving salt' | tvd_and_min=0.8996 tvd_or_max=0.8528 win_and=max win_or=max l0_a=65.0→53
+[3490/3885] L=14 cat=5 'square' / 'spheres' | tvd_and_min=0.8947 tvd_or_max=0.8445 win_and=max win_or=max l0_a=85.0→69
+[3500/3885] L=14 cat=5 'parallel' / 'intersecting' | tvd_and_min=0.8795 tvd_or_max=0.8002 win_and=max win_or=max l0_a=77.0→61
+[3510/3885] L=14 cat=5 'smooth' / 'jagged' | tvd_and_min=0.8988 tvd_or_max=0.7639 win_and=max win_or=max l0_a=74.0→59
+[3520/3885] L=14 cat=5 'metric' / 'topological' | tvd_and_min=0.9812 tvd_or_max=0.7751 win_and=max win_or=max l0_a=75.0→53
+[3530/3885] L=14 cat=5 'compact' / 'infinite' | tvd_and_min=0.9653 tvd_or_max=0.8595 win_and=max win_or=max l0_a=87.0→71
+[3540/3885] L=14 cat=5 'Cryogenic' / 'Incandescent' | tvd_and_min=0.9444 tvd_or_max=0.8880 win_and=max win_or=max l0_a=76.0→60
+[3550/3885] L=14 cat=5 'Negative Temperature' / 'Positive Temperature' | tvd_and_min=0.9002 tvd_or_max=0.9180 win_and=max win_or=min l0_a=77.0→59
+[3560/3885] L=14 cat=5 'Heat Flux' / 'Heat Block' | tvd_and_min=0.8879 tvd_or_max=0.8643 win_and=max win_or=mean l0_a=71.0→53
+[3570/3885] L=14 cat=5 'Thermal Quench' / 'Thermal Runaway' | tvd_and_min=0.7091 tvd_or_max=0.6578 win_and=max win_or=max l0_a=78.0→63
+[3580/3885] L=14 cat=5 'Thermal Conductance' / 'Thermal Resistivity' | tvd_and_min=0.8972 tvd_or_max=0.8910 win_and=max win_or=mean l0_a=67.0→61
+[3590/3885] L=14 cat=5 'Tautology' / 'Contradiction' | tvd_and_min=0.8423 tvd_or_max=0.8311 win_and=mean win_or=mean l0_a=59.0→39
+[3600/3885] L=14 cat=5 'Affirmative' / 'Negative' | tvd_and_min=0.8257 tvd_or_max=0.8454 win_and=min win_or=min l0_a=87.0→86
+[3610/3885] L=14 cat=5 'Explicit' / 'Implicit' | tvd_and_min=0.8715 tvd_or_max=0.8350 win_and=max win_or=max l0_a=65.0→61
+[3620/3885] L=14 cat=5 'Truth' / 'Falsity' | tvd_and_min=0.9004 tvd_or_max=0.8450 win_and=max win_or=max l0_a=72.0→51
+[3630/3885] L=14 cat=5 'Satisfiability' / 'Unsatisfiability' | tvd_and_min=0.7801 tvd_or_max=0.7402 win_and=max win_or=mean l0_a=79.0→68
+[3640/3885] L=14 cat=5 'visible' / 'invisible' | tvd_and_min=0.9710 tvd_or_max=0.9182 win_and=max win_or=max l0_a=66.0→53
+[3650/3885] L=14 cat=5 'see-through' / 'solid' | tvd_and_min=0.9309 tvd_or_max=0.7799 win_and=max win_or=max l0_a=71.0→54
+[3660/3885] L=14 cat=5 'exposed' / 'buried' | tvd_and_min=0.9834 tvd_or_max=0.8767 win_and=max win_or=max l0_a=53.0→45
+[3670/3885] L=14 cat=5 'clear' / 'smudged' | tvd_and_min=0.8677 tvd_or_max=0.7615 win_and=mean win_or=mean l0_a=86.0→79
+[3680/3885] L=14 cat=5 'exposed' / 'wrapped' | tvd_and_min=0.9130 tvd_or_max=0.8931 win_and=min win_or=min l0_a=53.0→45
+[3690/3885] L=14 cat=5 'Chaotic Drift' / 'Fixed Point' | tvd_and_min=0.8188 tvd_or_max=0.7684 win_and=mean win_or=mean l0_a=91.0→77
+[3700/3885] L=14 cat=5 'Scattered Trajectory' / 'Single Path' | tvd_and_min=0.8273 tvd_or_max=0.8066 win_and=max win_or=mean l0_a=71.0→56
+[3710/3885] L=14 cat=5 'Relentless Pursuit' / 'Stationary Target' | tvd_and_min=0.9327 tvd_or_max=0.8219 win_and=max win_or=max l0_a=80.0→74
+[3720/3885] L=14 cat=5 'Unbound Journey' / 'Fixed Destination' | tvd_and_min=0.8955 tvd_or_max=0.8357 win_and=max win_or=max l0_a=83.0→71
+[3730/3885] L=14 cat=5 'Unrestrained Expansion' / 'Confined Compression' | tvd_and_min=0.8406 tvd_or_max=0.7887 win_and=max win_or=max l0_a=73.0→59
+[3740/3885] L=14 cat=5 'Hydrostatic force' / 'Vacuum pull' | tvd_and_min=0.7876 tvd_or_max=0.7700 win_and=mean win_or=mean l0_a=79.0→63
+[3750/3885] L=14 cat=5 'Material compression' / 'Structural expansion' | tvd_and_min=0.9302 tvd_or_max=0.8523 win_and=mean win_or=max l0_a=56.0→43
+[3760/3885] L=14 cat=5 'Molecular impact' / 'Void reflection' | tvd_and_min=0.9550 tvd_or_max=0.9015 win_and=mean win_or=mean l0_a=67.0→57
+[3770/3885] L=14 cat=5 'Bulk fluid' / 'Void space' | tvd_and_min=0.8902 tvd_or_max=0.8096 win_and=mean win_or=mean l0_a=78.0→62
+[3780/3885] L=14 cat=5 'Atomic packing' / 'Void dispersion' | tvd_and_min=0.8981 tvd_or_max=0.8499 win_and=max win_or=max l0_a=77.0→70
+[3790/3885] L=14 cat=5 'Null Signal' / 'Full Spectrum' | tvd_and_min=0.8014 tvd_or_max=0.7260 win_and=mean win_or=mean l0_a=81.0→62
+[3800/3885] L=14 cat=5 'Null Frequency' / 'Harmonic Overtone' | tvd_and_min=0.7837 tvd_or_max=0.7366 win_and=mean win_or=max l0_a=75.0→57
+[3810/3885] L=14 cat=5 'Silent Motion' / 'Violent Vibration' | tvd_and_min=0.8021 tvd_or_max=0.7611 win_and=max win_or=max l0_a=78.0→67
+[3820/3885] L=14 cat=5 'Muffled Footsteps' / 'Stomping March' | tvd_and_min=0.9488 tvd_or_max=0.7669 win_and=mean win_or=mean l0_a=89.0→81
+[3830/3885] L=14 cat=5 'Null Frequency' / 'Bass Drop' | tvd_and_min=0.7742 tvd_or_max=0.6844 win_and=max win_or=max l0_a=75.0→57
+[3840/3885] L=14 cat=5 'thick matter' / 'thin absence' | tvd_and_min=0.8632 tvd_or_max=0.7787 win_and=mean win_or=max l0_a=72.0→53
+[3850/3885] L=14 cat=5 'heavy weight' / 'zero mass' | tvd_and_min=0.8310 tvd_or_max=0.8034 win_and=max win_or=mean l0_a=79.0→62
+[3860/3885] L=14 cat=5 'packed grains' / 'vacant nest' | tvd_and_min=0.8048 tvd_or_max=0.7494 win_and=mean win_or=max l0_a=88.0→74
+[3870/3885] L=14 cat=5 'solid wall' / 'open door' | tvd_and_min=0.9269 tvd_or_max=0.8056 win_and=mean win_or=max l0_a=82.0→68
+[3880/3885] L=14 cat=5 'heavy brick' / 'thin mist' | tvd_and_min=0.9094 tvd_or_max=0.8144 win_and=mean win_or=mean l0_a=96.0→84
+[3885/3885] L=14 cat=5 'heavy core' / 'empty shell' | tvd_and_min=0.8014 tvd_or_max=0.7233 win_and=max win_or=max l0_a=96.0→79
+Wrote metrics JSONL → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.jsonl
+Wrote metrics CSV   → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.csv
+Wrote metrics JSON  → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.json
+Wrote category summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/category_summary.csv
+Wrote distributions → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+=== TVD box / bar plots ===
+Loaded 3885 pairs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.csv
+cat=1 n=799 | Redundant / Strict Entailment
+cat=2 n=795 | Typical Composition
+cat=3 n=750 | Uncommon / Orthogonal
+cat=4 n=795 | Surreal / Out-of-Distribution
+cat=5 n=746 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_cat5.png
+Saved summary → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/tvd_and_or_summary.png
+=== Rank-diff distribution plots ===
+[and] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+[and] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/rank_diff_and_summary_q05_q95.npz
+[and] cat=1 n=799 K=256 | Redundant / Strict Entailment
+[and] cat=2 n=795 K=256 | Typical Composition
+[and] cat=3 n=750 K=256 | Uncommon / Orthogonal
+[and] cat=4 n=795 K=256 | Surreal / Out-of-Distribution
+[and] cat=5 n=746 K=256 | Mutually Exclusive / Paradoxical
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat1.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat2.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat3.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat4.png
+[and] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/rank_diff_cat5.png
+[or] Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/sae_feature_distributions.jsonl
+[or] Wrote /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/rank_diff_or_summary_q05_q95.npz
+[or] cat=1 n=799 K=256 | Redundant / Strict Entailment
+[or] cat=2 n=795 K=256 | Typical Composition
+[or] cat=3 n=750 K=256 | Uncommon / Orthogonal
+[or] cat=4 n=795 K=256 | Surreal / Out-of-Distribution
+[or] cat=5 n=746 K=256 | Mutually Exclusive / Paradoxical
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat1.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat2.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat3.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat4.png
+[or] Saved plot → /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/rank_diff_cat5.png
+Done.
+Metrics JSONL: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.jsonl
+Metrics CSV:   /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.csv
+Metrics JSON:  /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/results_sae_subtraction.json
+TVD figures: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_tvd/
+Rank-diff AND: /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/and/
+Rank-diff OR:  /home/WUR/lu087/Github/ect/src/sae_lens_aim1_AND_OR_baseline_substraction/output/layer_14/figures_rank_diff/or/

@@ -1,0 +1,15 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Prepare NLI pairs ===
+Wrote 5 pairs → /home/WUR/lu087/Github/ect/src/aim2_entailment/data/nli_pairs.jsonl
+=== Extract + patch ===
+model_id=Qwen/Qwen3.5-2B
+pairs=/home/WUR/lu087/Github/ect/src/aim2_entailment/data/nli_pairs.jsonl (n=2)
+layers=[14] alphas=[0.5, 1.0] top_k=1000
+extract seed_001 L=14 …
+extract seed_002 L=14 …
+patch seed_001 L=14 trad α=0.5 on corrupted  Δ_corr=0.4424 hooks=1
+Results → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/patching_results.csv
+Done.
+Pairs:   /home/WUR/lu087/Github/ect/src/aim2_entailment/data/nli_pairs.jsonl
+Vectors: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/vectors/
+Results: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/patching_results.csv

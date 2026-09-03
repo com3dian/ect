@@ -1,0 +1,8 @@
+# Local secrets for WiLLMa / SURF AI Hub (do not commit)
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+output/

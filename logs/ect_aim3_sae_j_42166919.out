@@ -1,0 +1,70 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 SAE + J-lens tropical geometry ===
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json
+layer=14 sae_id=layer_14/width_16k/canonical
+model_id=google/gemma-2-2b
+sae_release=gemma-scope-2b-pt-res-canonical sae_id=layer_14/width_16k/canonical
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json n=2 todo=2 done=0
+device=cuda dtype=bfloat16 layer=14/26
+top_k_sae=256 top_k_vocab=32 top_k_resid=256 jacobian=True
+tensors → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tensors
+[1/2] A_00000 A …
+  waypoints=5 tropical_pairs=4
+[2/2] A_00001 A …
+  waypoints=5 tropical_pairs=4
+Wrote manifest → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/extract_manifest.jsonl
+Wrote tropical logprobs → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_logprobs.jsonl
+Clearing GPU VRAM before offline analysis …
+manifest=/home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/extract_manifest.jsonl n_items=2
+tropical_logprobs=/home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_logprobs.jsonl n_pairs=8
+layer=14 atol=0.0001
+{
+  "layer_index": 14,
+  "n_items": 2,
+  "n_distance_rows": 2,
+  "n_nj_trees": 2,
+  "n_triangle_checks": 6,
+  "n_triangle_violations": 0,
+  "type_a_mean_additive_gap": -19.447062969207764,
+  "type_a_frac_chain_additive": 1.0,
+  "by_type": {
+    "A": {
+      "n_items": 2,
+      "n_triangle_checks": 6,
+      "n_violations": 0,
+      "violation_rate": 0.0,
+      "n_token_violations": 0,
+      "n_sae_violations": 0
+    },
+    "B": {
+      "n_items": 0,
+      "n_triangle_checks": 0,
+      "n_violations": 0,
+      "violation_rate": null,
+      "n_token_violations": 0,
+      "n_sae_violations": 0
+    },
+    "C": {
+      "n_items": 0,
+      "n_triangle_checks": 0,
+      "n_violations": 0,
+      "violation_rate": null,
+      "n_token_violations": 0,
+      "n_sae_violations": 0
+    }
+  },
+  "paths": {
+    "distances": "/home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_distances.jsonl",
+    "neighbor_joining": "/home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/neighbor_joining_newick.jsonl",
+    "triangle_inequality": "/home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/triangle_inequality.csv"
+  }
+}
+Triangle-inequality violations: 0 / 6
+Wrote distances → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_distances.jsonl
+Wrote NJ Newick → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/neighbor_joining_newick.jsonl
+Wrote triangle CSV → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/triangle_inequality.csv
+Wrote summary → /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_analysis_summary.json
+Done.
+Tensors:  /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tensors/
+Manifest: /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/extract_manifest.jsonl
+Summary:  /home/WUR/lu087/Github/ect/src/aim3_sae_J_lens_pipeline/output/layer_14/tropical_analysis_summary.json

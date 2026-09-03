@@ -1,0 +1,15 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+Computing rank-aligned diffs from /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/extracted_distributions_top8192.jsonl
+Wrote /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/rank_diff_summary_q05_q95.npz
+cat=1 n=799 K=8192 | Redundant / Strict Entailment
+cat=2 n=795 K=8192 | Typical Composition
+cat=3 n=750 K=8192 | Uncommon / Orthogonal
+cat=4 n=795 K=8192 | Surreal / Out-of-Distribution
+cat=5 n=746 K=8192 | Mutually Exclusive / Paradoxical
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat2.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat3.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat4.png
+Saved plot → /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat5.png
+Rank-diff summary: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/rank_diff_summary_q05_q95.npz
+Rank-diff figures: /home/WUR/lu087/Github/ect/src/output_logit_aim1_OR/output/figures_rank_diff/rank_diff_cat*.png

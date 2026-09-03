@@ -1,0 +1,5 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+Loaded /home/WUR/lu087/Github/ect/src/aim2_entailment/output/patching_results.csv (1000 pairs)
+Saved plot → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/layer12_per_sample/layer12_per_sample_all_a1.png
+Saved plot → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/layer12_per_sample/layer12_ect_vs_trad_sorted_a1.png
+Figures: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/layer12_per_sample/

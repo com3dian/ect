@@ -1,0 +1,17 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Extract + patch (SNLI) ===
+pairs=/home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl
+model_id=Qwen/Qwen3.5-2B
+pairs=/home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl (n=2)
+layers=[14] alphas=[0.5, 1.0] top_k=1000
+extract snli_validation_1 L=14 …
+extract snli_validation_3 L=14 …
+patch snli_validation_1 L=14 trad α=0.5 on corrupted  Δ_corr=0.1366 hooks=1
+Results → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/patching_results.csv
+Figure → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/patching_logprob_trad_vs_ect.png
+Figure → /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/patching_trad_vs_ect_overlay.png
+Done.
+Pairs:   /home/WUR/lu087/Github/ect/src/aim2_SNLI_data_preperation/data/snli_entailment.jsonl
+Vectors: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/vectors/
+Results: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/patching_results.csv
+Figures: /home/WUR/lu087/Github/ect/src/aim2_entailment/output/figures/

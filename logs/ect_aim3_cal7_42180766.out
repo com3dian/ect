@@ -1,0 +1,52 @@
+Using Python: /home/WUR/lu087/miniconda3/envs/ect/bin/python (Python 3.11.15)
+=== Aim-3 calibration v7 ===
+model_id=google/gemma-2-2b
+design=calibration_v7 layer=14/26
+chain_rule=all Type A; markov=short BPE≤2 variants=['natural', 'shuffled_middles']
+corpus=/home/WUR/lu087/Github/ect/src/aim3_data_prep/data/tropical_geometry_corpus.json todo=8 done=0
+[1/8] A_00000 …
+  chain_rule_gap=-1.582  (skip markov: long BPE)
+[2/8] A_00001 …
+  chain_rule_gap=-1.298  (skip markov: long BPE)
+[3/8] A_00002 …
+  chain_rule_gap=-1.29  (skip markov: long BPE)
+[4/8] A_00003 …
+  chain_rule_gap=-0.7277  (skip markov: long BPE)
+[5/8] A_00004 …
+  chain_rule_gap=-1.012  (skip markov: long BPE)
+[6/8] A_00005 …
+  chain_rule_gap=-0.7727  (skip markov: long BPE)
+[7/8] A_00006 …
+  chain_rule_gap=-0.8361  (skip markov: long BPE)
+[8/8] A_00007 …
+  chain_rule_gap=-1.093  (skip markov: long BPE)
+Wrote distances → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/calibration_distances.jsonl
+Wrote summary   → /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/calibration_summary.json
+{
+  "layer_index": 14,
+  "n_items": 8,
+  "prompt_design": "calibration_chain_rule_and_short_markov_v7",
+  "chain_rule": {
+    "n": 8,
+    "gap_mean": -1.0764576392248273,
+    "gap_median": -1.052817091345787,
+    "gap_mae": 1.0764576392248273,
+    "gap_max_abs": 1.5820186734199524,
+    "frac_abs_lt_1e-3": 0.0,
+    "frac_abs_lt_1e-2": 0.0,
+    "frac_abs_lt_0_1": 0.0,
+    "interpretation": "gap\u22480 \u21d2 joint vs factorized scoring is consistent (tautology)"
+  },
+  "short_markov": {
+    "n_short": 0,
+    "by_variant": {}
+  }
+}
+
+=== Plot ===
+n=8
+Wrote /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/figures/type_a_calibration.png
+Done.
+Distances: /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/calibration_distances.jsonl
+Summary:   /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/calibration_summary.json
+Figure:    /home/WUR/lu087/Github/ect/src/aim3_additive_chain_7/output/layer_14/figures/type_a_calibration.png
