@@ -1,5 +1,7 @@
 # Local run artifacts
-output/
+output/**
+!output/**/
+!output/**/figures/**
 logs/
 __pycache__/
 *.py[cod]

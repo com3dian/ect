@@ -1,4 +1,6 @@
-output_*/
+output_*/**
+!output_*/**/
+!output_*/**/figures/**
 logs/
 __pycache__/
 *.pyc

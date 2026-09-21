@@ -1,5 +1,9 @@
-output/
-output_*/
+output/**
+!output/**/
+!output/**/figures/**
+output_*/**
+!output_*/**/
+!output_*/**/figures/**
 logs/
 __pycache__/
 *.py[cod]
