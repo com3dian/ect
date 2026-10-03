@@ -10,8 +10,8 @@ __pycache__/
 .venv/
 venv/
 
-# Notebooks / local outputs (keep figures/ so they can be committed)
+# Notebooks / local outputs (keep figures* folders so they can be committed)
 .ipynb_checkpoints/
 **/output/**
 !**/output/**/
-!**/output/**/figures/**
+!**/output/**/figures*/**

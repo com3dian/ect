@@ -1,6 +1,6 @@
 output/**
 !output/**/
-!output/**/figures/**
+!output/**/figures*/**
 logs/
 __pycache__/
 *.py[cod]

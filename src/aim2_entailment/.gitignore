@@ -1,7 +1,7 @@
 # Local run artifacts
 output/**
 !output/**/
-!output/**/figures/**
+!output/**/figures*/**
 data/
 logs/
 __pycache__/
